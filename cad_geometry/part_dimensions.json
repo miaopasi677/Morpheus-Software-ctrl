@@ -1,0 +1,2974 @@
+{
+ "source": "SolidWorks 2022 SLDPRT -> sldprt decoder -> STL",
+ "units": "mm",
+ "count": 129,
+ "parts": {
+  "cheek_face_slave_part_mirror": {
+   "triangles": 304,
+   "min_mm": [
+    -6.997,
+    0.0,
+    -7.0
+   ],
+   "max_mm": [
+    6.997,
+    9.5,
+    7.0
+   ],
+   "size_mm": [
+    13.993,
+    9.5,
+    14.0
+   ],
+   "center_mm": [
+    0.0,
+    4.75,
+    0.0
+   ]
+  },
+  "cheek_facial_slave_part_mirror": {
+   "triangles": 380,
+   "min_mm": [
+    -7.0,
+    0.0,
+    -7.0
+   ],
+   "max_mm": [
+    7.0,
+    9.5,
+    7.0
+   ],
+   "size_mm": [
+    14.0,
+    9.5,
+    14.0
+   ],
+   "center_mm": [
+    0.0,
+    4.75,
+    0.0
+   ]
+  },
+  "cheek_line": {
+   "triangles": 7826,
+   "min_mm": [
+    -56.653,
+    -58.679,
+    0.395
+   ],
+   "max_mm": [
+    -4.524,
+    37.238,
+    80.718
+   ],
+   "size_mm": [
+    52.129,
+    95.917,
+    80.323
+   ],
+   "center_mm": [
+    -30.588,
+    -10.72,
+    40.557
+   ]
+  },
+  "eye__eye_Balls_for_head_pulls": {
+   "triangles": 4708,
+   "min_mm": [
+    -2.497,
+    -2.5,
+    -2.22
+   ],
+   "max_mm": [
+    2.497,
+    2.5,
+    2.22
+   ],
+   "size_mm": [
+    4.995,
+    5.0,
+    4.44
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "eye__eye_bassinet": {
+   "triangles": 2600,
+   "min_mm": [
+    0.0,
+    -12.5,
+    -34.391
+   ],
+   "max_mm": [
+    42.0,
+    12.5,
+    0.0
+   ],
+   "size_mm": [
+    42.0,
+    25.0,
+    34.391
+   ],
+   "center_mm": [
+    21.0,
+    0.0,
+    -17.195
+   ]
+  },
+  "eye__eye_camera_eyeball": {
+   "triangles": 4552,
+   "min_mm": [
+    -16.8,
+    0.0,
+    -16.8
+   ],
+   "max_mm": [
+    16.8,
+    15.272,
+    16.785
+   ],
+   "size_mm": [
+    33.6,
+    15.272,
+    33.585
+   ],
+   "center_mm": [
+    0.0,
+    7.636,
+    -0.008
+   ]
+  },
+  "eye__eye_comb": {
+   "triangles": 1016,
+   "min_mm": [
+    -39.0,
+    0.0,
+    -36.0
+   ],
+   "max_mm": [
+    39.0,
+    12.0,
+    5.0
+   ],
+   "size_mm": [
+    78.0,
+    12.0,
+    41.0
+   ],
+   "center_mm": [
+    0.0,
+    6.0,
+    -15.5
+   ]
+  },
+  "eye__eye_crank_handle": {
+   "triangles": 1176,
+   "min_mm": [
+    -3.5,
+    -0.0,
+    -18.5
+   ],
+   "max_mm": [
+    3.5,
+    5.0,
+    3.5
+   ],
+   "size_mm": [
+    7.0,
+    5.0,
+    22.0
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    -7.5
+   ]
+  },
+  "eye__eye_Eyeball_mounts": {
+   "triangles": 2346,
+   "min_mm": [
+    -11.5,
+    -6.0,
+    -9.0
+   ],
+   "max_mm": [
+    11.5,
+    11.5,
+    2.0
+   ],
+   "size_mm": [
+    23.0,
+    17.5,
+    11.0
+   ],
+   "center_mm": [
+    0.0,
+    2.75,
+    -3.5
+   ]
+  },
+  "eye__eye_Eyelid_mounting_stubs": {
+   "triangles": 112,
+   "min_mm": [
+    -1.0,
+    -4.8,
+    -1.0
+   ],
+   "max_mm": [
+    1.0,
+    44.8,
+    1.0
+   ],
+   "size_mm": [
+    2.0,
+    49.6,
+    2.0
+   ],
+   "center_mm": [
+    0.0,
+    20.0,
+    0.0
+   ]
+  },
+  "eye__eye_lower_eyelid_of_the_right_eye": {
+   "triangles": 5628,
+   "min_mm": [
+    -5.5,
+    -18.836,
+    -5.5
+   ],
+   "max_mm": [
+    18.9,
+    18.836,
+    20.717
+   ],
+   "size_mm": [
+    24.4,
+    37.673,
+    26.216
+   ],
+   "center_mm": [
+    6.7,
+    0.0,
+    7.608
+   ]
+  },
+  "eye__eye_lower_eyelid_of_the_right_eye_mirror": {
+   "triangles": 5584,
+   "min_mm": [
+    -5.5,
+    -18.836,
+    -20.717
+   ],
+   "max_mm": [
+    18.9,
+    18.836,
+    5.5
+   ],
+   "size_mm": [
+    24.4,
+    37.673,
+    26.216
+   ],
+   "center_mm": [
+    6.7,
+    0.0,
+    -7.608
+   ]
+  },
+  "eye__eye_m_shaped_board": {
+   "triangles": 632,
+   "min_mm": [
+    -39.014,
+    0.0,
+    -23.993
+   ],
+   "max_mm": [
+    39.014,
+    3.0,
+    2.5
+   ],
+   "size_mm": [
+    78.028,
+    3.0,
+    26.493
+   ],
+   "center_mm": [
+    0.0,
+    1.5,
+    -10.746
+   ]
+  },
+  "eye__eye_mounted_version": {
+   "triangles": 6060,
+   "min_mm": [
+    -65.0,
+    -3.7,
+    -41.986
+   ],
+   "max_mm": [
+    65.0,
+    38.0,
+    52.0
+   ],
+   "size_mm": [
+    130.0,
+    41.7,
+    93.986
+   ],
+   "center_mm": [
+    0.0,
+    17.15,
+    5.007
+   ]
+  },
+  "eye__eye_pupil": {
+   "triangles": 1798,
+   "min_mm": [
+    -7.0,
+    15.272,
+    -7.0
+   ],
+   "max_mm": [
+    7.0,
+    16.8,
+    7.0
+   ],
+   "size_mm": [
+    14.0,
+    1.528,
+    14.0
+   ],
+   "center_mm": [
+    0.0,
+    16.036,
+    0.0
+   ]
+  },
+  "eye__eye_Shanks_for_Ball_Tie_Rods": {
+   "triangles": 2728,
+   "min_mm": [
+    -3.996,
+    0.0,
+    -1.65
+   ],
+   "max_mm": [
+    3.996,
+    13.992,
+    1.65
+   ],
+   "size_mm": [
+    7.993,
+    13.992,
+    3.3
+   ],
+   "center_mm": [
+    0.0,
+    6.996,
+    0.0
+   ]
+  },
+  "eye__eye_upper_eyelid_of_the_right_eye": {
+   "triangles": 4616,
+   "min_mm": [
+    -5.5,
+    -20.0,
+    -5.5
+   ],
+   "max_mm": [
+    25.175,
+    20.0,
+    19.696
+   ],
+   "size_mm": [
+    30.675,
+    40.0,
+    25.196
+   ],
+   "center_mm": [
+    9.838,
+    0.0,
+    7.098
+   ]
+  },
+  "eye__eye_upper_eyelid_of_the_right_eye_mirror": {
+   "triangles": 4568,
+   "min_mm": [
+    -5.5,
+    -20.0,
+    -19.68
+   ],
+   "max_mm": [
+    25.175,
+    20.0,
+    5.5
+   ],
+   "size_mm": [
+    30.675,
+    40.0,
+    25.18
+   ],
+   "center_mm": [
+    9.838,
+    0.0,
+    -7.09
+   ]
+  },
+  "eye__eye_y_connector": {
+   "triangles": 946,
+   "min_mm": [
+    -8.399,
+    0.0,
+    -6.509
+   ],
+   "max_mm": [
+    8.399,
+    8.0,
+    15.984
+   ],
+   "size_mm": [
+    16.797,
+    8.0,
+    22.493
+   ],
+   "center_mm": [
+    0.0,
+    4.0,
+    4.737
+   ]
+  },
+  "eye_mounted_version": {
+   "triangles": 6060,
+   "min_mm": [
+    -65.0,
+    -3.7,
+    -41.986
+   ],
+   "max_mm": [
+    65.0,
+    38.0,
+    52.0
+   ],
+   "size_mm": [
+    130.0,
+    41.7,
+    93.986
+   ],
+   "center_mm": [
+    0.0,
+    17.15,
+    5.007
+   ]
+  },
+  "eyebrow__eyebrow_brow_center_motor_mounting_bracket": {
+   "triangles": 710,
+   "min_mm": [
+    -9.0,
+    -4.0,
+    -20.0
+   ],
+   "max_mm": [
+    17.5,
+    12.0,
+    22.0
+   ],
+   "size_mm": [
+    26.5,
+    16.0,
+    42.0
+   ],
+   "center_mm": [
+    4.25,
+    4.0,
+    1.0
+   ]
+  },
+  "eyebrow__eyebrow_brow_center_pendulum": {
+   "triangles": 552,
+   "min_mm": [
+    -2.984,
+    -4.769,
+    -0.0
+   ],
+   "max_mm": [
+    50.463,
+    5.525,
+    10.0
+   ],
+   "size_mm": [
+    53.447,
+    10.294,
+    10.0
+   ],
+   "center_mm": [
+    23.74,
+    0.378,
+    5.0
+   ]
+  },
+  "eyebrow__eyebrow_connected_model_aircraft_regulator": {
+   "triangles": 1148,
+   "min_mm": [
+    -1.0,
+    -0.997,
+    -2.8
+   ],
+   "max_mm": [
+    1.0,
+    0.997,
+    3.5
+   ],
+   "size_mm": [
+    2.0,
+    1.994,
+    6.3
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    0.35
+   ]
+  },
+  "eyebrow__eyebrow_crank_v4": {
+   "triangles": 1176,
+   "min_mm": [
+    -3.5,
+    -0.0,
+    -18.5
+   ],
+   "max_mm": [
+    3.5,
+    5.0,
+    3.5
+   ],
+   "size_mm": [
+    7.0,
+    5.0,
+    22.0
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    -7.5
+   ]
+  },
+  "eyebrow__eyebrow_eyebrow_peak_rocker": {
+   "triangles": 556,
+   "min_mm": [
+    -24.0,
+    -4.0,
+    -2.0
+   ],
+   "max_mm": [
+    23.987,
+    4.0,
+    2.0
+   ],
+   "size_mm": [
+    47.987,
+    8.0,
+    4.0
+   ],
+   "center_mm": [
+    -0.006,
+    0.0,
+    0.0
+   ]
+  },
+  "eyebrow__eyebrow_eyebrow_peak_rocker_1": {
+   "triangles": 1218,
+   "min_mm": [
+    -6.0,
+    -3.759,
+    -21.368
+   ],
+   "max_mm": [
+    3.0,
+    38.17,
+    -1.308
+   ],
+   "size_mm": [
+    9.0,
+    41.928,
+    20.06
+   ],
+   "center_mm": [
+    -1.5,
+    17.205,
+    -11.338
+   ]
+  },
+  "eyebrow__eyebrow_GUOHUAA0090": {
+   "triangles": 21768,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.101
+   ],
+   "max_mm": [
+    16.05,
+    31.4,
+    6.101
+   ],
+   "size_mm": [
+    32.1,
+    31.9,
+    12.203
+   ],
+   "center_mm": [
+    0.0,
+    15.45,
+    0.0
+   ]
+  },
+  "eyebrow__eyebrow_Installation_platform": {
+   "triangles": 4042,
+   "min_mm": [
+    -47.0,
+    0.0,
+    -50.0
+   ],
+   "max_mm": [
+    47.0,
+    41.5,
+    33.0
+   ],
+   "size_mm": [
+    94.0,
+    41.5,
+    83.0
+   ],
+   "center_mm": [
+    0.0,
+    20.75,
+    -8.5
+   ]
+  },
+  "eyebrow__eyebrow_mirror_brow_center_motor_mounting_bracket": {
+   "triangles": 710,
+   "min_mm": [
+    -9.0,
+    -4.0,
+    -22.0
+   ],
+   "max_mm": [
+    17.5,
+    12.0,
+    20.0
+   ],
+   "size_mm": [
+    26.5,
+    16.0,
+    42.0
+   ],
+   "center_mm": [
+    4.25,
+    4.0,
+    -1.0
+   ]
+  },
+  "eyebrow__eyebrow_mirror_brow_center_pendulum": {
+   "triangles": 552,
+   "min_mm": [
+    -2.984,
+    -4.769,
+    -10.0
+   ],
+   "max_mm": [
+    50.463,
+    5.525,
+    0.0
+   ],
+   "size_mm": [
+    53.447,
+    10.294,
+    10.0
+   ],
+   "center_mm": [
+    23.74,
+    0.378,
+    -5.0
+   ]
+  },
+  "eyebrow__eyebrow_mirror_eyebrow_peak_rocker_1": {
+   "triangles": 1336,
+   "min_mm": [
+    -6.0,
+    -3.759,
+    1.308
+   ],
+   "max_mm": [
+    3.0,
+    38.169,
+    21.368
+   ],
+   "size_mm": [
+    9.0,
+    41.928,
+    20.06
+   ],
+   "center_mm": [
+    -1.5,
+    17.205,
+    11.338
+   ]
+  },
+  "eyebrow__eyebrow_short_brow_joystick": {
+   "triangles": 396,
+   "min_mm": [
+    -14.0,
+    -4.0,
+    0.0
+   ],
+   "max_mm": [
+    14.0,
+    4.0,
+    2.0
+   ],
+   "size_mm": [
+    28.0,
+    8.0,
+    2.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "eyebrow_GUOHUAA0090": {
+   "triangles": 21768,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.101
+   ],
+   "max_mm": [
+    16.05,
+    31.4,
+    6.101
+   ],
+   "size_mm": [
+    32.1,
+    31.9,
+    12.203
+   ],
+   "center_mm": [
+    0.0,
+    15.45,
+    0.0
+   ]
+  },
+  "eyebrow_Installation_platform": {
+   "triangles": 4042,
+   "min_mm": [
+    -47.0,
+    0.0,
+    -50.0
+   ],
+   "max_mm": [
+    47.0,
+    41.5,
+    33.0
+   ],
+   "size_mm": [
+    94.0,
+    41.5,
+    83.0
+   ],
+   "center_mm": [
+    0.0,
+    20.75,
+    -8.5
+   ]
+  },
+  "ks3518": {
+   "triangles": 662,
+   "min_mm": [
+    -27.0,
+    -14.8,
+    -9.0
+   ],
+   "max_mm": [
+    27.0,
+    30.5,
+    9.0
+   ],
+   "size_mm": [
+    54.0,
+    45.3,
+    18.0
+   ],
+   "center_mm": [
+    0.0,
+    7.85,
+    0.0
+   ]
+  },
+  "L": {
+   "triangles": 516,
+   "min_mm": [
+    -2.987,
+    -2.998,
+    -1.0
+   ],
+   "max_mm": [
+    17.159,
+    53.499,
+    1.5
+   ],
+   "size_mm": [
+    20.146,
+    56.496,
+    2.5
+   ],
+   "center_mm": [
+    7.086,
+    25.251,
+    0.25
+   ]
+  },
+  "MG90S": {
+   "triangles": 21726,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.201
+   ],
+   "max_mm": [
+    16.05,
+    32.0,
+    6.201
+   ],
+   "size_mm": [
+    32.1,
+    32.5,
+    12.403
+   ],
+   "center_mm": [
+    0.0,
+    15.75,
+    0.0
+   ]
+  },
+  "mouth__mouth_aluminum_rocker_arm": {
+   "triangles": 640,
+   "min_mm": [
+    -5.0,
+    -0.0,
+    -4.0
+   ],
+   "max_mm": [
+    5.0,
+    51.984,
+    3.5
+   ],
+   "size_mm": [
+    10.0,
+    51.984,
+    7.5
+   ],
+   "center_mm": [
+    0.0,
+    25.992,
+    -0.25
+   ]
+  },
+  "mouth__mouth_ball_of_spherical_hinge": {
+   "triangles": 4710,
+   "min_mm": [
+    -2.997,
+    -2.5,
+    -3.0
+   ],
+   "max_mm": [
+    2.997,
+    2.5,
+    3.0
+   ],
+   "size_mm": [
+    5.994,
+    5.0,
+    6.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_baseplate": {
+   "triangles": 7086,
+   "min_mm": [
+    -64.22,
+    -22.0,
+    -80.812
+   ],
+   "max_mm": [
+    64.22,
+    27.75,
+    48.188
+   ],
+   "size_mm": [
+    128.44,
+    49.75,
+    129.0
+   ],
+   "center_mm": [
+    0.0,
+    2.875,
+    -16.312
+   ]
+  },
+  "mouth__mouth_baseplate_for_teeth": {
+   "triangles": 2052,
+   "min_mm": [
+    -31.0,
+    -15.0,
+    -44.0
+   ],
+   "max_mm": [
+    31.0,
+    17.0,
+    29.629
+   ],
+   "size_mm": [
+    62.0,
+    32.0,
+    73.629
+   ],
+   "center_mm": [
+    0.0,
+    1.0,
+    -7.186
+   ]
+  },
+  "mouth__mouth_bearing_cap": {
+   "triangles": 792,
+   "min_mm": [
+    -12.5,
+    -0.5,
+    0.0
+   ],
+   "max_mm": [
+    12.5,
+    7.5,
+    8.0
+   ],
+   "size_mm": [
+    25.0,
+    8.0,
+    8.0
+   ],
+   "center_mm": [
+    0.0,
+    3.5,
+    4.0
+   ]
+  },
+  "mouth__mouth_connector_for_OT_head": {
+   "triangles": 840,
+   "min_mm": [
+    -2.2,
+    0.0,
+    -2.195
+   ],
+   "max_mm": [
+    2.2,
+    8.0,
+    2.195
+   ],
+   "size_mm": [
+    4.4,
+    8.0,
+    4.39
+   ],
+   "center_mm": [
+    0.0,
+    4.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_connector_for_OT_head_4mm_medium": {
+   "triangles": 924,
+   "min_mm": [
+    -2.199,
+    0.0,
+    -2.2
+   ],
+   "max_mm": [
+    2.199,
+    9.0,
+    2.2
+   ],
+   "size_mm": [
+    4.397,
+    9.0,
+    4.4
+   ],
+   "center_mm": [
+    0.0,
+    4.5,
+    0.0
+   ]
+  },
+  "mouth__mouth_connector_for_OT_head_4mmlong": {
+   "triangles": 882,
+   "min_mm": [
+    -2.2,
+    0.0,
+    -2.199
+   ],
+   "max_mm": [
+    2.2,
+    12.0,
+    2.199
+   ],
+   "size_mm": [
+    4.4,
+    12.0,
+    4.397
+   ],
+   "center_mm": [
+    0.0,
+    6.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_convex_iron_wire": {
+   "triangles": 1192,
+   "min_mm": [
+    -3.75,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    2.745,
+    46.0,
+    0.75
+   ],
+   "size_mm": [
+    6.495,
+    46.0,
+    1.5
+   ],
+   "center_mm": [
+    -0.503,
+    23.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_crank": {
+   "triangles": 1176,
+   "min_mm": [
+    -3.5,
+    -0.0,
+    -18.5
+   ],
+   "max_mm": [
+    3.5,
+    5.0,
+    3.5
+   ],
+   "size_mm": [
+    7.0,
+    5.0,
+    22.0
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    -7.5
+   ]
+  },
+  "mouth__mouth_fourth-generation_jaw": {
+   "triangles": 7546,
+   "min_mm": [
+    -70.699,
+    -211.586,
+    -531.149
+   ],
+   "max_mm": [
+    71.542,
+    -138.82,
+    -399.923
+   ],
+   "size_mm": [
+    142.24,
+    72.766,
+    131.226
+   ],
+   "center_mm": [
+    0.422,
+    -175.203,
+    -465.536
+   ]
+  },
+  "mouth__mouth_gear": {
+   "triangles": 524,
+   "min_mm": [
+    0.0,
+    -9.888,
+    -9.997
+   ],
+   "max_mm": [
+    5.0,
+    9.888,
+    9.997
+   ],
+   "size_mm": [
+    5.0,
+    19.776,
+    19.994
+   ],
+   "center_mm": [
+    2.5,
+    0.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_GUOHUAA0090": {
+   "triangles": 21768,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.101
+   ],
+   "max_mm": [
+    16.05,
+    31.4,
+    6.101
+   ],
+   "size_mm": [
+    32.1,
+    31.9,
+    12.203
+   ],
+   "center_mm": [
+    0.0,
+    15.45,
+    0.0
+   ]
+  },
+  "mouth__mouth_iron_wire_30mm": {
+   "triangles": 766,
+   "min_mm": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    6.75,
+    25.75,
+    0.75
+   ],
+   "size_mm": [
+    7.5,
+    25.75,
+    1.5
+   ],
+   "center_mm": [
+    3.0,
+    12.875,
+    0.0
+   ]
+  },
+  "mouth__mouth_iron_wire_below_middle": {
+   "triangles": 720,
+   "min_mm": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    25.75,
+    30.75,
+    7.75
+   ],
+   "size_mm": [
+    26.5,
+    30.75,
+    8.5
+   ],
+   "center_mm": [
+    12.5,
+    15.375,
+    3.5
+   ]
+  },
+  "mouth__mouth_iron_wire_freedom20mm": {
+   "triangles": 1092,
+   "min_mm": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    0.75,
+    23.75,
+    0.75
+   ],
+   "size_mm": [
+    1.5,
+    23.75,
+    1.5
+   ],
+   "center_mm": [
+    0.0,
+    11.875,
+    0.0
+   ]
+  },
+  "mouth__mouth_iron_wire_freedom30mm": {
+   "triangles": 1032,
+   "min_mm": [
+    -0.748,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    0.748,
+    30.75,
+    0.75
+   ],
+   "size_mm": [
+    1.496,
+    30.75,
+    1.5
+   ],
+   "center_mm": [
+    0.0,
+    15.375,
+    0.0
+   ]
+  },
+  "mouth__mouth_iron_wire_upper_middle": {
+   "triangles": 480,
+   "min_mm": [
+    -0.75,
+    0.0,
+    -0.75
+   ],
+   "max_mm": [
+    7.75,
+    45.0,
+    0.75
+   ],
+   "size_mm": [
+    8.5,
+    45.0,
+    1.5
+   ],
+   "center_mm": [
+    3.5,
+    22.5,
+    0.0
+   ]
+  },
+  "mouth__mouth_jaw_five-bar_mechanism_long": {
+   "triangles": 340,
+   "min_mm": [
+    -32.987,
+    0.0,
+    -3.0
+   ],
+   "max_mm": [
+    32.987,
+    4.0,
+    3.0
+   ],
+   "size_mm": [
+    65.974,
+    4.0,
+    6.0
+   ],
+   "center_mm": [
+    0.0,
+    2.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_jaw_five-bar_mechanism_short": {
+   "triangles": 412,
+   "min_mm": [
+    -35.987,
+    -5.0,
+    -0.0
+   ],
+   "max_mm": [
+    4.0,
+    5.0,
+    4.0
+   ],
+   "size_mm": [
+    39.987,
+    10.0,
+    4.0
+   ],
+   "center_mm": [
+    -15.993,
+    0.0,
+    2.0
+   ]
+  },
+  "mouth__mouth_ks3518": {
+   "triangles": 662,
+   "min_mm": [
+    -27.0,
+    -14.8,
+    -9.0
+   ],
+   "max_mm": [
+    27.0,
+    30.5,
+    9.0
+   ],
+   "size_mm": [
+    54.0,
+    45.3,
+    18.0
+   ],
+   "center_mm": [
+    0.0,
+    7.85,
+    0.0
+   ]
+  },
+  "mouth__mouth_lip_connecting_rod": {
+   "triangles": 616,
+   "min_mm": [
+    0.0,
+    -1.0,
+    -4.0
+   ],
+   "max_mm": [
+    12.0,
+    5.492,
+    4.0
+   ],
+   "size_mm": [
+    12.0,
+    6.492,
+    8.0
+   ],
+   "center_mm": [
+    6.0,
+    2.246,
+    0.0
+   ]
+  },
+  "mouth__mouth_lip_six-bar_mechanism_4mm_crossbar": {
+   "triangles": 440,
+   "min_mm": [
+    -1.999,
+    0.0,
+    -2.0
+   ],
+   "max_mm": [
+    1.999,
+    8.0,
+    2.0
+   ],
+   "size_mm": [
+    3.998,
+    8.0,
+    4.0
+   ],
+   "center_mm": [
+    0.0,
+    4.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_lip_six-bar_mechanism_8mm_crossbar": {
+   "triangles": 416,
+   "min_mm": [
+    -1.999,
+    0.0,
+    -2.0
+   ],
+   "max_mm": [
+    1.999,
+    12.0,
+    2.0
+   ],
+   "size_mm": [
+    3.997,
+    12.0,
+    4.0
+   ],
+   "center_mm": [
+    0.0,
+    6.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_lower_teeth": {
+   "triangles": 8008,
+   "min_mm": [
+    47.505,
+    18.2,
+    131.373
+   ],
+   "max_mm": [
+    107.646,
+    31.618,
+    173.508
+   ],
+   "size_mm": [
+    60.141,
+    13.418,
+    42.135
+   ],
+   "center_mm": [
+    77.575,
+    24.909,
+    152.44
+   ]
+  },
+  "mouth__mouth_metal_ball_of_spherical_hinge": {
+   "triangles": 3278,
+   "min_mm": [
+    -1.299,
+    -1.71,
+    -1.3
+   ],
+   "max_mm": [
+    1.299,
+    0.75,
+    1.3
+   ],
+   "size_mm": [
+    2.599,
+    2.46,
+    2.6
+   ],
+   "center_mm": [
+    0.0,
+    -0.48,
+    0.0
+   ]
+  },
+  "mouth__mouth_MG90S": {
+   "triangles": 21726,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.201
+   ],
+   "max_mm": [
+    16.05,
+    32.0,
+    6.201
+   ],
+   "size_mm": [
+    32.1,
+    32.5,
+    12.403
+   ],
+   "center_mm": [
+    0.0,
+    15.75,
+    0.0
+   ]
+  },
+  "mouth__mouth_MGN7C_slider": {
+   "triangles": 1644,
+   "min_mm": [
+    -11.25,
+    1.995,
+    -5.295
+   ],
+   "max_mm": [
+    11.25,
+    8.495,
+    11.705
+   ],
+   "size_mm": [
+    22.5,
+    6.5,
+    17.0
+   ],
+   "center_mm": [
+    0.0,
+    5.245,
+    3.205
+   ]
+  },
+  "mouth__mouth_MGR7_slider_rail": {
+   "triangles": 1572,
+   "min_mm": [
+    -3.5,
+    -0.0,
+    -80.0
+   ],
+   "max_mm": [
+    3.5,
+    4.8,
+    -9.0
+   ],
+   "size_mm": [
+    7.0,
+    4.8,
+    71.0
+   ],
+   "center_mm": [
+    0.0,
+    2.4,
+    -44.5
+   ]
+  },
+  "mouth__mouth_mirror_motor_mounting_platform_for_smiling_six-bar_mechanism": {
+   "triangles": 740,
+   "min_mm": [
+    -15.95,
+    -2.0,
+    -10.0
+   ],
+   "max_mm": [
+    15.95,
+    14.4,
+    10.5
+   ],
+   "size_mm": [
+    31.9,
+    16.4,
+    20.5
+   ],
+   "center_mm": [
+    0.0,
+    6.2,
+    0.25
+   ]
+  },
+  "mouth__mouth_mirror_oblique_crank_extension_rod": {
+   "triangles": 712,
+   "min_mm": [
+    -18.462,
+    -2.5,
+    -3.698
+   ],
+   "max_mm": [
+    10.25,
+    2.5,
+    9.526
+   ],
+   "size_mm": [
+    28.712,
+    5.0,
+    13.225
+   ],
+   "center_mm": [
+    -4.106,
+    0.0,
+    2.914
+   ]
+  },
+  "mouth__mouth_mirror_smiling_five-bar_mechanism_below": {
+   "triangles": 1540,
+   "min_mm": [
+    -2.987,
+    -7.0,
+    -2.0
+   ],
+   "max_mm": [
+    36.996,
+    3.0,
+    2.0
+   ],
+   "size_mm": [
+    39.983,
+    10.0,
+    4.0
+   ],
+   "center_mm": [
+    17.005,
+    -2.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_motor_mounting_platform_for_smiling_six-bar_mechanism": {
+   "triangles": 740,
+   "min_mm": [
+    -15.95,
+    -2.0,
+    -10.5
+   ],
+   "max_mm": [
+    15.95,
+    14.4,
+    10.0
+   ],
+   "size_mm": [
+    31.9,
+    16.4,
+    20.5
+   ],
+   "center_mm": [
+    0.0,
+    6.2,
+    -0.25
+   ]
+  },
+  "mouth__mouth_mounting_platform_for_upper_lip_connecting_rod": {
+   "triangles": 572,
+   "min_mm": [
+    -3.0,
+    0.0,
+    -0.0
+   ],
+   "max_mm": [
+    16.0,
+    17.0,
+    5.0
+   ],
+   "size_mm": [
+    19.0,
+    17.0,
+    5.0
+   ],
+   "center_mm": [
+    6.5,
+    8.5,
+    2.5
+   ]
+  },
+  "mouth__mouth_oblique_crank_extension_rod": {
+   "triangles": 712,
+   "min_mm": [
+    -18.462,
+    -2.5,
+    -9.526
+   ],
+   "max_mm": [
+    10.25,
+    2.5,
+    3.698
+   ],
+   "size_mm": [
+    28.712,
+    5.0,
+    13.225
+   ],
+   "center_mm": [
+    -4.106,
+    0.0,
+    -2.914
+   ]
+  },
+  "mouth__mouth_OT_head": {
+   "triangles": 464,
+   "min_mm": [
+    -3.494,
+    0.0,
+    -3.492
+   ],
+   "max_mm": [
+    3.494,
+    3.492,
+    10.0
+   ],
+   "size_mm": [
+    6.988,
+    3.492,
+    13.492
+   ],
+   "center_mm": [
+    0.0,
+    1.746,
+    3.254
+   ]
+  },
+  "mouth__mouth_perforated_crank": {
+   "triangles": 396,
+   "min_mm": [
+    -5.5,
+    -0.0,
+    -40.823
+   ],
+   "max_mm": [
+    5.489,
+    5.0,
+    5.497
+   ],
+   "size_mm": [
+    10.989,
+    5.0,
+    46.32
+   ],
+   "center_mm": [
+    -0.005,
+    2.5,
+    -17.663
+   ]
+  },
+  "mouth__mouth_rack": {
+   "triangles": 236,
+   "min_mm": [
+    0.0,
+    0.0,
+    -5.0
+   ],
+   "max_mm": [
+    44.0,
+    7.0,
+    0.0
+   ],
+   "size_mm": [
+    44.0,
+    7.0,
+    5.0
+   ],
+   "center_mm": [
+    22.0,
+    3.5,
+    -2.5
+   ]
+  },
+  "mouth__mouth_self-made_ball_hinge_rod_for_the_lower_teeth": {
+   "triangles": 5736,
+   "min_mm": [
+    -2.5,
+    -25.5,
+    -2.5
+   ],
+   "max_mm": [
+    12.298,
+    2.5,
+    2.5
+   ],
+   "size_mm": [
+    14.798,
+    28.0,
+    5.0
+   ],
+   "center_mm": [
+    4.899,
+    -11.5,
+    0.0
+   ]
+  },
+  "mouth__mouth_shaft_flange": {
+   "triangles": 390,
+   "min_mm": [
+    -6.492,
+    -29.0,
+    -6.5
+   ],
+   "max_mm": [
+    41.0,
+    5.892,
+    6.5
+   ],
+   "size_mm": [
+    47.492,
+    34.892,
+    13.0
+   ],
+   "center_mm": [
+    17.254,
+    -11.554,
+    0.0
+   ]
+  },
+  "mouth__mouth_six-bar_mechanism_above_short": {
+   "triangles": 924,
+   "min_mm": [
+    -6.0,
+    0.0,
+    -8.0
+   ],
+   "max_mm": [
+    6.0,
+    9.5,
+    7.689
+   ],
+   "size_mm": [
+    12.0,
+    9.5,
+    15.689
+   ],
+   "center_mm": [
+    0.0,
+    4.75,
+    -0.155
+   ]
+  },
+  "mouth__mouth_six-bar_mechanism_below_short": {
+   "triangles": 652,
+   "min_mm": [
+    -6.0,
+    0.0,
+    -8.0
+   ],
+   "max_mm": [
+    6.0,
+    3.0,
+    7.689
+   ],
+   "size_mm": [
+    12.0,
+    3.0,
+    15.689
+   ],
+   "center_mm": [
+    0.0,
+    1.5,
+    -0.155
+   ]
+  },
+  "mouth__mouth_six-bar_mechanism_with_spherical_hinge": {
+   "triangles": 872,
+   "min_mm": [
+    -6.0,
+    -1.5,
+    -9.29
+   ],
+   "max_mm": [
+    6.0,
+    4.5,
+    7.689
+   ],
+   "size_mm": [
+    12.0,
+    6.0,
+    16.979
+   ],
+   "center_mm": [
+    0.0,
+    1.5,
+    -0.801
+   ]
+  },
+  "mouth__mouth_slide_rail_mounting_plate": {
+   "triangles": 876,
+   "min_mm": [
+    -33.47,
+    0.0,
+    -60.147
+   ],
+   "max_mm": [
+    52.71,
+    14.5,
+    -23.527
+   ],
+   "size_mm": [
+    86.18,
+    14.5,
+    36.621
+   ],
+   "center_mm": [
+    9.62,
+    7.25,
+    -41.837
+   ]
+  },
+  "mouth__mouth_smiling_five-bar_mechanism_above": {
+   "triangles": 484,
+   "min_mm": [
+    -2.995,
+    -2.998,
+    0.0
+   ],
+   "max_mm": [
+    32.995,
+    7.55,
+    3.0
+   ],
+   "size_mm": [
+    35.99,
+    10.548,
+    3.0
+   ],
+   "center_mm": [
+    15.0,
+    2.276,
+    1.5
+   ]
+  },
+  "mouth__mouth_smiling_five-bar_mechanism_below": {
+   "triangles": 1562,
+   "min_mm": [
+    -2.987,
+    -7.0,
+    -2.0
+   ],
+   "max_mm": [
+    37.0,
+    3.0,
+    2.0
+   ],
+   "size_mm": [
+    39.987,
+    10.0,
+    4.0
+   ],
+   "center_mm": [
+    17.006,
+    -2.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_smiling_six-bar_mechanism_above": {
+   "triangles": 908,
+   "min_mm": [
+    -6.0,
+    -0.0,
+    -12.0
+   ],
+   "max_mm": [
+    6.0,
+    12.985,
+    7.7
+   ],
+   "size_mm": [
+    12.0,
+    12.985,
+    19.7
+   ],
+   "center_mm": [
+    0.0,
+    6.493,
+    -2.15
+   ]
+  },
+  "mouth__mouth_smiling_six-bar_mechanism_below": {
+   "triangles": 636,
+   "min_mm": [
+    -6.0,
+    0.0,
+    -9.03
+   ],
+   "max_mm": [
+    6.0,
+    3.0,
+    7.689
+   ],
+   "size_mm": [
+    12.0,
+    3.0,
+    16.719
+   ],
+   "center_mm": [
+    0.0,
+    1.5,
+    -0.671
+   ]
+  },
+  "mouth__mouth_spherical_hinge": {
+   "triangles": 3542,
+   "min_mm": [
+    -3.75,
+    -1.998,
+    -3.749
+   ],
+   "max_mm": [
+    11.0,
+    1.998,
+    3.749
+   ],
+   "size_mm": [
+    14.75,
+    3.996,
+    7.499
+   ],
+   "center_mm": [
+    3.625,
+    0.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_threaded_pin": {
+   "triangles": 420,
+   "min_mm": [
+    -1.499,
+    0.0,
+    -1.5
+   ],
+   "max_mm": [
+    1.499,
+    12.0,
+    1.5
+   ],
+   "size_mm": [
+    2.998,
+    12.0,
+    3.0
+   ],
+   "center_mm": [
+    0.0,
+    6.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_threaded_rod_of_spherical_hinge": {
+   "triangles": 33510,
+   "min_mm": [
+    -1.0,
+    -1.0,
+    0.0
+   ],
+   "max_mm": [
+    1.0,
+    1.0,
+    50.0
+   ],
+   "size_mm": [
+    2.0,
+    2.0,
+    50.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    25.0
+   ]
+  },
+  "mouth__mouth_tongue_connecting_rod": {
+   "triangles": 396,
+   "min_mm": [
+    -2.992,
+    -3.0,
+    0.0
+   ],
+   "max_mm": [
+    22.992,
+    3.0,
+    2.0
+   ],
+   "size_mm": [
+    25.983,
+    6.0,
+    2.0
+   ],
+   "center_mm": [
+    10.0,
+    0.0,
+    1.0
+   ]
+  },
+  "mouth__mouth_tongue_connecting_rod_long": {
+   "triangles": 400,
+   "min_mm": [
+    -2.0,
+    -37.0,
+    -0.0
+   ],
+   "max_mm": [
+    10.0,
+    19.984,
+    6.0
+   ],
+   "size_mm": [
+    12.0,
+    56.984,
+    6.0
+   ],
+   "center_mm": [
+    4.0,
+    -8.508,
+    3.0
+   ]
+  },
+  "mouth__mouth_tongue_pulling_rod": {
+   "triangles": 544,
+   "min_mm": [
+    -3.493,
+    0.0,
+    -48.219
+   ],
+   "max_mm": [
+    3.493,
+    5.0,
+    3.5
+   ],
+   "size_mm": [
+    6.986,
+    5.0,
+    51.719
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    -22.359
+   ]
+  },
+  "mouth__mouth_tongue_tray": {
+   "triangles": 36,
+   "min_mm": [
+    0.0,
+    0.0,
+    -3.5
+   ],
+   "max_mm": [
+    10.0,
+    5.0,
+    3.5
+   ],
+   "size_mm": [
+    10.0,
+    5.0,
+    7.0
+   ],
+   "center_mm": [
+    5.0,
+    2.5,
+    0.0
+   ]
+  },
+  "mouth__mouth_upper_lip_connection_point": {
+   "triangles": 1758,
+   "min_mm": [
+    -4.0,
+    -2.0,
+    -4.0
+   ],
+   "max_mm": [
+    8.75,
+    8.0,
+    4.0
+   ],
+   "size_mm": [
+    12.75,
+    10.0,
+    8.0
+   ],
+   "center_mm": [
+    2.375,
+    3.0,
+    0.0
+   ]
+  },
+  "mouth__mouth_upper_teeth": {
+   "triangles": 9698,
+   "min_mm": [
+    44.445,
+    27.778,
+    131.715
+   ],
+   "max_mm": [
+    110.842,
+    50.0,
+    175.87
+   ],
+   "size_mm": [
+    66.398,
+    22.222,
+    44.154
+   ],
+   "center_mm": [
+    77.644,
+    38.889,
+    153.793
+   ]
+  },
+  "mouth_baseplate": {
+   "triangles": 7086,
+   "min_mm": [
+    -64.22,
+    -22.0,
+    -80.812
+   ],
+   "max_mm": [
+    64.22,
+    27.75,
+    48.188
+   ],
+   "size_mm": [
+    128.44,
+    49.75,
+    129.0
+   ],
+   "center_mm": [
+    0.0,
+    2.875,
+    -16.312
+   ]
+  },
+  "mouth_GUOHUAA0090": {
+   "triangles": 21768,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.101
+   ],
+   "max_mm": [
+    16.05,
+    31.4,
+    6.101
+   ],
+   "size_mm": [
+    32.1,
+    31.9,
+    12.203
+   ],
+   "center_mm": [
+    0.0,
+    15.45,
+    0.0
+   ]
+  },
+  "mouth_ks3518": {
+   "triangles": 662,
+   "min_mm": [
+    -27.0,
+    -14.8,
+    -9.0
+   ],
+   "max_mm": [
+    27.0,
+    30.5,
+    9.0
+   ],
+   "size_mm": [
+    54.0,
+    45.3,
+    18.0
+   ],
+   "center_mm": [
+    0.0,
+    7.85,
+    0.0
+   ]
+  },
+  "mouth_MG90S": {
+   "triangles": 21726,
+   "min_mm": [
+    -16.05,
+    -0.5,
+    -6.201
+   ],
+   "max_mm": [
+    16.05,
+    32.0,
+    6.201
+   ],
+   "size_mm": [
+    32.1,
+    32.5,
+    12.403
+   ],
+   "center_mm": [
+    0.0,
+    15.75,
+    0.0
+   ]
+  },
+  "neck__neck_Axis_positioning_tools": {
+   "triangles": 888,
+   "min_mm": [
+    -17.484,
+    0.75,
+    -6.0
+   ],
+   "max_mm": [
+    17.484,
+    17.481,
+    6.0
+   ],
+   "size_mm": [
+    34.968,
+    16.731,
+    12.0
+   ],
+   "center_mm": [
+    0.0,
+    9.116,
+    0.0
+   ]
+  },
+  "neck__neck_ball": {
+   "triangles": 4710,
+   "min_mm": [
+    -2.997,
+    -2.5,
+    -3.0
+   ],
+   "max_mm": [
+    2.997,
+    2.5,
+    3.0
+   ],
+   "size_mm": [
+    5.994,
+    5.0,
+    6.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "neck__neck_ball_hinge": {
+   "triangles": 3542,
+   "min_mm": [
+    -3.75,
+    -1.998,
+    -3.749
+   ],
+   "max_mm": [
+    11.0,
+    1.998,
+    3.749
+   ],
+   "size_mm": [
+    14.75,
+    3.996,
+    7.499
+   ],
+   "center_mm": [
+    3.625,
+    0.0,
+    0.0
+   ]
+  },
+  "neck__neck_crosshairs": {
+   "triangles": 412,
+   "min_mm": [
+    0.0,
+    -1.5,
+    -7.0
+   ],
+   "max_mm": [
+    14.0,
+    1.5,
+    7.0
+   ],
+   "size_mm": [
+    14.0,
+    3.0,
+    14.0
+   ],
+   "center_mm": [
+    7.0,
+    0.0,
+    0.0
+   ]
+  },
+  "neck__neck_extension_arm": {
+   "triangles": 246,
+   "min_mm": [
+    -6.0,
+    -6.0,
+    -1.75
+   ],
+   "max_mm": [
+    56.8,
+    6.0,
+    4.75
+   ],
+   "size_mm": [
+    62.8,
+    12.0,
+    6.5
+   ],
+   "center_mm": [
+    25.4,
+    0.0,
+    1.5
+   ]
+  },
+  "neck__neck_Installation_of_sheet_metal": {
+   "triangles": 1888,
+   "min_mm": [
+    -40.0,
+    -2.0,
+    -22.0
+   ],
+   "max_mm": [
+    40.0,
+    68.0,
+    20.0
+   ],
+   "size_mm": [
+    80.0,
+    70.0,
+    42.0
+   ],
+   "center_mm": [
+    0.0,
+    33.0,
+    -1.0
+   ]
+  },
+  "neck__neck_Parallel_platforms": {
+   "triangles": 1084,
+   "min_mm": [
+    -30.0,
+    0.0,
+    -30.0
+   ],
+   "max_mm": [
+    30.0,
+    5.0,
+    30.0
+   ],
+   "size_mm": [
+    60.0,
+    5.0,
+    60.0
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    0.0
+   ]
+  },
+  "neck__neck_pole": {
+   "triangles": 312,
+   "min_mm": [
+    -1.498,
+    -31.0,
+    -1.5
+   ],
+   "max_mm": [
+    1.498,
+    31.0,
+    1.5
+   ],
+   "size_mm": [
+    2.996,
+    62.0,
+    3.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "neck__neck_principal_axis": {
+   "triangles": 414,
+   "min_mm": [
+    -7.994,
+    0.0,
+    -8.0
+   ],
+   "max_mm": [
+    7.994,
+    60.0,
+    8.0
+   ],
+   "size_mm": [
+    15.988,
+    60.0,
+    16.0
+   ],
+   "center_mm": [
+    0.0,
+    30.0,
+    0.0
+   ]
+  },
+  "neck__neck_transition_part": {
+   "triangles": 1576,
+   "min_mm": [
+    -40.0,
+    -25.0,
+    0.0
+   ],
+   "max_mm": [
+    40.0,
+    25.0,
+    10.0
+   ],
+   "size_mm": [
+    80.0,
+    50.0,
+    10.0
+   ],
+   "center_mm": [
+    0.0,
+    0.0,
+    5.0
+   ]
+  },
+  "neck__neck_universal_joint": {
+   "triangles": 672,
+   "min_mm": [
+    -8.0,
+    0.0,
+    -8.0
+   ],
+   "max_mm": [
+    8.0,
+    20.0,
+    8.0
+   ],
+   "size_mm": [
+    16.0,
+    20.0,
+    16.0
+   ],
+   "center_mm": [
+    0.0,
+    10.0,
+    0.0
+   ]
+  },
+  "neck__neck_Upper_shaft": {
+   "triangles": 352,
+   "min_mm": [
+    -8.0,
+    0.0,
+    -8.0
+   ],
+   "max_mm": [
+    8.0,
+    40.0,
+    8.0
+   ],
+   "size_mm": [
+    16.0,
+    40.0,
+    16.0
+   ],
+   "center_mm": [
+    0.0,
+    20.0,
+    0.0
+   ]
+  },
+  "neck__neck_y_axis_platform": {
+   "triangles": 606,
+   "min_mm": [
+    -59.974,
+    0.0,
+    -60.0
+   ],
+   "max_mm": [
+    59.974,
+    32.5,
+    60.0
+   ],
+   "size_mm": [
+    119.947,
+    32.5,
+    120.0
+   ],
+   "center_mm": [
+    0.0,
+    16.25,
+    0.0
+   ]
+  },
+  "neck_Parallel_platforms": {
+   "triangles": 1084,
+   "min_mm": [
+    -30.0,
+    0.0,
+    -30.0
+   ],
+   "max_mm": [
+    30.0,
+    5.0,
+    30.0
+   ],
+   "size_mm": [
+    60.0,
+    5.0,
+    60.0
+   ],
+   "center_mm": [
+    0.0,
+    2.5,
+    0.0
+   ]
+  },
+  "nose_line": {
+   "triangles": 9028,
+   "min_mm": [
+    -63.001,
+    -68.116,
+    12.441
+   ],
+   "max_mm": [
+    -36.648,
+    20.182,
+    55.023
+   ],
+   "size_mm": [
+    26.353,
+    88.298,
+    42.583
+   ],
+   "center_mm": [
+    -49.825,
+    -23.967,
+    33.732
+   ]
+  },
+  "nose_mirror_line": {
+   "triangles": 8212,
+   "min_mm": [
+    -63.003,
+    -68.116,
+    -55.023
+   ],
+   "max_mm": [
+    -36.646,
+    20.178,
+    -12.441
+   ],
+   "size_mm": [
+    26.357,
+    88.294,
+    42.583
+   ],
+   "center_mm": [
+    -49.824,
+    -23.969,
+    -33.732
+   ]
+  },
+  "nose_mirror_slave_part": {
+   "triangles": 380,
+   "min_mm": [
+    -2.5,
+    0.0,
+    -2.5
+   ],
+   "max_mm": [
+    2.5,
+    9.5,
+    2.5
+   ],
+   "size_mm": [
+    5.0,
+    9.5,
+    5.0
+   ],
+   "center_mm": [
+    0.0,
+    4.75,
+    0.0
+   ]
+  },
+  "nose_slave_part": {
+   "triangles": 304,
+   "min_mm": [
+    -2.498,
+    0.0,
+    -2.5
+   ],
+   "max_mm": [
+    2.498,
+    9.5,
+    2.5
+   ],
+   "size_mm": [
+    4.997,
+    9.5,
+    5.0
+   ],
+   "center_mm": [
+    0.0,
+    4.75,
+    0.0
+   ]
+  },
+  "OT": {
+   "triangles": 566,
+   "min_mm": [
+    -2.0,
+    0.0,
+    -5.732
+   ],
+   "max_mm": [
+    2.0,
+    1.996,
+    2.0
+   ],
+   "size_mm": [
+    4.0,
+    1.996,
+    7.732
+   ],
+   "center_mm": [
+    0.0,
+    0.998,
+    -1.866
+   ]
+  },
+  "OT_mirror": {
+   "triangles": 566,
+   "min_mm": [
+    -2.0,
+    0.0,
+    -2.0
+   ],
+   "max_mm": [
+    2.0,
+    1.996,
+    5.732
+   ],
+   "size_mm": [
+    4.0,
+    1.996,
+    7.732
+   ],
+   "center_mm": [
+    0.0,
+    0.998,
+    1.866
+   ]
+  },
+  "Raspberry_Pi_(computer_science)": {
+   "triangles": 1464,
+   "min_mm": [
+    -30.0,
+    -2.0,
+    -21.5
+   ],
+   "max_mm": [
+    30.0,
+    14.0,
+    24.468
+   ],
+   "size_mm": [
+    60.0,
+    16.0,
+    45.968
+   ],
+   "center_mm": [
+    0.0,
+    6.0,
+    1.484
+   ]
+  },
+  "shell_back_of_the_head": {
+   "triangles": 9800,
+   "min_mm": [
+    -86.346,
+    -116.409,
+    -623.61
+   ],
+   "max_mm": [
+    87.189,
+    -23.417,
+    -502.039
+   ],
+   "size_mm": [
+    173.534,
+    92.992,
+    121.571
+   ],
+   "center_mm": [
+    0.422,
+    -69.913,
+    -562.824
+   ]
+  },
+  "shell_carapace": {
+   "triangles": 16832,
+   "min_mm": [
+    -83.763,
+    -85.0,
+    -619.45
+   ],
+   "max_mm": [
+    84.606,
+    52.727,
+    -395.892
+   ],
+   "size_mm": [
+    168.369,
+    137.727,
+    223.558
+   ],
+   "center_mm": [
+    0.422,
+    -16.137,
+    -507.671
+   ]
+  },
+  "shell_Face_Bone_Connectors": {
+   "triangles": 436,
+   "min_mm": [
+    -0.0,
+    -0.0,
+    0.0
+   ],
+   "max_mm": [
+    14.0,
+    14.0,
+    23.0
+   ],
+   "size_mm": [
+    14.0,
+    14.0,
+    23.0
+   ],
+   "center_mm": [
+    7.0,
+    7.0,
+    11.5
+   ]
+  },
+  "shell_Face_Bone_Connectors_mirror": {
+   "triangles": 550,
+   "min_mm": [
+    0.0,
+    -0.0,
+    -23.0
+   ],
+   "max_mm": [
+    14.0,
+    14.0,
+    0.0
+   ],
+   "size_mm": [
+    14.0,
+    14.0,
+    23.0
+   ],
+   "center_mm": [
+    7.0,
+    7.0,
+    -11.5
+   ]
+  },
+  "shell_facial_bones": {
+   "triangles": 9290,
+   "min_mm": [
+    -80.772,
+    -132.471,
+    -517.039
+   ],
+   "max_mm": [
+    81.613,
+    -71.335,
+    -379.49
+   ],
+   "size_mm": [
+    162.386,
+    61.137,
+    137.549
+   ],
+   "center_mm": [
+    0.421,
+    -101.903,
+    -448.264
+   ]
+  },
+  "shell_left_ears": {
+   "triangles": 3538,
+   "min_mm": [
+    57.737,
+    -142.987,
+    -554.752
+   ],
+   "max_mm": [
+    104.364,
+    -67.972,
+    -502.039
+   ],
+   "size_mm": [
+    46.627,
+    75.016,
+    52.713
+   ],
+   "center_mm": [
+    81.05,
+    -105.479,
+    -528.395
+   ]
+  },
+  "shell_right_ears": {
+   "triangles": 3578,
+   "min_mm": [
+    -103.521,
+    -142.349,
+    -554.753
+   ],
+   "max_mm": [
+    -59.505,
+    -67.97,
+    -501.999
+   ],
+   "size_mm": [
+    44.016,
+    74.378,
+    52.754
+   ],
+   "center_mm": [
+    -81.513,
+    -105.159,
+    -528.376
+   ]
+  },
+  "shell_skin_face": {
+   "triangles": 50000,
+   "min_mm": [
+    -87.293,
+    -217.465,
+    -504.955
+   ],
+   "max_mm": [
+    88.136,
+    55.957,
+    -378.922
+   ],
+   "size_mm": [
+    175.43,
+    273.422,
+    126.032
+   ],
+   "center_mm": [
+    0.422,
+    -80.754,
+    -441.939
+   ]
+  },
+  "studs": {
+   "triangles": 186,
+   "min_mm": [
+    -2.714,
+    -0.0,
+    -2.35
+   ],
+   "max_mm": [
+    2.714,
+    30.0,
+    2.35
+   ],
+   "size_mm": [
+    5.427,
+    30.0,
+    4.7
+   ],
+   "center_mm": [
+    0.0,
+    15.0,
+    0.0
+   ]
+  },
+  "studs_60": {
+   "triangles": 168,
+   "min_mm": [
+    -2.714,
+    -0.0,
+    -2.35
+   ],
+   "max_mm": [
+    2.714,
+    60.0,
+    2.35
+   ],
+   "size_mm": [
+    5.427,
+    60.0,
+    4.7
+   ],
+   "center_mm": [
+    0.0,
+    30.0,
+    0.0
+   ]
+  }
+ }
+}

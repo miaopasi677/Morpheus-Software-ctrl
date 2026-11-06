@@ -1,0 +1,67 @@
+{
+  "_说明": "所有需要你填的东西都在这个文件里。填完再按 运行指南.md 走。API Key 不写在这里，走环境变量。",
+
+  "qwen": {
+    "api_key_env": "DASHSCOPE_API_KEY",
+    "mode": "realtime",
+    "model": "qwen-audio-3.1-realtime-flash",
+    "ws_url": "wss://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/api-ws/v1/realtime",
+    "_ws_url_新加坡": "wss://{WorkspaceId}.ap-southeast-1.maas.aliyuncs.com/api-ws/v1/realtime",
+    "workspace_id": "填你的业务空间ID",
+    "voice": "longanqian_v3.1",
+    "turn_detection": "smart_turn_v2",
+    "system_prompt": "你是一个装在机器人脸上的语音助手，名字叫小云。用中文，回答简短口语化，一到两句话，不要用 emoji 和 Markdown。",
+    "input_sample_rate": 16000,
+    "output_sample_rate": 24000,
+    "save_dir": "result/qwen"
+  },
+
+  "a2f": {
+    "model_path": "pretrain_model/model.pth",
+    "device": "cuda:0",
+    "device_fallback": "cpu",
+    "post_processing": true,
+    "insert_blink": false,
+    "result_path": "result"
+  },
+
+  "stream": {
+    "host": "127.0.0.1",
+    "port": 9876,
+    "fps": 30,
+    "_注意": "UDP 9876 是 blend 内 blender_receiver.py 的端口；Blender MCP 用的是 TCP 9876，两者不冲突。"
+  },
+
+  "streaming": {
+    "_说明": "全流式：Qwen 音频边收边播，A2F 滑窗出 blendshape，Blender 把形态键转成 33 路 PWM 再从 UDP 9878 吐出来。",
+    "chunk_s": 0.5,
+    "context_s": 0.3,
+    "a2f_fps": 30,
+    "play_audio_realtime": true,
+    "pwm_from_blender": true,
+    "pwm_udp_host": "127.0.0.1",
+    "pwm_udp_port": 9878
+  },
+
+  "servo": {
+    "backend": "dry_run",
+    "_backend可选": "dry_run | serial | udp",
+    "channel_map": "channel_map.json",
+    "fps": 50,
+    "max_step": 200,
+    "neutral_on_timeout_s": 1.0,
+    "serial": {
+      "port": "COM3",
+      "baud": 115200,
+      "frame": "PWM,{values}\n",
+      "_frame说明": "{values} 会替换成 33 个逗号分隔的整数；按你的驱动板协议改这一行"
+    },
+    "udp": {
+      "host": "192.168.2.46",
+      "port": 9877
+    }
+  },
+
+  "blend": "LY_GENERAL_V0.blend",
+  "blender_exe": "C:/file/software/blender/blender.exe"
+}

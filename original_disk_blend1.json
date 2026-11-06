@@ -1,0 +1,1181 @@
+{
+ "file": "C:\\file\\project\\Morpheus-Software\\LY_GENERAL_V0.blend1",
+ "bone_count": 46,
+ "bones": {
+  "Face_Root": {
+   "head_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    14.965521812438965
+   ],
+   "tail_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    15.965521812438965
+   ],
+   "parent": null,
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Face_Neck": {
+   "head_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    15.965521812438965
+   ],
+   "tail_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    16.2850399017334
+   ],
+   "parent": "Face_Root",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Skull": {
+   "head_local": [
+    0.0,
+    0.18405486643314362,
+    16.255020141601562
+   ],
+   "tail_local": [
+    0.0,
+    0.18405479192733765,
+    16.74888801574707
+   ],
+   "parent": null,
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_Out.r": {
+   "head_local": [
+    -0.48400062322616577,
+    -0.7747228741645813,
+    17.121963500976562
+   ],
+   "tail_local": [
+    -0.40462732315063477,
+    -0.8035171627998352,
+    16.965938568115234
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In.r": {
+   "head_local": [
+    -0.23895399272441864,
+    -0.8766689896583557,
+    17.075199127197266
+   ],
+   "tail_local": [
+    -0.23895399272441864,
+    -0.8766689896583557,
+    16.960420608520508
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eye_yaw.r": {
+   "head_local": [
+    -0.36471399664878845,
+    -0.5235505700111389,
+    16.866899490356445
+   ],
+   "tail_local": [
+    -0.36471399664878845,
+    -0.7891245484352112,
+    16.866899490356445
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 8,
+     "position_max": 2500,
+     "position_min": 500,
+     "multiplier": 5.150000095367432,
+     "rotation_axis": 2,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eyelid_Up.r": {
+   "head_local": [
+    -0.36471399664878845,
+    -0.5235509872436523,
+    16.866899490356445
+   ],
+   "tail_local": [
+    -0.36471399664878845,
+    -0.7321959733963013,
+    16.884300231933594
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 4,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "multiplier": 4.499998092651367,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0,
+     "reverse_direction": 1
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eyelid_Dwn.r": {
+   "head_local": [
+    -0.36471399664878845,
+    -0.5235509872436523,
+    16.866947174072266
+   ],
+   "tail_local": [
+    -0.36471399664878845,
+    -0.7256359457969666,
+    16.80527687072754
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 6,
+     "threshold": 2000,
+     "position_min": 500,
+     "position_max": 2500,
+     "multiplier": 17.440000534057617,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up.r": {
+   "head_local": [
+    -0.21628999710083008,
+    -0.8672221302986145,
+    16.285930633544922
+   ],
+   "tail_local": [
+    -0.13454300165176392,
+    -0.926106870174408,
+    16.20168113708496
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up_C": {
+   "head_local": [
+    0.009619000367820263,
+    -0.9562594294548035,
+    16.333110809326172
+   ],
+   "tail_local": [
+    0.009619000367820263,
+    -0.9919937252998352,
+    16.233182907104492
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "position_max": 1100,
+     "position_min": 500,
+     "neutral_angle": 27.0,
+     "rotation_range": 54.0,
+     "servo_id": 25,
+     "threshold": 2000
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn.r": {
+   "head_local": [
+    -0.12536145746707916,
+    -0.8482823967933655,
+    15.974908828735352
+   ],
+   "tail_local": [
+    -0.13224969804286957,
+    -0.9117929339408875,
+    16.095746994018555
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn_C": {
+   "head_local": [
+    0.009284436702728271,
+    -0.886885941028595,
+    15.972837448120117
+   ],
+   "tail_local": [
+    0.002870917320251465,
+    -0.9478421807289124,
+    16.09380340576172
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Corner.r": {
+   "head_local": [
+    -0.28813546895980835,
+    -0.7965224385261536,
+    16.157588958740234
+   ],
+   "tail_local": [
+    -0.31118446588516235,
+    -0.6139053702354431,
+    16.21672821044922
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_Out.l": {
+   "head_local": [
+    0.48400062322616577,
+    -0.7747228741645813,
+    17.121963500976562
+   ],
+   "tail_local": [
+    0.40462732315063477,
+    -0.8035171627998352,
+    16.965938568115234
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In.l": {
+   "head_local": [
+    0.23895399272441864,
+    -0.8766689896583557,
+    17.075244903564453
+   ],
+   "tail_local": [
+    0.23895399272441864,
+    -0.8766689896583557,
+    16.960420608520508
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eye_yaw.l": {
+   "head_local": [
+    0.38054901361465454,
+    -0.5235505700111389,
+    16.866899490356445
+   ],
+   "tail_local": [
+    0.38054901361465454,
+    -0.7891245484352112,
+    16.866899490356445
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 9,
+     "position_max": 2500,
+     "position_min": 500,
+     "rotation_axis": 2,
+     "multiplier": 5.150000095367432,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eyelid_Up.l": {
+   "head_local": [
+    0.3818820118904114,
+    -0.5238732099533081,
+    16.862150192260742
+   ],
+   "tail_local": [
+    0.3818820118904114,
+    -0.7241010069847107,
+    16.92460060119629
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 5,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 4.5,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eyelid_Dwn.l": {
+   "head_local": [
+    0.380548894405365,
+    -0.5235505700111389,
+    16.866947174072266
+   ],
+   "tail_local": [
+    0.3778407573699951,
+    -0.7256359457969666,
+    16.80527687072754
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 7,
+     "position_max": 2500,
+     "position_min": 500,
+     "threshold": 2000,
+     "multiplier": 17.530000686645508,
+     "reverse_direction": 0,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up.l": {
+   "head_local": [
+    0.23212482035160065,
+    -0.8672221302986145,
+    16.285930633544922
+   ],
+   "tail_local": [
+    0.15037842094898224,
+    -0.926106870174408,
+    16.20168113708496
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn.l": {
+   "head_local": [
+    0.14119674265384674,
+    -0.8482823967933655,
+    15.974908828735352
+   ],
+   "tail_local": [
+    0.14808498322963715,
+    -0.9117929339408875,
+    16.095746994018555
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {}
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Corner.l": {
+   "head_local": [
+    0.28813546895980835,
+    -0.7965224385261536,
+    16.157588958740234
+   ],
+   "tail_local": [
+    0.31118446588516235,
+    -0.6139053702354431,
+    16.21672821044922
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Jaw_Open": {
+   "head_local": [
+    0.00791763886809349,
+    -0.24170619249343872,
+    16.4085750579834
+   ],
+   "tail_local": [
+    0.009283999912440777,
+    -0.8868860006332397,
+    15.972800254821777
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 20,
+     "position_max": 2500,
+     "position_min": 500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 4.699999809265137,
+     "rotation_axis": 0,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eye_pitch.l": {
+   "head_local": [
+    0.07914850860834122,
+    -0.6709619760513306,
+    16.869600296020508
+   ],
+   "tail_local": [
+    0.07914850860834122,
+    -0.7895627021789551,
+    16.869600296020508
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 11,
+     "position_max": 2500,
+     "position_min": 500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0,
+     "multiplier": 6.679998874664307
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Eye_pitch.r": {
+   "head_local": [
+    -0.07914850860834122,
+    -0.6709619760513306,
+    16.869600296020508
+   ],
+   "tail_local": [
+    -0.07914850860834122,
+    -0.7895627021789551,
+    16.869600296020508
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 10,
+     "position_max": 2500,
+     "position_min": 500,
+     "threshold": 2000,
+     "rotation_range": 180.0,
+     "neutral_angle": 90.0,
+     "multiplier": 6.679998874664307,
+     "reverse_direction": 1
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Jaw_Yaw": {
+   "head_local": [
+    0.00791763886809349,
+    -0.24170619249343872,
+    16.4085750579834
+   ],
+   "tail_local": [
+    0.009283999912440777,
+    -0.8868860006332397,
+    15.972800254821777
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 21,
+     "position_max": 2500,
+     "position_min": 500,
+     "rotation_axis": 2,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 28.579999923706055,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Neck_1": {
+   "head_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    17.37645721435547
+   ],
+   "tail_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    17.676551818847656
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 22,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Neck_3": {
+   "head_local": [
+    0.00791763886809349,
+    0.2582938075065613,
+    17.37645721435547
+   ],
+   "tail_local": [
+    -0.12095870077610016,
+    0.11524005234241486,
+    17.3699893951416
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 24,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Neck_2": {
+   "head_local": [
+    -0.00791763886809349,
+    0.2582938075065613,
+    17.37645721435547
+   ],
+   "tail_local": [
+    0.12095870077610016,
+    0.11524005234241486,
+    17.3699893951416
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 23,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_Out_Rotation.r": {
+   "head_local": [
+    -0.4859119653701782,
+    -0.6489412188529968,
+    17.093124389648438
+   ],
+   "tail_local": [
+    -0.4952433407306671,
+    -0.7311638593673706,
+    17.116016387939453
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 0,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 3.4800000190734863,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In_Rotation_pitch.r": {
+   "head_local": [
+    -0.25,
+    -0.8676046133041382,
+    17.08863067626953
+   ],
+   "tail_local": [
+    -0.25,
+    -0.8839457631111145,
+    17.07851791381836
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 2,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 5.490000247955322,
+     "rotation_range": 180.0,
+     "neutral_angle": 90.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_Out_Rotation.l": {
+   "head_local": [
+    0.4859119653701782,
+    -0.6489412188529968,
+    17.093124389648438
+   ],
+   "tail_local": [
+    0.4952433407306671,
+    -0.7311638593673706,
+    17.116016387939453
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 1,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 5.385000228881836,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In_Rotation_pitch.l": {
+   "head_local": [
+    0.25,
+    -0.8676046133041382,
+    17.08863067626953
+   ],
+   "tail_local": [
+    0.25,
+    -0.8839457631111145,
+    17.07851791381836
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 3,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 4.880000114440918,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In_Rotation_yaw.l": {
+   "head_local": [
+    0.23140199482440948,
+    -0.87270587682724,
+    17.089448928833008
+   ],
+   "tail_local": [
+    0.23140199482440948,
+    -0.8890600204467773,
+    17.07900047302246
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 2,
+     "position_min": 1100,
+     "position_max": 1400,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "rotation_axis": 2
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn_Rotation.r": {
+   "head_local": [
+    -0.14006899297237396,
+    -0.7582743167877197,
+    15.953139305114746
+   ],
+   "tail_local": [
+    -0.14006899297237396,
+    -0.8476317524909973,
+    15.991003036499023
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 28,
+     "position_min": 1210,
+     "position_max": 1810,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 0.699999988079071,
+     "neutral_angle": 27.0,
+     "rotation_range": 54.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up_Rotation_C": {
+   "head_local": [
+    0.006479000207036734,
+    -0.9343406558036804,
+    16.327028274536133
+   ],
+   "tail_local": [
+    0.006479000207036734,
+    -0.958132266998291,
+    16.336105346679688
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 12,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0,
+     "multiplier": 1.3339999914169312
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn_Rotation_C": {
+   "head_local": [
+    0.004480999894440174,
+    -0.8335710167884827,
+    15.970667839050293
+   ],
+   "tail_local": [
+    0.004480999894440174,
+    -0.8955116271972656,
+    15.973793029785156
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 14,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0,
+     "multiplier": 1.1299999952316284
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up_Rotation.l": {
+   "head_local": [
+    0.22069500386714935,
+    -0.7895527482032776,
+    16.2636775970459
+   ],
+   "tail_local": [
+    0.22069500386714935,
+    -0.8500596284866333,
+    16.283538818359375
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 27,
+     "position_min": 1100,
+     "position_max": 1700,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 0.6000000238418579,
+     "neutral_angle": 31.5,
+     "rotation_range": 54.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn_Rotation.l": {
+   "head_local": [
+    0.14006899297237396,
+    -0.7582743167877197,
+    15.953139305114746
+   ],
+   "tail_local": [
+    0.14006899297237396,
+    -0.8476317524909973,
+    15.991003036499023
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 30,
+     "position_min": 1225,
+     "position_max": 1825,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 0.699999988079071,
+     "neutral_angle": 27.0,
+     "rotation_range": 54.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up_Out_C": {
+   "head_local": [
+    0.011541999876499176,
+    -0.9287869930267334,
+    16.221420288085938
+   ],
+   "tail_local": [
+    0.011541999876499176,
+    -0.9807775020599365,
+    16.239038467407227
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 13,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 15.710000038146973,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Corner_Rotation.r": {
+   "head_local": [
+    -0.33855101466178894,
+    -0.6211060285568237,
+    16.217899322509766
+   ],
+   "tail_local": [
+    -0.33855101466178894,
+    -0.6872265934944153,
+    16.082612991333008
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 16,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0,
+     "multiplier": 1.7000001668930054
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Smile_Rotation.r": {
+   "head_local": [
+    -0.33855101466178894,
+    -0.6211060285568237,
+    16.217899322509766
+   ],
+   "tail_local": [
+    -0.33855101466178894,
+    -0.7631965279579163,
+    16.186010360717773
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 17,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 2.559993267059326,
+     "neutral_angle": 90.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Corner_Rotation.l": {
+   "head_local": [
+    0.33855101466178894,
+    -0.6211060285568237,
+    16.217899322509766
+   ],
+   "tail_local": [
+    0.33855101466178894,
+    -0.7362633943557739,
+    16.120100021362305
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 18,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "neutral_angle": 90.0,
+     "multiplier": 1.6059999465942383,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Smile_Rotation.l": {
+   "head_local": [
+    0.33855101466178894,
+    -0.6211060285568237,
+    16.217899322509766
+   ],
+   "tail_local": [
+    0.33855101466178894,
+    -0.7631965279579163,
+    16.186010360717773
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 19,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 0,
+     "multiplier": 2.924999952316284,
+     "neutral_angle": 90.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Up_Rotation.r": {
+   "head_local": [
+    -0.22069500386714935,
+    -0.7895527482032776,
+    16.2636775970459
+   ],
+   "tail_local": [
+    -0.22069500386714935,
+    -0.8500596284866333,
+    16.283538818359375
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 24,
+     "position_min": 1250,
+     "position_max": 1850,
+     "threshold": 2000,
+     "multiplier": 0.6000000238418579,
+     "reverse_direction": 0,
+     "neutral_angle": 22.5,
+     "rotation_range": 54.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Lip_Dwn_Out_C": {
+   "head_local": [
+    0.005907000042498112,
+    -0.8620265126228333,
+    16.052961349487305
+   ],
+   "tail_local": [
+    0.005907000042498112,
+    -0.9278479814529419,
+    16.067943572998047
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 1,
+     "servo_id": 15,
+     "position_min": 500,
+     "position_max": 2500,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "multiplier": 15.710000038146973,
+     "neutral_angle": 90.0,
+     "rotation_range": 180.0
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  },
+  "Brow_In_Rotation_yaw.r": {
+   "head_local": [
+    -0.23140199482440948,
+    -0.87270587682724,
+    17.089448928833008
+   ],
+   "tail_local": [
+    -0.23140199482440948,
+    -0.8890600204467773,
+    17.07900047302246
+   ],
+   "parent": "Skull",
+   "use_deform": true,
+   "props": {
+    "servo_settings": {
+     "active": 0,
+     "servo_id": 3,
+     "position_min": 1550,
+     "position_max": 1850,
+     "threshold": 2000,
+     "reverse_direction": 1,
+     "rotation_axis": 2
+    }
+   },
+   "servo_settings_error": "'Bone' object has no attribute 'servo_settings'"
+  }
+ },
+ "has_servo_settings_type": false,
+ "objects": {
+  "browInnerE.L": "EMPTY",
+  "browInnerE.R": "EMPTY",
+  "browOuterE.L": "EMPTY",
+  "browOuterE.R": "EMPTY",
+  "Camera": "CAMERA",
+  "Camera.001": "CAMERA",
+  "cheekE.L": "EMPTY",
+  "cheekE.R": "EMPTY",
+  "eyeE.L": "EMPTY",
+  "eyeE.R": "EMPTY",
+  "eyeLidDown.L": "EMPTY",
+  "eyeLidDown.R": "EMPTY",
+  "eyeLidUpE.L": "EMPTY",
+  "eyeLidUpE.R": "EMPTY",
+  "eyes": "MESH",
+  "Facemotion_TESTAVATAR": "ARMATURE",
+  "Feace_Rig.001": "ARMATURE",
+  "jawE": "EMPTY",
+  "Light": "LIGHT",
+  "lipConnerE.L": "EMPTY",
+  "lipConnerE.R": "EMPTY",
+  "lipDownE.C": "EMPTY",
+  "lipDownE.L": "EMPTY",
+  "lipDownE.R": "EMPTY",
+  "lipUpE.C": "EMPTY",
+  "lipUpE.L": "EMPTY",
+  "lipUpE.R": "EMPTY",
+  "mold": "MESH",
+  "noseE.L": "EMPTY",
+  "noseE.R": "EMPTY",
+  "SampleHead": "MESH",
+  "zbhairshort": "MESH"
+ },
+ "frame": 1
+}

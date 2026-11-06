@@ -1,0 +1,924 @@
+{
+ "status": "SERVO_BONES_CREATED",
+ "armature": "Feace_Rig.001",
+ "original_bones": 46,
+ "servo_bones": 33,
+ "removed_previous": [
+  "Morpheus_Servo_01",
+  "Morpheus_Servo_02",
+  "Morpheus_Servo_03",
+  "Morpheus_Servo_04",
+  "Morpheus_Servo_05",
+  "Morpheus_Servo_06",
+  "Morpheus_Servo_07",
+  "Morpheus_Servo_08",
+  "Morpheus_Servo_09",
+  "Morpheus_Servo_10",
+  "Morpheus_Servo_11",
+  "Morpheus_Servo_12",
+  "Morpheus_Servo_13",
+  "Morpheus_Servo_14",
+  "Morpheus_Servo_15",
+  "Morpheus_Servo_16",
+  "Morpheus_Servo_17",
+  "Morpheus_Servo_18",
+  "Morpheus_Servo_19",
+  "Morpheus_Servo_20",
+  "Morpheus_Servo_21",
+  "Morpheus_Servo_22",
+  "Morpheus_Servo_23",
+  "Morpheus_Servo_24",
+  "Morpheus_Servo_25",
+  "Morpheus_Servo_26",
+  "Morpheus_Servo_27",
+  "Morpheus_Servo_28",
+  "Morpheus_Servo_29",
+  "Morpheus_Servo_30",
+  "Morpheus_Servo_31",
+  "Morpheus_Servo_32",
+  "Morpheus_Servo_33"
+ ],
+ "constraints": 25,
+ "unmapped_channels": [
+  1,
+  2,
+  11,
+  12,
+  13,
+  18,
+  29,
+  30
+ ],
+ "calibration": {
+  "eye_mid": [
+   0.007917508482933044,
+   -0.5235505700111389,
+   16.866899490356445
+  ],
+  "eye_span": 0.745263010263443,
+  "unit_per_mm_x": 0.0106466144323349,
+  "unit_per_mm_y": 0.011431198598254507,
+  "unit_per_mm_z": 0.011431198598254507,
+  "fit": {
+   "anchors_used": [
+    "eyeE.L",
+    "eyeE.R",
+    "browInnerE.L",
+    "browInnerE.R",
+    "browOuterE.L",
+    "browOuterE.R",
+    "noseE.L",
+    "noseE.R",
+    "cheekE.L",
+    "cheekE.R",
+    "lipUpE.C",
+    "lipConnerE.L",
+    "lipConnerE.R",
+    "lipDownE.C",
+    "jawE"
+   ],
+   "n": 15,
+   "axis": {
+    "X": {
+     "scale": 0.010929101195590854,
+     "offset": -0.003070545258621375,
+     "r2": 0.9731306130212808,
+     "rms": 0.05194558597501219,
+     "method": "least_squares"
+    },
+    "Y": {
+     "scale": 0.011431198598254507,
+     "offset": -0.6519501056515123,
+     "r2": 0.3128458193250313,
+     "rms": 0.064147480668639,
+     "method": "isotropic_with_Z + eye_anchor_offset"
+    },
+    "Z": {
+     "scale": 0.011431198598254507,
+     "offset": 16.856483523493065,
+     "r2": 0.9860919342803215,
+     "rms": 0.048220517156338176,
+     "method": "least_squares"
+    }
+   },
+   "mm_per_blender_unit": {
+    "X": 91.49883253011068,
+    "Y": 87.47989035486582,
+    "Z": 87.47989035486582
+   }
+  }
+ },
+ "rows": [
+  {
+   "id": 1,
+   "name": "Left Cheek",
+   "name_cn": "左颊 线驱",
+   "module": "tendon",
+   "lower": 1800,
+   "start": 1800,
+   "upper": 1400,
+   "sources": [],
+   "cad_face_mm": [
+    21.26,
+    54.55,
+    48.3
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "263",
+   "xyz_blender": [
+    0.23426453131437303,
+    0.10001902728392487,
+    17.419026382652138
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 2,
+   "name": "Left Nose",
+   "name_cn": "左鼻 线驱",
+   "module": "tendon",
+   "lower": 800,
+   "start": 800,
+   "upper": 0,
+   "sources": [],
+   "cad_face_mm": [
+    21.26,
+    54.55,
+    60.5
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "264",
+   "xyz_blender": [
+    0.23426453131437303,
+    0.10001902728392487,
+    17.558487005550845
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 3,
+   "name": "Left Eyebrow Center",
+   "name_cn": "左眉头",
+   "module": "brow",
+   "lower": 980,
+   "start": 1080,
+   "upper": 1480,
+   "sources": [
+    "Brow_In_Rotation_pitch.l"
+   ],
+   "cad_face_mm": [
+    21.26,
+    54.55,
+    36.1
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "254",
+   "xyz_blender": [
+    0.23426453131437303,
+    0.10001902728392487,
+    17.27956575975343
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 4,
+   "name": "Left Eyebrow Peak",
+   "name_cn": "左眉峰",
+   "module": "brow",
+   "lower": 1100,
+   "start": 800,
+   "upper": 500,
+   "sources": [
+    "Brow_Out_Rotation.l"
+   ],
+   "cad_face_mm": [
+    46.82,
+    29.1,
+    47.723
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "251",
+   "xyz_blender": [
+    0.5063919962048531,
+    -0.19090269080193267,
+    17.412431724180806
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 5,
+   "name": "Left Upper Eyelid",
+   "name_cn": "左上眼睑",
+   "module": "eye",
+   "lower": 1700,
+   "start": 1300,
+   "upper": 600,
+   "sources": [
+    "Eyelid_Up.l"
+   ],
+   "cad_face_mm": [
+    19.2,
+    63.6,
+    2.6
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "83",
+   "xyz_blender": [
+    0.2123325055837631,
+    0.20347366083784768,
+    16.896620606711906
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 6,
+   "name": "Left Lower Eyelid",
+   "name_cn": "左下眼睑",
+   "module": "eye",
+   "lower": 1000,
+   "start": 1200,
+   "upper": 1800,
+   "sources": [
+    "Eyelid_Dwn.l"
+   ],
+   "cad_face_mm": [
+    27.2,
+    63.6,
+    -9.8
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "88",
+   "xyz_blender": [
+    0.2975054210424423,
+    0.20347366083784768,
+    16.75487374409355
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 7,
+   "name": "Eyes Up/Down Gaze",
+   "name_cn": "眼球俯仰(联动)",
+   "module": "eye",
+   "lower": 300,
+   "start": 1000,
+   "upper": 1500,
+   "sources": [
+    "Eye_pitch.r",
+    "Eye_pitch.l"
+   ],
+   "cad_face_mm": [
+    23.3,
+    61.839,
+    -19.8
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "81",
+   "xyz_blender": [
+    0.2559836247563362,
+    0.18334103386660194,
+    16.640561758111005
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 8,
+   "name": "Upper Lip Center",
+   "name_cn": "上唇中央",
+   "module": "mouth",
+   "lower": 1000,
+   "start": 1000,
+   "upper": 600,
+   "sources": [
+    "Lip_Up_Rotation_C"
+   ],
+   "cad_face_mm": [
+    -39.11,
+    97.652,
+    -46.62
+   ],
+   "cad_file": "mouth_ks3518.SLDPRT",
+   "cad_ref": "380",
+   "xyz_blender": [
+    -0.40847158196568484,
+    0.59272997862547,
+    16.33397701170582
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 9,
+   "name": "Left Upper Corner Mouth",
+   "name_cn": "左嘴角上",
+   "module": "mouth",
+   "lower": 500,
+   "start": 1000,
+   "upper": 1500,
+   "sources": [
+    "Smile_Rotation.l"
+   ],
+   "cad_face_mm": [
+    45.285,
+    39.687,
+    -90.97
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "488",
+   "xyz_blender": [
+    0.490045184405446,
+    -0.0698828774819319,
+    15.827003353873232
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 10,
+   "name": "Upper Lip Right",
+   "name_cn": "上唇右",
+   "module": "mouth",
+   "lower": 1000,
+   "start": 1000,
+   "upper": 1200,
+   "sources": [
+    "Lip_Up_Rotation.r"
+   ],
+   "cad_face_mm": [
+    -11.779,
+    38.978,
+    -54.17
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "319",
+   "xyz_blender": [
+    -0.11749109223842619,
+    -0.07798188168879522,
+    16.247671462289
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 11,
+   "name": "Tongue Extension/Retraction",
+   "name_cn": "舌伸缩",
+   "module": "mouth",
+   "lower": 800,
+   "start": 1000,
+   "upper": 1200,
+   "sources": [],
+   "cad_face_mm": [
+    0.0,
+    55.89,
+    -74.17
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "462",
+   "xyz_blender": [
+    0.007917508482933044,
+    0.11533911964530552,
+    16.01904749032391
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 12,
+   "name": "Tongue Up/Down",
+   "name_cn": "舌上下",
+   "module": "mouth",
+   "lower": 800,
+   "start": 500,
+   "upper": 300,
+   "sources": [],
+   "cad_face_mm": [
+    45.208,
+    29.095,
+    -105.37
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "432",
+   "xyz_blender": [
+    0.48922858907848593,
+    -0.19095527431548476,
+    15.662394094058367
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 13,
+   "name": "Chin (passive)",
+   "name_cn": "下巴 被动",
+   "module": "mouth",
+   "lower": 1200,
+   "start": 1600,
+   "upper": 1600,
+   "sources": [],
+   "cad_face_mm": [
+    -44.239,
+    29.096,
+    -105.37
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "431",
+   "xyz_blender": [
+    -0.4630759380662441,
+    -0.19095413119562488,
+    15.662394094058367
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 14,
+   "name": "Left Lower Corner Mouth",
+   "name_cn": "左嘴角下",
+   "module": "mouth",
+   "lower": 1000,
+   "start": 1000,
+   "upper": 1500,
+   "sources": [
+    "Lip_Corner_Rotation.l"
+   ],
+   "cad_face_mm": [
+    28.772,
+    58.012,
+    -71.57
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "310",
+   "xyz_blender": [
+    0.3142397696071863,
+    0.13959955243038102,
+    16.04876860667937
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 15,
+   "name": "Lower Lip Center",
+   "name_cn": "下唇中央",
+   "module": "mouth",
+   "lower": 1300,
+   "start": 1300,
+   "upper": 1900,
+   "sources": [
+    "Lip_Dwn_Rotation_C"
+   ],
+   "cad_face_mm": [
+    -59.871,
+    41.633,
+    -52.17
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "297",
+   "xyz_blender": [
+    -0.6295080735182762,
+    -0.04763776500972866,
+    16.270533859485507
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 16,
+   "name": "Lower Lip Left",
+   "name_cn": "下唇左",
+   "module": "mouth",
+   "lower": 1500,
+   "start": 1500,
+   "upper": 800,
+   "sources": [
+    "Lip_Dwn_Rotation.l"
+   ],
+   "cad_face_mm": [
+    37.4,
+    84.472,
+    -83.97
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "464",
+   "xyz_blender": [
+    0.40610088825225826,
+    0.4420667811004756,
+    15.907021744061014
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 17,
+   "name": "Lower Lip Right",
+   "name_cn": "下唇右",
+   "module": "mouth",
+   "lower": 800,
+   "start": 800,
+   "upper": 1200,
+   "sources": [
+    "Lip_Dwn_Rotation.r"
+   ],
+   "cad_face_mm": [
+    -23.965,
+    118.738,
+    -90.77
+   ],
+   "cad_file": "mouth_GUOHUAA0090.SLDPRT",
+   "cad_ref": "396",
+   "xyz_blender": [
+    -0.24723392969518898,
+    0.8337693753881243,
+    15.829289593592884
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 18,
+   "name": "Chin (active)",
+   "name_cn": "下巴 主动",
+   "module": "mouth",
+   "lower": 1200,
+   "start": 1600,
+   "upper": 1600,
+   "sources": [],
+   "cad_face_mm": [
+    25.415,
+    118.738,
+    -90.77
+   ],
+   "cad_file": "mouth_GUOHUAA0090.SLDPRT",
+   "cad_ref": "393",
+   "xyz_blender": [
+    0.27849589097350835,
+    0.8337693753881243,
+    15.829289593592884
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 19,
+   "name": "Right Lower Corner Mouth",
+   "name_cn": "右嘴角下",
+   "module": "mouth",
+   "lower": 1000,
+   "start": 1000,
+   "upper": 500,
+   "sources": [
+    "Lip_Corner_Rotation.r"
+   ],
+   "cad_face_mm": [
+    -28.772,
+    58.012,
+    -71.57
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "325",
+   "xyz_blender": [
+    -0.2984047526413202,
+    0.13959955243038102,
+    16.04876860667937
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 20,
+   "name": "Jaw Left/Right",
+   "name_cn": "下颌左右",
+   "module": "mouth",
+   "lower": 400,
+   "start": 1000,
+   "upper": 1600,
+   "sources": [
+    "Jaw_Yaw"
+   ],
+   "cad_face_mm": [
+    30.36,
+    84.472,
+    -71.57
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "335",
+   "xyz_blender": [
+    0.33114872264862055,
+    0.4420667811004756,
+    16.04876860667937
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 21,
+   "name": "Upper Lip Left",
+   "name_cn": "上唇左",
+   "module": "mouth",
+   "lower": 1000,
+   "start": 1000,
+   "upper": 800,
+   "sources": [
+    "Lip_Up_Rotation.l"
+   ],
+   "cad_face_mm": [
+    11.779,
+    38.978,
+    -54.17
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "309",
+   "xyz_blender": [
+    0.13332610920429228,
+    -0.07798188168879522,
+    16.247671462289
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 22,
+   "name": "Right Upper Corner Mouth",
+   "name_cn": "右嘴角上",
+   "module": "mouth",
+   "lower": 1500,
+   "start": 1000,
+   "upper": 500,
+   "sources": [
+    "Smile_Rotation.r"
+   ],
+   "cad_face_mm": [
+    -18.767,
+    93.252,
+    -59.12
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "392",
+   "xyz_blender": [
+    -0.19188324592292308,
+    0.5424327047931501,
+    16.19108702922764
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 23,
+   "name": "Mouth Opening/Closing",
+   "name_cn": "张合下颌",
+   "module": "mouth",
+   "lower": 1150,
+   "start": 1050,
+   "upper": 1050,
+   "sources": [
+    "Jaw_Open"
+   ],
+   "cad_face_mm": [
+    59.871,
+    41.633,
+    -52.17
+   ],
+   "cad_file": "mouth_MG90S.SLDPRT",
+   "cad_ref": "327",
+   "xyz_blender": [
+    0.6453430904841423,
+    -0.04763776500972866,
+    16.270533859485507
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 24,
+   "name": "Eyes Left/Right Gaze",
+   "name_cn": "眼球左右(联动)",
+   "module": "eye",
+   "lower": 800,
+   "start": 1150,
+   "upper": 1500,
+   "sources": [
+    "Eye_yaw.r",
+    "Eye_yaw.l"
+   ],
+   "cad_face_mm": [
+    0.0,
+    21.99,
+    -34.153
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "92",
+   "xyz_blender": [
+    0.007917508482933044,
+    -0.2721842284348214,
+    16.4764943371097
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 25,
+   "name": "Right Lower Eyelid",
+   "name_cn": "右下眼睑",
+   "module": "eye",
+   "lower": 1200,
+   "start": 1000,
+   "upper": 400,
+   "sources": [
+    "Eyelid_Dwn.r"
+   ],
+   "cad_face_mm": [
+    -19.2,
+    63.6,
+    2.6
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "74",
+   "xyz_blender": [
+    -0.196497488617897,
+    0.20347366083784768,
+    16.896620606711906
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 26,
+   "name": "Right Upper Eyelid",
+   "name_cn": "右上眼睑",
+   "module": "eye",
+   "lower": 500,
+   "start": 1000,
+   "upper": 1600,
+   "sources": [
+    "Eyelid_Up.r"
+   ],
+   "cad_face_mm": [
+    -27.2,
+    63.6,
+    -9.8
+   ],
+   "cad_file": "MG90S.SLDPRT",
+   "cad_ref": "87",
+   "xyz_blender": [
+    -0.28167040407657623,
+    0.20347366083784768,
+    16.75487374409355
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 27,
+   "name": "Right Eyebrow Peak",
+   "name_cn": "右眉峰",
+   "module": "brow",
+   "lower": 900,
+   "start": 1200,
+   "upper": 1500,
+   "sources": [
+    "Brow_Out_Rotation.r"
+   ],
+   "cad_face_mm": [
+    -46.82,
+    29.1,
+    47.723
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "255",
+   "xyz_blender": [
+    -0.49055697923898695,
+    -0.19090269080193267,
+    17.412431724180806
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 28,
+   "name": "Right Eyebrow Center",
+   "name_cn": "右眉头",
+   "module": "brow",
+   "lower": 1300,
+   "start": 1200,
+   "upper": 800,
+   "sources": [
+    "Brow_In_Rotation_pitch.r"
+   ],
+   "cad_face_mm": [
+    -21.26,
+    54.55,
+    36.1
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "256",
+   "xyz_blender": [
+    -0.21842951434850694,
+    0.10001902728392487,
+    17.27956575975343
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 29,
+   "name": "Right Nose",
+   "name_cn": "右鼻 线驱",
+   "module": "tendon",
+   "lower": 1200,
+   "start": 1200,
+   "upper": 2000,
+   "sources": [],
+   "cad_face_mm": [
+    -21.26,
+    54.55,
+    60.5
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "268",
+   "xyz_blender": [
+    -0.21842951434850694,
+    0.10001902728392487,
+    17.558487005550845
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 30,
+   "name": "Right Cheek",
+   "name_cn": "右颊 线驱",
+   "module": "tendon",
+   "lower": 0,
+   "start": 0,
+   "upper": 600,
+   "sources": [],
+   "cad_face_mm": [
+    -21.26,
+    54.55,
+    48.3
+   ],
+   "cad_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "cad_ref": "269",
+   "xyz_blender": [
+    -0.21842951434850694,
+    0.10001902728392487,
+    17.419026382652138
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 31,
+   "name": "Neck Rotation",
+   "name_cn": "颈 旋转",
+   "module": "neck",
+   "lower": 1500,
+   "start": 1750,
+   "upper": 2000,
+   "sources": [
+    "Neck_1"
+   ],
+   "cad_face_mm": [
+    0.0,
+    60.0,
+    -120.0
+   ],
+   "cad_file": null,
+   "cad_ref": null,
+   "xyz_blender": [
+    0.007917508482933044,
+    0.1623213458841315,
+    15.495155658565904
+   ],
+   "confidence": "estimated_no_cad_instance"
+  },
+  {
+   "id": 32,
+   "name": "Neck Nodding/Shaking (left)",
+   "name_cn": "颈 点头/摇头 左",
+   "module": "neck",
+   "lower": 900,
+   "start": 1200,
+   "upper": 1300,
+   "sources": [
+    "Neck_2"
+   ],
+   "cad_face_mm": [
+    39.0,
+    96.84,
+    -215.37
+   ],
+   "cad_file": "ks3518.SLDPRT",
+   "cad_ref": "13",
+   "xyz_blender": [
+    0.4231354713439941,
+    0.5834467022438277,
+    14.404962248250373
+   ],
+   "confidence": "cad_measured"
+  },
+  {
+   "id": 33,
+   "name": "Neck Nodding/Shaking (right)",
+   "name_cn": "颈 点头/摇头 右",
+   "module": "neck",
+   "lower": 1200,
+   "start": 900,
+   "upper": 800,
+   "sources": [
+    "Neck_3"
+   ],
+   "cad_face_mm": [
+    -41.0,
+    96.84,
+    -215.37
+   ],
+   "cad_file": "ks3518.SLDPRT",
+   "cad_ref": "10",
+   "xyz_blender": [
+    -0.42859368324279784,
+    0.5834467022438277,
+    14.404962248250373
+   ],
+   "confidence": "cad_measured"
+  }
+ ]
+}

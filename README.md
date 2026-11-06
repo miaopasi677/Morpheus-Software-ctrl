@@ -1,3 +1,19 @@
+> **控制分支 · Morpheus-Software-ctrl**
+>
+> 本仓库在论文开源代码之上增加了：33 路单一骨架驱动、`qwen-audio-3.1-realtime-flash`
+> 实时语音对话、ARKit → PWM 全流式链路、CAD 传动链追踪与逐通道标定工具。
+> **按步骤运行请看 [运行指南.md](运行指南.md)**，所有需要填写的配置集中在 `hardware_config.json`。
+>
+> ⚠️ 预训练模型（`pretrain_model/`，约 4.8 GB）**未上传** —— GitHub 单文件上限 100 MB。
+> 请自行下载 `model.pth`（Hugging Face `ZiqiaoPeng/Morpheus`）以及 wav2vec2
+> content / emotion 权重，放到 `pretrain_model/` 下，目录结构见运行指南第 1 步。
+>
+> 主模型文件 `LY_GENERAL_V0.blend` 已包含在内（33 根 `Morpheus_Servo_XX` 驱动骨）。
+>
+> CAD 原始资料（`CAD_model/` 的 SolidWorks 文件、`hardware_ref/` 图纸、
+> `cad_geometry/stl/` 网格）同样未上传，需要时从 Morpheus-Hardware 仓库重新获取；
+> `cad_geometry/*.json` 是建模脚本要读的小型解析结果，已保留。
+
 <div align="center">
 <h2>Morpheus: A Neural-driven Animatronic Face with<br>
   Hybrid Actuation and Diverse Emotion Control</h2>

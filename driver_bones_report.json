@@ -1,0 +1,1216 @@
+{
+ "armature": "Feace_Rig.001",
+ "removed": [
+  "Morpheus_Servo_01",
+  "Morpheus_Servo_02",
+  "Morpheus_Servo_03",
+  "Morpheus_Servo_04",
+  "Morpheus_Servo_05",
+  "Morpheus_Servo_06",
+  "Morpheus_Servo_07",
+  "Morpheus_Servo_08",
+  "Morpheus_Servo_09",
+  "Morpheus_Servo_10",
+  "Morpheus_Servo_11",
+  "Morpheus_Servo_12",
+  "Morpheus_Servo_13",
+  "Morpheus_Servo_14",
+  "Morpheus_Servo_15",
+  "Morpheus_Servo_16",
+  "Morpheus_Servo_17",
+  "Morpheus_Servo_18",
+  "Morpheus_Servo_19",
+  "Morpheus_Servo_20",
+  "Morpheus_Servo_21",
+  "Morpheus_Servo_22",
+  "Morpheus_Servo_23",
+  "Morpheus_Servo_24",
+  "Morpheus_Servo_25",
+  "Morpheus_Servo_26",
+  "Morpheus_Servo_27",
+  "Morpheus_Servo_28",
+  "Morpheus_Servo_29",
+  "Morpheus_Servo_30",
+  "Morpheus_Servo_31",
+  "Morpheus_Servo_32",
+  "Morpheus_Servo_33"
+ ],
+ "calibration": {
+  "eye_mid": [
+   0.00792,
+   -0.52355,
+   16.8669
+  ],
+  "sx": 0.0106466144323349,
+  "sy": 0.011431198598254507,
+  "sz": 0.011431198598254507,
+  "mm_per_unit": 93.92657227849763
+ },
+ "constraints": 25,
+ "rows": [
+  {
+   "id": 1,
+   "bone": "Morpheus_Servo_01",
+   "name": "Left Cheek",
+   "name_cn": "左颊 线驱",
+   "module": "tendon",
+   "control_point": "cheekE.L",
+   "source_bone": null,
+   "driver_source": "cad_drive_chain",
+   "cad_used": true,
+   "cad_offset_mm": 21.6,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 9.04,
+   "driver_part": "nose_mirror_line.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "nose_mirror_line.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.56696,
+    -0.64861,
+    16.47014
+   ],
+   "tail": [
+    0.5245,
+    -0.55306,
+    16.59125
+   ],
+   "servo_mm": [
+    -42.29,
+    334.17,
+    22.26
+   ]
+  },
+  {
+   "id": 2,
+   "bone": "Morpheus_Servo_02",
+   "name": "Left Nose",
+   "name_cn": "左鼻 线驱",
+   "module": "tendon",
+   "control_point": "noseE.L",
+   "source_bone": null,
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_connected model aircraft regulator.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.63812,
+    -0.49667,
+    16.46799
+   ],
+   "tail": [
+    0.58868,
+    -0.42362,
+    16.60149
+   ],
+   "servo_mm": [
+    -42.29,
+    346.37,
+    22.26
+   ]
+  },
+  {
+   "id": 3,
+   "bone": "Morpheus_Servo_03",
+   "name": "Left Eyebrow Center",
+   "name_cn": "左眉头",
+   "module": "brow",
+   "control_point": "browInnerE.L",
+   "source_bone": "Brow_In_Rotation_pitch.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": 72.3,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.61,
+   "driver_part": "nose_mirror_line.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_eyebrow peak rocker.SLDPRT",
+    "eyebrow_eyebrow peak rocker 1.SLDPRT",
+    "nose_mirror_line.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.24015,
+    -0.88299,
+    17.07489
+   ],
+   "tail": [
+    0.23921,
+    -0.72635,
+    17.1075
+   ],
+   "servo_mm": [
+    -42.29,
+    321.97,
+    22.26
+   ]
+  },
+  {
+   "id": 4,
+   "bone": "Morpheus_Servo_04",
+   "name": "Left Eyebrow Peak",
+   "name_cn": "左眉峰",
+   "module": "brow",
+   "control_point": "browOuterE.L",
+   "source_bone": "Brow_Out_Rotation.l",
+   "driver_source": "cad_drive_chain",
+   "cad_used": true,
+   "cad_offset_mm": 32.2,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 4.45,
+   "driver_part": "eyebrow_brow center pendulum.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_short brow joystick.SLDPRT",
+    "eyebrow_brow center pendulum.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.19312,
+    -0.87837,
+    17.24693
+   ],
+   "tail": [
+    0.25793,
+    -0.73614,
+    17.28116
+   ],
+   "servo_mm": [
+    -67.74,
+    333.59,
+    47.82
+   ]
+  },
+  {
+   "id": 5,
+   "bone": "Morpheus_Servo_05",
+   "name": "Left Upper Eyelid",
+   "name_cn": "左上眼睑",
+   "module": "eye",
+   "control_point": "eyeLidUpE.L",
+   "source_bone": "Eyelid_Up.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 1.99,
+   "driver_part": null,
+   "chain": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.39157,
+    -0.72631,
+    16.9433
+   ],
+   "tail": [
+    0.36132,
+    -0.5694,
+    16.93542
+   ],
+   "servo_mm": [
+    -33.24,
+    288.47,
+    20.2
+   ]
+  },
+  {
+   "id": 6,
+   "bone": "Morpheus_Servo_06",
+   "name": "Left Lower Eyelid",
+   "name_cn": "左下眼睑",
+   "module": "eye",
+   "control_point": "eyeLidDown.L",
+   "source_bone": "Eyelid_Dwn.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 4.08,
+   "driver_part": null,
+   "chain": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.37155,
+    -0.69759,
+    16.77274
+   ],
+   "tail": [
+    0.35845,
+    -0.53816,
+    16.76958
+   ],
+   "servo_mm": [
+    -33.24,
+    276.07,
+    28.2
+   ]
+  },
+  {
+   "id": 7,
+   "bone": "Morpheus_Servo_07",
+   "name": "Eyes Up/Down Gaze",
+   "name_cn": "眼球俯仰(联动)",
+   "module": "eye",
+   "control_point": "eyeE.L",
+   "source_bone": "Eye_pitch.r",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.17,
+   "driver_part": null,
+   "chain": [
+    "eye_crank_handle.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.37987,
+    -0.7874,
+    16.86683
+   ],
+   "tail": [
+    0.36013,
+    -0.63276,
+    16.83078
+   ],
+   "servo_mm": [
+    -35.0,
+    266.07,
+    24.3
+   ]
+  },
+  {
+   "id": 8,
+   "bone": "Morpheus_Servo_08",
+   "name": "Upper Lip Center",
+   "name_cn": "上唇中央",
+   "module": "mouth",
+   "control_point": "lipUpE.C",
+   "source_bone": "Lip_Up_Rotation_C",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "mouth_aluminum rocker arm.SLDPRT",
+    "mouth_threaded rod of spherical hinge.SLDPRT",
+    "mouth_spherical hinge.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00962,
+    -0.95626,
+    16.33311
+   ],
+   "tail": [
+    -0.03208,
+    -0.80179,
+    16.3332
+   ],
+   "servo_mm": [
+    0.81,
+    239.25,
+    -38.11
+   ]
+  },
+  {
+   "id": 9,
+   "bone": "Morpheus_Servo_09",
+   "name": "Left Upper Corner Mouth",
+   "name_cn": "左嘴角上",
+   "module": "mouth",
+   "control_point": "lipConnerE.L",
+   "source_bone": "Smile_Rotation.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": 65.6,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.06,
+   "driver_part": "mouth_six-bar mechanism_above_short.SLDPRT",
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_connector for OT head.SLDPRT",
+    "mouth_iron wire_below middle.SLDPRT",
+    "mouth_iron wire_freedom30mm.SLDPRT",
+    "mouth_OT head.SLDPRT",
+    "mouth_six-bar mechanism_above_short.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.25457,
+    -0.81553,
+    16.16735
+   ],
+   "tail": [
+    0.29873,
+    -0.67563,
+    16.1035
+   ],
+   "servo_mm": [
+    -57.15,
+    194.9,
+    46.28
+   ]
+  },
+  {
+   "id": 11,
+   "bone": "Morpheus_Servo_11",
+   "name": "Tongue Extension/Retraction",
+   "name_cn": "舌伸缩",
+   "module": "mouth",
+   "control_point": "lipDownE.C",
+   "source_bone": null,
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": 51.8,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 2.89,
+   "driver_part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_iron wire_upper middle.SLDPRT",
+    "mouth_smiling six-bar mechanism_above.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.00649,
+    -0.81313,
+    15.9971
+   ],
+   "tail": [
+    0.00673,
+    -0.65317,
+    16.00088
+   ],
+   "servo_mm": [
+    -40.95,
+    211.7,
+    1.0
+   ]
+  },
+  {
+   "id": 12,
+   "bone": "Morpheus_Servo_12",
+   "name": "Tongue Up/Down",
+   "name_cn": "舌上下",
+   "module": "mouth",
+   "control_point": "lipDownE.C",
+   "source_bone": null,
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 3.58,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_mirror_oblique crank extension rod.SLDPRT",
+    "mouth_iron wire_below middle.SLDPRT",
+    "mouth_connector for OT head.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00791,
+    -0.80468,
+    15.99086
+   ],
+   "tail": [
+    0.09891,
+    -0.68865,
+    15.92877
+   ],
+   "servo_mm": [
+    -67.74,
+    180.5,
+    46.21
+   ]
+  },
+  {
+   "id": 13,
+   "bone": "Morpheus_Servo_13",
+   "name": "Chin (passive)",
+   "name_cn": "下巴 被动",
+   "module": "mouth",
+   "control_point": "jawE",
+   "source_bone": null,
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.12,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_tongue connecting rod_long.SLDPRT",
+    "mouth_crank.SLDPRT",
+    "mouth_rack.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00936,
+    -0.88814,
+    15.87275
+   ],
+   "tail": [
+    -0.07772,
+    -0.75963,
+    15.83398
+   ],
+   "servo_mm": [
+    -67.74,
+    180.5,
+    -43.24
+   ]
+  },
+  {
+   "id": 14,
+   "bone": "Morpheus_Servo_14",
+   "name": "Left Lower Corner Mouth",
+   "name_cn": "左嘴角下",
+   "module": "mouth",
+   "control_point": "lipConnerE.L",
+   "source_bone": "Lip_Corner_Rotation.l",
+   "driver_source": "cad_drive_chain",
+   "cad_used": true,
+   "cad_offset_mm": 32.7,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 13.49,
+   "driver_part": "mouth_smiling five-bar mechanism_below.SLDPRT",
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_below.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.35179,
+    -0.6409,
+    15.92348
+   ],
+   "tail": [
+    0.34419,
+    -0.4831,
+    15.94881
+   ],
+   "servo_mm": [
+    -38.83,
+    214.3,
+    29.77
+   ]
+  },
+  {
+   "id": 15,
+   "bone": "Morpheus_Servo_15",
+   "name": "Lower Lip Center",
+   "name_cn": "下唇中央",
+   "module": "mouth",
+   "control_point": "lipDownE.C",
+   "source_bone": "Lip_Dwn_Rotation_C",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.97,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00879,
+    -0.87655,
+    15.97213
+   ],
+   "tail": [
+    -0.08509,
+    -0.75464,
+    16.01602
+   ],
+   "servo_mm": [
+    -55.21,
+    233.7,
+    -58.87
+   ]
+  },
+  {
+   "id": 16,
+   "bone": "Morpheus_Servo_16",
+   "name": "Lower Lip Left",
+   "name_cn": "下唇左",
+   "module": "mouth",
+   "control_point": "lipDownE.L",
+   "source_bone": "Lip_Dwn_Rotation.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.56,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_rack.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.13861,
+    -0.8429,
+    15.97533
+   ],
+   "tail": [
+    0.17118,
+    -0.68647,
+    15.96701
+   ],
+   "servo_mm": [
+    -12.37,
+    201.9,
+    38.4
+   ]
+  },
+  {
+   "id": 18,
+   "bone": "Morpheus_Servo_18",
+   "name": "Chin (active)",
+   "name_cn": "下巴 主动",
+   "module": "mouth",
+   "control_point": "jawE",
+   "source_bone": null,
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.68,
+   "driver_part": null,
+   "chain": [
+    "mouth_jaw five-bar mechanism_short.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00893,
+    -0.8801,
+    15.82536
+   ],
+   "tail": [
+    0.03379,
+    -0.72205,
+    15.82572
+   ],
+   "servo_mm": [
+    21.9,
+    195.1,
+    26.41
+   ]
+  },
+  {
+   "id": 20,
+   "bone": "Morpheus_Servo_20",
+   "name": "Jaw Left/Right",
+   "name_cn": "下颌左右",
+   "module": "mouth",
+   "control_point": "jawE",
+   "source_bone": "Jaw_Yaw",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.43,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_tongue connecting rod.SLDPRT",
+    "mouth_tongue pulling rod.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00896,
+    -0.88243,
+    15.93202
+   ],
+   "tail": [
+    0.04664,
+    -0.72753,
+    15.94567
+   ],
+   "servo_mm": [
+    -12.37,
+    214.3,
+    31.36
+   ]
+  },
+  {
+   "id": 21,
+   "bone": "Morpheus_Servo_21",
+   "name": "Upper Lip Left",
+   "name_cn": "上唇左",
+   "module": "mouth",
+   "control_point": "lipUpE.L",
+   "source_bone": "Lip_Up_Rotation.l",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.7,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_above.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.22847,
+    -0.86072,
+    16.28591
+   ],
+   "tail": [
+    0.20919,
+    -0.70208,
+    16.27816
+   ],
+   "servo_mm": [
+    -57.86,
+    231.7,
+    12.78
+   ]
+  },
+  {
+   "id": 23,
+   "bone": "Morpheus_Servo_23",
+   "name": "Mouth Opening/Closing",
+   "name_cn": "张合下颌",
+   "module": "mouth",
+   "control_point": "jawE",
+   "source_bone": "Jaw_Open",
+   "driver_source": "targets_control_point",
+   "cad_used": false,
+   "cad_offset_mm": 54.5,
+   "skin_object": "SampleHead",
+   "skin_gap_mm": 0.0,
+   "driver_part": "mouth_spherical hinge.SLDPRT",
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_connector for OT head_4mm medium.SLDPRT",
+    "mouth_iron wire_freedom20mm.SLDPRT",
+    "mouth_iron wire 30mm.SLDPRT",
+    "mouth_OT head.SLDPRT",
+    "mouth_smiling six-bar mechanism_above.SLDPRT",
+    "mouth_lip connecting rod.SLDPRT",
+    "mouth_spherical hinge.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    0.00928,
+    -0.88689,
+    15.9028
+   ],
+   "tail": [
+    0.10052,
+    -0.7665,
+    15.95555
+   ],
+   "servo_mm": [
+    -55.21,
+    233.7,
+    60.87
+   ]
+  },
+  {
+   "id": 31,
+   "bone": "Morpheus_Servo_31",
+   "name": "Neck Rotation",
+   "name_cn": "颈 旋转",
+   "module": "neck",
+   "control_point": null,
+   "source_bone": "Neck_1",
+   "driver_source": "neck_joint",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": null,
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [],
+   "cad_confidence": null,
+   "head": [
+    0.00792,
+    0.25829,
+    15.96552
+   ],
+   "tail": [
+    0.00792,
+    0.25829,
+    16.12552
+   ],
+   "servo_mm": null
+  },
+  {
+   "id": 32,
+   "bone": "Morpheus_Servo_32",
+   "name": "Neck Nodding/Shaking (left)",
+   "name_cn": "颈 点头/摇头 左",
+   "module": "neck",
+   "control_point": null,
+   "source_bone": "Neck_2",
+   "driver_source": "neck_joint",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": null,
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "neck_extension_arm.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00792,
+    0.25829,
+    16.05552
+   ],
+   "tail": [
+    0.04626,
+    0.28832,
+    15.90311
+   ],
+   "servo_mm": [
+    -0.0,
+    70.5,
+    40.0
+   ]
+  },
+  {
+   "id": 33,
+   "bone": "Morpheus_Servo_33",
+   "name": "Neck Nodding/Shaking (right)",
+   "name_cn": "颈 点头/摇头 右",
+   "module": "neck",
+   "control_point": null,
+   "source_bone": "Neck_3",
+   "driver_source": "neck_joint",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": null,
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "neck_extension_arm.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    0.00792,
+    0.25829,
+    16.12552
+   ],
+   "tail": [
+    -0.03078,
+    0.28712,
+    15.97297
+   ],
+   "servo_mm": [
+    -0.0,
+    70.5,
+    -40.0
+   ]
+  },
+  {
+   "id": 10,
+   "bone": "Morpheus_Servo_10",
+   "name": "Upper Lip Right",
+   "name_cn": "上唇右",
+   "module": "mouth",
+   "control_point": "mirror:M21",
+   "source_bone": "Lip_Up_Rotation.r",
+   "driver_source": "mirror_of_M21",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_above.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    -0.22847,
+    -0.86072,
+    16.28591
+   ],
+   "tail": [
+    -0.20604,
+    -0.70249,
+    16.27818
+   ],
+   "servo_mm": [
+    -57.86,
+    231.7,
+    -10.78
+   ]
+  },
+  {
+   "id": 17,
+   "bone": "Morpheus_Servo_17",
+   "name": "Lower Lip Right",
+   "name_cn": "下唇右",
+   "module": "mouth",
+   "control_point": "mirror:M16",
+   "source_bone": "Lip_Dwn_Rotation.r",
+   "driver_source": "mirror_of_M16",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "mouth_jaw five-bar mechanism_short.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    -0.13861,
+    -0.8429,
+    15.97533
+   ],
+   "tail": [
+    -0.14892,
+    -0.68384,
+    15.96147
+   ],
+   "servo_mm": [
+    21.9,
+    195.1,
+    -22.97
+   ]
+  },
+  {
+   "id": 19,
+   "bone": "Morpheus_Servo_19",
+   "name": "Right Lower Corner Mouth",
+   "name_cn": "右嘴角下",
+   "module": "mouth",
+   "control_point": "mirror:M14",
+   "source_bone": "Lip_Corner_Rotation.r",
+   "driver_source": "mirror_of_M14",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT",
+   "chain": [
+    "mouth_crank.SLDPRT",
+    "mouth_mirror_smiling five-bar mechanism_below.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.35179,
+    -0.6409,
+    15.92348
+   ],
+   "tail": [
+    -0.341,
+    -0.48328,
+    15.94878
+   ],
+   "servo_mm": [
+    -38.83,
+    214.3,
+    -27.77
+   ]
+  },
+  {
+   "id": 22,
+   "bone": "Morpheus_Servo_22",
+   "name": "Right Upper Corner Mouth",
+   "name_cn": "右嘴角上",
+   "module": "mouth",
+   "control_point": "mirror:M09",
+   "source_bone": "Smile_Rotation.r",
+   "driver_source": "mirror_of_M09",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "mouth_crank.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    -0.25457,
+    -0.81553,
+    16.16735
+   ],
+   "tail": [
+    -0.24719,
+    -0.65573,
+    16.17015
+   ],
+   "servo_mm": [
+    -3.59,
+    226.75,
+    -17.77
+   ]
+  },
+  {
+   "id": 24,
+   "bone": "Morpheus_Servo_24",
+   "name": "Eyes Left/Right Gaze",
+   "name_cn": "眼球左右(联动)",
+   "module": "eye",
+   "control_point": "mirror:M07",
+   "source_bone": "Eye_yaw.r",
+   "driver_source": "mirror_of_M07",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "eye_comb.SLDPRT",
+   "chain": [
+    "eye_crank_handle.SLDPRT",
+    "eye_comb.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.37987,
+    -0.7874,
+    16.86683
+   ],
+   "tail": [
+    -0.29755,
+    -0.67803,
+    16.78398
+   ],
+   "servo_mm": [
+    -74.85,
+    251.72,
+    1.0
+   ]
+  },
+  {
+   "id": 25,
+   "bone": "Morpheus_Servo_25",
+   "name": "Right Lower Eyelid",
+   "name_cn": "右下眼睑",
+   "module": "eye",
+   "control_point": "mirror:M06",
+   "source_bone": "Eyelid_Dwn.r",
+   "driver_source": "mirror_of_M06",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    -0.37155,
+    -0.69759,
+    16.77274
+   ],
+   "tail": [
+    -0.34131,
+    -0.54194,
+    16.79414
+   ],
+   "servo_mm": [
+    -33.24,
+    288.47,
+    -18.2
+   ]
+  },
+  {
+   "id": 26,
+   "bone": "Morpheus_Servo_26",
+   "name": "Right Upper Eyelid",
+   "name_cn": "右上眼睑",
+   "module": "eye",
+   "control_point": "mirror:M05",
+   "source_bone": "Eyelid_Up.r",
+   "driver_source": "mirror_of_M05",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": null,
+   "chain": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "cad_confidence": "no_chain",
+   "head": [
+    -0.39157,
+    -0.72631,
+    16.9433
+   ],
+   "tail": [
+    -0.37316,
+    -0.57054,
+    16.91174
+   ],
+   "servo_mm": [
+    -33.24,
+    276.07,
+    -26.2
+   ]
+  },
+  {
+   "id": 27,
+   "bone": "Morpheus_Servo_27",
+   "name": "Right Eyebrow Peak",
+   "name_cn": "右眉峰",
+   "module": "brow",
+   "control_point": "mirror:M04",
+   "source_bone": "Brow_Out_Rotation.r",
+   "driver_source": "mirror_of_M04",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "eyebrow_mirror brow center pendulum.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_short brow joystick.SLDPRT",
+    "eyebrow_mirror brow center pendulum.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.19312,
+    -0.87837,
+    17.24693
+   ],
+   "tail": [
+    -0.25516,
+    -0.73498,
+    17.28144
+   ],
+   "servo_mm": [
+    -67.74,
+    333.59,
+    -45.82
+   ]
+  },
+  {
+   "id": 28,
+   "bone": "Morpheus_Servo_28",
+   "name": "Right Eyebrow Center",
+   "name_cn": "右眉头",
+   "module": "brow",
+   "control_point": "mirror:M03",
+   "source_bone": "Brow_In_Rotation_pitch.r",
+   "driver_source": "mirror_of_M03",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "nose_line.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_eyebrow peak rocker.SLDPRT",
+    "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+    "nose_line.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.24015,
+    -0.88299,
+    17.07489
+   ],
+   "tail": [
+    -0.23669,
+    -0.72639,
+    17.10749
+   ],
+   "servo_mm": [
+    -42.29,
+    321.97,
+    -20.26
+   ]
+  },
+  {
+   "id": 29,
+   "bone": "Morpheus_Servo_29",
+   "name": "Right Nose",
+   "name_cn": "右鼻 线驱",
+   "module": "tendon",
+   "control_point": "mirror:M02",
+   "source_bone": null,
+   "driver_source": "mirror_of_M02",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "cheek_line.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "cheek_line.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.63812,
+    -0.49667,
+    16.46799
+   ],
+   "tail": [
+    -0.58694,
+    -0.4239,
+    16.60098
+   ],
+   "servo_mm": [
+    -42.29,
+    346.37,
+    -20.26
+   ]
+  },
+  {
+   "id": 30,
+   "bone": "Morpheus_Servo_30",
+   "name": "Right Cheek",
+   "name_cn": "右颊 线驱",
+   "module": "tendon",
+   "control_point": "mirror:M01",
+   "source_bone": null,
+   "driver_source": "mirror_of_M01",
+   "cad_used": false,
+   "cad_offset_mm": null,
+   "skin_object": "mirror",
+   "skin_gap_mm": 0.0,
+   "driver_part": "nose_line.SLDPRT",
+   "chain": [
+    "eyebrow_crank v4.SLDPRT",
+    "nose_line.SLDPRT"
+   ],
+   "cad_confidence": "chain_end_on_skin",
+   "head": [
+    -0.56696,
+    -0.64861,
+    16.47014
+   ],
+   "tail": [
+    -0.52263,
+    -0.55339,
+    16.59083
+   ],
+   "servo_mm": [
+    -42.29,
+    334.17,
+    -20.26
+   ]
+  }
+ ]
+}

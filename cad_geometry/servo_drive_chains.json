@@ -1,0 +1,1218 @@
+{
+ "servos": {
+  "1": {
+   "ref": "263",
+   "servo_t_mm": [
+    -42.29,
+    334.17,
+    22.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "276",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.007
+    },
+    {
+     "ref": "219",
+     "file": "nose_mirror_line.SLDPRT",
+     "owner": "full_assembly",
+     "gap_mm": 1.406
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "200",
+     "file": "cheek_facial_slave_part_mirror.SLDPRT",
+     "gap_mm": 0.956,
+     "point_mm": [
+      -104.25,
+      245.31,
+      53.38
+     ],
+     "dist_to_servo_mm": 112.71
+    }
+   ],
+   "driver_point_mm": [
+    -112.24,
+    249.02,
+    60.83
+   ],
+   "surface_gap_mm": 9.13,
+   "driver_part": "nose_mirror_line.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "2": {
+   "ref": "264",
+   "servo_t_mm": [
+    -42.29,
+    346.37,
+    22.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "275",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "285",
+     "file": "eyebrow_connected model aircraft regulator.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.151
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "3": {
+   "ref": "254",
+   "servo_t_mm": [
+    -42.29,
+    321.97,
+    22.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "231",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.02
+    },
+    {
+     "ref": "241",
+     "file": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.052
+    },
+    {
+     "ref": "257",
+     "file": "eyebrow_eyebrow peak rocker 1.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.028
+    },
+    {
+     "ref": "219",
+     "file": "nose_mirror_line.SLDPRT",
+     "owner": "full_assembly",
+     "gap_mm": 1.644
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "200",
+     "file": "cheek_facial_slave_part_mirror.SLDPRT",
+     "gap_mm": 0.956,
+     "point_mm": [
+      -104.25,
+      245.31,
+      53.38
+     ],
+     "dist_to_servo_mm": 103.36
+    }
+   ],
+   "driver_point_mm": [
+    -112.24,
+    249.02,
+    60.83
+   ],
+   "surface_gap_mm": 9.13,
+   "driver_part": "nose_mirror_line.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "4": {
+   "ref": "251",
+   "servo_t_mm": [
+    -67.74,
+    333.59,
+    47.82
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "234",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.013
+    },
+    {
+     "ref": "238",
+     "file": "eyebrow_short brow joystick.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.07
+    },
+    {
+     "ref": "235",
+     "file": "eyebrow_brow center pendulum.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.003
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -131.86,
+    319.71,
+    19.45
+   ],
+   "surface_gap_mm": 5.38,
+   "driver_part": "eyebrow_brow center pendulum.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "5": {
+   "ref": "83",
+   "servo_t_mm": [
+    -33.24,
+    288.47,
+    20.2
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "143",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.338
+    },
+    {
+     "ref": "132",
+     "file": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.271
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "6": {
+   "ref": "88",
+   "servo_t_mm": [
+    -33.24,
+    276.07,
+    28.2
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "142",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.345
+    },
+    {
+     "ref": "137",
+     "file": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.667
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "7": {
+   "ref": "81",
+   "servo_t_mm": [
+    -35.0,
+    266.07,
+    24.3
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "82",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.349
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "8": {
+   "ref": "380",
+   "servo_t_mm": [
+    0.81,
+    239.25,
+    -38.11
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_ks3518.SLDPRT",
+   "chain": [
+    {
+     "ref": "485",
+     "file": "mouth_aluminum rocker arm.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.252
+    },
+    {
+     "ref": "405",
+     "file": "mouth_threaded rod of spherical hinge.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.49
+    },
+    {
+     "ref": "408",
+     "file": "mouth_spherical hinge.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.027
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "472",
+     "file": "mouth_fourth-generation jaw.SLDPRT",
+     "gap_mm": 1.557,
+     "point_mm": [
+      -19.83,
+      177.9,
+      -51.95
+     ],
+     "dist_to_servo_mm": 66.19
+    }
+   ],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "9": {
+   "ref": "488",
+   "servo_t_mm": [
+    -57.15,
+    194.9,
+    46.28
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "489",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.013
+    },
+    {
+     "ref": "519",
+     "file": "mouth_connector for OT head.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.076
+    },
+    {
+     "ref": "528",
+     "file": "mouth_iron wire_below middle.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.805
+    },
+    {
+     "ref": "531",
+     "file": "mouth_iron wire_freedom30mm.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.002
+    },
+    {
+     "ref": "520",
+     "file": "mouth_OT head.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.003
+    },
+    {
+     "ref": "425",
+     "file": "mouth_six-bar mechanism_above_short.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.023
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -131.18,
+    170.36,
+    -4.33
+   ],
+   "surface_gap_mm": 16.1,
+   "driver_part": "mouth_six-bar mechanism_above_short.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "10": {
+   "ref": "319",
+   "servo_t_mm": [
+    -57.86,
+    231.7,
+    -10.78
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "320",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.009
+    },
+    {
+     "ref": "321",
+     "file": "mouth_smiling five-bar mechanism_above.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.052
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "452",
+     "file": "mouth_upper teeth.SLDPRT",
+     "gap_mm": 2.692,
+     "point_mm": [
+      -86.27,
+      202.51,
+      -28.32
+     ],
+     "dist_to_servo_mm": 44.35
+    }
+   ],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "11": {
+   "ref": "462",
+   "servo_t_mm": [
+    -40.95,
+    211.7,
+    1.0
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "463",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.007
+    },
+    {
+     "ref": "522",
+     "file": "mouth_iron wire_upper middle.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.093
+    },
+    {
+     "ref": "329",
+     "file": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.871
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -124.51,
+    248.52,
+    -26.43
+   ],
+   "surface_gap_mm": 26.73,
+   "driver_part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "12": {
+   "ref": "432",
+   "servo_t_mm": [
+    -67.74,
+    180.5,
+    46.21
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "433",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.012
+    },
+    {
+     "ref": "444",
+     "file": "mouth_mirror_oblique crank extension rod.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.024
+    },
+    {
+     "ref": "528",
+     "file": "mouth_iron wire_below middle.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.727
+    },
+    {
+     "ref": "519",
+     "file": "mouth_connector for OT head.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.805
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "13": {
+   "ref": "431",
+   "servo_t_mm": [
+    -67.74,
+    180.5,
+    -43.24
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "434",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.011
+    },
+    {
+     "ref": "466",
+     "file": "mouth_tongue connecting rod_long.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.604
+    },
+    {
+     "ref": "465",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.018
+    },
+    {
+     "ref": "469",
+     "file": "mouth_rack.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.91
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "14": {
+   "ref": "310",
+   "servo_t_mm": [
+    -38.83,
+    214.3,
+    29.77
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "312",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "316",
+     "file": "mouth_smiling five-bar mechanism_below.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.03
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -112.15,
+    197.41,
+    43.89
+   ],
+   "surface_gap_mm": 17.47,
+   "driver_part": "mouth_smiling five-bar mechanism_below.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "15": {
+   "ref": "297",
+   "servo_t_mm": [
+    -55.21,
+    233.7,
+    -58.87
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "303",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.007
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "16": {
+   "ref": "464",
+   "servo_t_mm": [
+    -12.37,
+    201.9,
+    38.4
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "465",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.012
+    },
+    {
+     "ref": "469",
+     "file": "mouth_rack.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.91
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "17": {
+   "ref": "396",
+   "servo_t_mm": [
+    21.9,
+    195.1,
+    -22.97
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "493",
+     "file": "mouth_jaw five-bar mechanism_short.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.296
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "472",
+     "file": "mouth_fourth-generation jaw.SLDPRT",
+     "gap_mm": 0.414,
+     "point_mm": [
+      3.22,
+      173.35,
+      -51.95
+     ],
+     "dist_to_servo_mm": 40.77
+    }
+   ],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "18": {
+   "ref": "393",
+   "servo_t_mm": [
+    21.9,
+    195.1,
+    26.41
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "490",
+     "file": "mouth_jaw five-bar mechanism_short.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.038
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "472",
+     "file": "mouth_fourth-generation jaw.SLDPRT",
+     "gap_mm": 0.414,
+     "point_mm": [
+      3.22,
+      173.35,
+      54.91
+     ],
+     "dist_to_servo_mm": 40.43
+    }
+   ],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "19": {
+   "ref": "325",
+   "servo_t_mm": [
+    -38.83,
+    214.3,
+    -27.77
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "326",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "322",
+     "file": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.03
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -108.72,
+    193.38,
+    -43.05
+   ],
+   "surface_gap_mm": 16.32,
+   "driver_part": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "20": {
+   "ref": "335",
+   "servo_t_mm": [
+    -12.37,
+    214.3,
+    31.36
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "336",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.009
+    },
+    {
+     "ref": "337",
+     "file": "mouth_tongue connecting rod.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.032
+    },
+    {
+     "ref": "340",
+     "file": "mouth_tongue pulling rod.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.5
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "21": {
+   "ref": "309",
+   "servo_t_mm": [
+    -57.86,
+    231.7,
+    12.78
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "311",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.011
+    },
+    {
+     "ref": "313",
+     "file": "mouth_smiling five-bar mechanism_above.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.052
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "452",
+     "file": "mouth_upper teeth.SLDPRT",
+     "gap_mm": 2.595,
+     "point_mm": [
+      -85.62,
+      204.11,
+      30.88
+     ],
+     "dist_to_servo_mm": 43.12
+    }
+   ],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "22": {
+   "ref": "392",
+   "servo_t_mm": [
+    -3.59,
+    226.75,
+    -17.77
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "461",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.019
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "23": {
+   "ref": "327",
+   "servo_t_mm": [
+    -55.21,
+    233.7,
+    60.87
+   ],
+   "owner": "mouth assembly",
+   "servo_file": "mouth_MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "328",
+     "file": "mouth_crank.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.01
+    },
+    {
+     "ref": "537",
+     "file": "mouth_connector for OT head_4mm medium.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.091
+    },
+    {
+     "ref": "525",
+     "file": "mouth_iron wire_freedom20mm.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 2.976
+    },
+    {
+     "ref": "510",
+     "file": "mouth_iron wire 30mm.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "508",
+     "file": "mouth_OT head.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "329",
+     "file": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.5
+    },
+    {
+     "ref": "349",
+     "file": "mouth_lip connecting rod.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.004
+    },
+    {
+     "ref": "355",
+     "file": "mouth_spherical hinge.SLDPRT",
+     "owner": "mouth assembly",
+     "gap_mm": 0.238
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "358",
+     "file": "mouth_upper lip connection point.SLDPRT",
+     "gap_mm": 0.075,
+     "point_mm": [
+      -100.64,
+      219.28,
+      -23.45
+     ],
+     "dist_to_servo_mm": 96.86
+    }
+   ],
+   "driver_point_mm": [
+    -122.68,
+    237.69,
+    -36.54
+   ],
+   "surface_gap_mm": 24.05,
+   "driver_part": "mouth_spherical hinge.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "24": {
+   "ref": "92",
+   "servo_t_mm": [
+    -74.85,
+    251.72,
+    1.0
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "65",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.007
+    },
+    {
+     "ref": "93",
+     "file": "eye_comb.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 2.715
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "96",
+     "file": "eye_Eyeball_mounts.SLDPRT",
+     "gap_mm": 0.23,
+     "point_mm": [
+      -95.58,
+      290.03,
+      -35.58
+     ],
+     "dist_to_servo_mm": 56.88
+    }
+   ],
+   "driver_point_mm": [
+    -112.01,
+    272.86,
+    -48.19
+   ],
+   "surface_gap_mm": 18.77,
+   "driver_part": "eye_comb.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "25": {
+   "ref": "74",
+   "servo_t_mm": [
+    -33.24,
+    288.47,
+    -18.2
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "126",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.338
+    },
+    {
+     "ref": "127",
+     "file": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.271
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "26": {
+   "ref": "87",
+   "servo_t_mm": [
+    -33.24,
+    276.07,
+    -26.2
+   ],
+   "owner": "eye",
+   "servo_file": "MG90S.SLDPRT",
+   "chain": [
+    {
+     "ref": "125",
+     "file": "eye_crank_handle.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.345
+    },
+    {
+     "ref": "129",
+     "file": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "owner": "eye",
+     "gap_mm": 0.667
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "27": {
+   "ref": "255",
+   "servo_t_mm": [
+    -67.74,
+    333.59,
+    -45.82
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "244",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.015
+    },
+    {
+     "ref": "245",
+     "file": "eyebrow_short brow joystick.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.07
+    },
+    {
+     "ref": "246",
+     "file": "eyebrow_mirror brow center pendulum.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.003
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -132.28,
+    318.91,
+    -13.39
+   ],
+   "surface_gap_mm": 5.46,
+   "driver_part": "eyebrow_mirror brow center pendulum.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "28": {
+   "ref": "256",
+   "servo_t_mm": [
+    -42.29,
+    321.97,
+    -20.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "250",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.009
+    },
+    {
+     "ref": "249",
+     "file": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.052
+    },
+    {
+     "ref": "270",
+     "file": "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.028
+    },
+    {
+     "ref": "213",
+     "file": "nose_line.SLDPRT",
+     "owner": "full_assembly",
+     "gap_mm": 1.642
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "190",
+     "file": "cheek_face_slave_part_mirror.SLDPRT",
+     "gap_mm": 1.246,
+     "point_mm": [
+      -104.27,
+      245.12,
+      -51.34
+     ],
+     "dist_to_servo_mm": 103.51
+    }
+   ],
+   "driver_point_mm": [
+    -110.07,
+    242.11,
+    -58.86
+   ],
+   "surface_gap_mm": 7.88,
+   "driver_part": "nose_line.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "29": {
+   "ref": "268",
+   "servo_t_mm": [
+    -42.29,
+    346.37,
+    -20.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "273",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "210",
+     "file": "cheek_line.SLDPRT",
+     "owner": "full_assembly",
+     "gap_mm": 1.415
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": [
+    -128.07,
+    278.09,
+    -6.36
+   ],
+   "surface_gap_mm": 3.91,
+   "driver_part": "cheek_line.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "30": {
+   "ref": "269",
+   "servo_t_mm": [
+    -42.29,
+    334.17,
+    -20.26
+   ],
+   "owner": "EYEBROW",
+   "servo_file": "eyebrow_GUOHUAA0090.SLDPRT",
+   "chain": [
+    {
+     "ref": "274",
+     "file": "eyebrow_crank v4.SLDPRT",
+     "owner": "EYEBROW",
+     "gap_mm": 0.008
+    },
+    {
+     "ref": "213",
+     "file": "nose_line.SLDPRT",
+     "owner": "full_assembly",
+     "gap_mm": 1.401
+    }
+   ],
+   "skin_hits": [
+    {
+     "ref": "190",
+     "file": "cheek_face_slave_part_mirror.SLDPRT",
+     "gap_mm": 1.246,
+     "point_mm": [
+      -104.27,
+      245.12,
+      -51.34
+     ],
+     "dist_to_servo_mm": 112.86
+    }
+   ],
+   "driver_point_mm": [
+    -110.07,
+    242.11,
+    -58.86
+   ],
+   "surface_gap_mm": 7.88,
+   "driver_part": "nose_line.SLDPRT",
+   "confidence": "chain_end_on_skin"
+  },
+  "31": {
+   "ref": null,
+   "status": "no_cad_servo",
+   "chain": [],
+   "driver_point_mm": null
+  },
+  "32": {
+   "ref": "13",
+   "servo_t_mm": [
+    -0.0,
+    70.5,
+    40.0
+   ],
+   "owner": "neck",
+   "servo_file": "ks3518.SLDPRT",
+   "chain": [
+    {
+     "ref": "52",
+     "file": "neck_extension_arm.SLDPRT",
+     "owner": "neck",
+     "gap_mm": 0.0
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  },
+  "33": {
+   "ref": "10",
+   "servo_t_mm": [
+    -0.0,
+    70.5,
+    -40.0
+   ],
+   "owner": "neck",
+   "servo_file": "ks3518.SLDPRT",
+   "chain": [
+    {
+     "ref": "49",
+     "file": "neck_extension_arm.SLDPRT",
+     "owner": "neck",
+     "gap_mm": 0.0
+    }
+   ],
+   "skin_hits": [],
+   "driver_point_mm": null,
+   "surface_gap_mm": null,
+   "driver_part": null,
+   "confidence": "no_chain"
+  }
+ }
+}

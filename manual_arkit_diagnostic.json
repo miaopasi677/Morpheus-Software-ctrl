@@ -1,0 +1,523 @@
+{
+ "arkit": {},
+ "targets": {
+  "browInnerE.R": {
+   "world": [
+    -0.23199611902236938,
+    -0.877744734287262,
+    17.1097354888916
+   ],
+   "local": [
+    -0.23895399272441864,
+    -0.8766689896583557,
+    17.08877182006836
+   ],
+   "vertex": [
+    -2.243288040161133,
+    170.8027801513672,
+    8.780664443969727
+   ]
+  },
+  "browOuterE.L": {
+   "world": [
+    0.4835600256919861,
+    -0.7748562693595886,
+    17.17313003540039
+   ],
+   "local": [
+    0.48400062322616577,
+    -0.7747228145599365,
+    17.121963500976562
+   ],
+   "vertex": [
+    4.656090259552002,
+    171.64974975585938,
+    7.946822166442871
+   ]
+  },
+  "eyeE.L": {
+   "world": [
+    0.38054901361465454,
+    -0.7842977046966553,
+    16.89427375793457
+   ],
+   "local": [
+    0.38054901361465454,
+    -0.7891244888305664,
+    16.866899490356445
+   ],
+   "vertex": [
+    3.290600299835205,
+    168.89244079589844,
+    7.931632995605469
+   ]
+  },
+  "eyeLidUpE.R": {
+   "world": [
+    -0.3646164536476135,
+    -0.7309844493865967,
+    16.824180603027344
+   ],
+   "local": [
+    -0.36471399664878845,
+    -0.7321959733963013,
+    16.884300231933594
+   ],
+   "vertex": [
+    -3.4873907566070557,
+    168.52186584472656,
+    8.06217098236084
+   ]
+  },
+  "lipUpE.L": {
+   "world": [
+    0.29089218378067017,
+    -0.8041563034057617,
+    16.351072311401367
+   ],
+   "local": [
+    0.23212482035160065,
+    -0.8672221302986145,
+    16.285930633544922
+   ],
+   "vertex": [
+    2.1311392784118652,
+    162.80889892578125,
+    8.523382186889648
+   ]
+  },
+  "lipDownE.R": {
+   "world": [
+    -0.08158264309167862,
+    -0.7432710528373718,
+    15.777913093566895
+   ],
+   "local": [
+    -0.12536145746707916,
+    -0.8482823967933655,
+    15.974908828735352
+   ],
+   "vertex": [
+    -0.9725955724716187,
+    158.90155029296875,
+    8.015552520751953
+   ]
+  },
+  "lipConnerE.L": {
+   "world": [
+    0.3206372559070587,
+    -0.7126623392105103,
+    16.16133689880371
+   ],
+   "local": [
+    0.23128095269203186,
+    -0.8529079556465149,
+    16.138248443603516
+   ],
+   "vertex": [
+    3.6578774452209473,
+    162.14601135253906,
+    7.032054901123047
+   ]
+  },
+  "lipConnerE.R": {
+   "world": [
+    -0.2986842393875122,
+    -0.7277505397796631,
+    16.112369537353516
+   ],
+   "local": [
+    -0.3213615417480469,
+    -0.7967484593391418,
+    16.14889144897461
+   ],
+   "vertex": [
+    -2.994309186935425,
+    161.4354248046875,
+    7.204872131347656
+   ]
+  },
+  "jawE": {
+   "world": [
+    0.09469404816627502,
+    -0.7545742988586426,
+    15.833888053894043
+   ],
+   "local": [
+    0.009283999912440777,
+    -0.8868860006332397,
+    15.972800254821777
+   ],
+   "vertex": [
+    0.8541005253791809,
+    157.18203735351562,
+    7.5578107833862305
+   ]
+  }
+ },
+ "morpheus": [
+  {
+   "id": 1,
+   "name": "Left Cheek",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 1800,
+   "lower": 1800,
+   "start": 1800,
+   "upper": 1400,
+   "mapped": false
+  },
+  {
+   "id": 2,
+   "name": "Left Nose",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 800,
+   "lower": 800,
+   "start": 800,
+   "upper": 0,
+   "mapped": false
+  },
+  {
+   "id": 3,
+   "name": "Left Eyebrow Center",
+   "source_bone": "Brow_In_Rotation_pitch.l",
+   "legacy_position": 2355,
+   "pwm": 1422,
+   "lower": 980,
+   "start": 1080,
+   "upper": 1480,
+   "mapped": true
+  },
+  {
+   "id": 4,
+   "name": "Left Eyebrow Peak",
+   "source_bone": "Brow_Out_Rotation.l",
+   "legacy_position": 2304,
+   "pwm": 559,
+   "lower": 1100,
+   "start": 800,
+   "upper": 500,
+   "mapped": true
+  },
+  {
+   "id": 5,
+   "name": "Left Upper Eyelid",
+   "source_bone": "Eyelid_Up.l",
+   "legacy_position": 1358,
+   "pwm": 1357,
+   "lower": 1700,
+   "start": 1300,
+   "upper": 600,
+   "mapped": true
+  },
+  {
+   "id": 6,
+   "name": "Left Lower Eyelid",
+   "source_bone": "Eyelid_Dwn.l",
+   "legacy_position": 1770,
+   "pwm": 1362,
+   "lower": 1000,
+   "start": 1200,
+   "upper": 1800,
+   "mapped": true
+  },
+  {
+   "id": 7,
+   "name": "Eyes Up/Down Gaze",
+   "source_bone": "Eye_pitch.r",
+   "legacy_position": 1500,
+   "pwm": 1000,
+   "lower": 300,
+   "start": 1000,
+   "upper": 1500,
+   "mapped": true
+  },
+  {
+   "id": 8,
+   "name": "Upper Lip Center",
+   "source_bone": "Lip_Up_Rotation_C",
+   "legacy_position": 2115,
+   "pwm": 754,
+   "lower": 1000,
+   "start": 1000,
+   "upper": 600,
+   "mapped": true
+  },
+  {
+   "id": 9,
+   "name": "Left Upper Corner Mouth",
+   "source_bone": "Smile_Rotation.l",
+   "legacy_position": 1089,
+   "pwm": 794,
+   "lower": 500,
+   "start": 1000,
+   "upper": 1500,
+   "mapped": true
+  },
+  {
+   "id": 10,
+   "name": "Upper Lip Right",
+   "source_bone": "Lip_Up_Rotation.r",
+   "legacy_position": 1564,
+   "pwm": 1037,
+   "lower": 1000,
+   "start": 1000,
+   "upper": 1200,
+   "mapped": true
+  },
+  {
+   "id": 11,
+   "name": "Tongue Extension/Retraction",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 1000,
+   "lower": 800,
+   "start": 1000,
+   "upper": 1200,
+   "mapped": false
+  },
+  {
+   "id": 12,
+   "name": "Tongue Up/Down",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 500,
+   "lower": 800,
+   "start": 500,
+   "upper": 300,
+   "mapped": false
+  },
+  {
+   "id": 13,
+   "name": "Chin (passive)",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 1600,
+   "lower": 1200,
+   "start": 1600,
+   "upper": 1600,
+   "mapped": false
+  },
+  {
+   "id": 14,
+   "name": "Left Lower Corner Mouth",
+   "source_bone": "Lip_Corner_Rotation.l",
+   "legacy_position": 548,
+   "pwm": 1000,
+   "lower": 1000,
+   "start": 1000,
+   "upper": 1500,
+   "mapped": true
+  },
+  {
+   "id": 15,
+   "name": "Lower Lip Center",
+   "source_bone": "Lip_Dwn_Rotation_C",
+   "legacy_position": 371,
+   "pwm": 1300,
+   "lower": 1300,
+   "start": 1300,
+   "upper": 1900,
+   "mapped": true
+  },
+  {
+   "id": 16,
+   "name": "Lower Lip Left",
+   "source_bone": "Lip_Dwn_Rotation.l",
+   "legacy_position": 1804,
+   "pwm": 849,
+   "lower": 1500,
+   "start": 1500,
+   "upper": 800,
+   "mapped": true
+  },
+  {
+   "id": 17,
+   "name": "Lower Lip Right",
+   "source_bone": "Lip_Dwn_Rotation.r",
+   "legacy_position": 1231,
+   "pwm": 800,
+   "lower": 800,
+   "start": 800,
+   "upper": 1200,
+   "mapped": true
+  },
+  {
+   "id": 18,
+   "name": "Chin (active)",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 1600,
+   "lower": 1200,
+   "start": 1600,
+   "upper": 1600,
+   "mapped": false
+  },
+  {
+   "id": 19,
+   "name": "Right Lower Corner Mouth",
+   "source_bone": "Lip_Corner_Rotation.r",
+   "legacy_position": 1052,
+   "pwm": 1000,
+   "lower": 1000,
+   "start": 1000,
+   "upper": 500,
+   "mapped": true
+  },
+  {
+   "id": 20,
+   "name": "Jaw Left/Right",
+   "source_bone": "Jaw_Yaw",
+   "legacy_position": 500,
+   "pwm": 400,
+   "lower": 400,
+   "start": 1000,
+   "upper": 1600,
+   "mapped": true
+  },
+  {
+   "id": 21,
+   "name": "Upper Lip Left",
+   "source_bone": "Lip_Up_Rotation.l",
+   "legacy_position": 1270,
+   "pwm": 1000,
+   "lower": 1000,
+   "start": 1000,
+   "upper": 800,
+   "mapped": true
+  },
+  {
+   "id": 22,
+   "name": "Right Upper Corner Mouth",
+   "source_bone": "Smile_Rotation.r",
+   "legacy_position": -518,
+   "pwm": 1500,
+   "lower": 1500,
+   "start": 1000,
+   "upper": 500,
+   "mapped": true
+  },
+  {
+   "id": 23,
+   "name": "Mouth Opening/Closing",
+   "source_bone": "Jaw_Open",
+   "legacy_position": 2240,
+   "pwm": 1050,
+   "lower": 1150,
+   "start": 1050,
+   "upper": 1050,
+   "mapped": true
+  },
+  {
+   "id": 24,
+   "name": "Eyes Left/Right Gaze",
+   "source_bone": "Eye_yaw.r",
+   "legacy_position": 1500,
+   "pwm": 1150,
+   "lower": 800,
+   "start": 1150,
+   "upper": 1500,
+   "mapped": true
+  },
+  {
+   "id": 25,
+   "name": "Right Lower Eyelid",
+   "source_bone": "Eyelid_Dwn.r",
+   "legacy_position": 2151,
+   "pwm": 609,
+   "lower": 1200,
+   "start": 1000,
+   "upper": 400,
+   "mapped": true
+  },
+  {
+   "id": 26,
+   "name": "Right Upper Eyelid",
+   "source_bone": "Eyelid_Up.r",
+   "legacy_position": 2320,
+   "pwm": 1492,
+   "lower": 500,
+   "start": 1000,
+   "upper": 1600,
+   "mapped": true
+  },
+  {
+   "id": 27,
+   "name": "Right Eyebrow Peak",
+   "source_bone": "Brow_Out_Rotation.r",
+   "legacy_position": 1645,
+   "pwm": 1244,
+   "lower": 900,
+   "start": 1200,
+   "upper": 1500,
+   "mapped": true
+  },
+  {
+   "id": 28,
+   "name": "Right Eyebrow Center",
+   "source_bone": "Brow_In_Rotation_pitch.r",
+   "legacy_position": 2258,
+   "pwm": 897,
+   "lower": 1300,
+   "start": 1200,
+   "upper": 800,
+   "mapped": true
+  },
+  {
+   "id": 29,
+   "name": "Right Nose",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 1200,
+   "lower": 1200,
+   "start": 1200,
+   "upper": 2000,
+   "mapped": false
+  },
+  {
+   "id": 30,
+   "name": "Right Cheek",
+   "source_bone": null,
+   "legacy_position": null,
+   "pwm": 0,
+   "lower": 0,
+   "start": 0,
+   "upper": 600,
+   "mapped": false
+  },
+  {
+   "id": 31,
+   "name": "Neck Rotation",
+   "source_bone": "Neck_1",
+   "legacy_position": 1500,
+   "pwm": 1750,
+   "lower": 1500,
+   "start": 1750,
+   "upper": 2000,
+   "mapped": true
+  },
+  {
+   "id": 32,
+   "name": "Neck Nodding/Shaking (left)",
+   "source_bone": "Neck_2",
+   "legacy_position": 1500,
+   "pwm": 1200,
+   "lower": 900,
+   "start": 1200,
+   "upper": 1300,
+   "mapped": true
+  },
+  {
+   "id": 33,
+   "name": "Neck Nodding/Shaking (right)",
+   "source_bone": "Neck_3",
+   "legacy_position": 1500,
+   "pwm": 900,
+   "lower": 1200,
+   "start": 900,
+   "upper": 800,
+   "mapped": true
+  }
+ ]
+}

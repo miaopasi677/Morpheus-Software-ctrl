@@ -1,0 +1,2707 @@
+{
+ "blend": "C:\\file\\project\\Morpheus-Software\\LY_GENERAL_V0.blend",
+ "bone_count": 46,
+ "eye_heads": {
+  "Eye_yaw.l": [
+   0.380549,
+   -0.523551,
+   16.866899
+  ],
+  "Eye_yaw.r": [
+   -0.364714,
+   -0.523551,
+   16.866899
+  ],
+  "Eyelid_Up.l": [
+   0.381882,
+   -0.523873,
+   16.86215
+  ],
+  "Eyelid_Up.r": [
+   -0.364714,
+   -0.523551,
+   16.866899
+  ]
+ },
+ "eye_span_unit": 0.745263,
+ "eye_span_mm": 70.0,
+ "mm_per_unit_by_eye": 93.92657357201418,
+ "fit": {
+  "anchors_used": [
+   "eyeE.L",
+   "eyeE.R",
+   "browInnerE.L",
+   "browInnerE.R",
+   "browOuterE.L",
+   "browOuterE.R",
+   "noseE.L",
+   "noseE.R",
+   "cheekE.L",
+   "cheekE.R",
+   "lipUpE.C",
+   "lipConnerE.L",
+   "lipConnerE.R",
+   "lipDownE.C",
+   "jawE"
+  ],
+  "n": 15,
+  "axis": {
+   "X": {
+    "scale": 0.010929101195590854,
+    "offset": -0.003070545258621375,
+    "r2": 0.9731306130212808,
+    "rms": 0.05194558597501219,
+    "method": "least_squares"
+   },
+   "Y": {
+    "scale": 0.011431198598254507,
+    "offset": -0.6519501056515123,
+    "r2": 0.3128458193250313,
+    "rms": 0.064147480668639,
+    "method": "isotropic_with_Z + eye_anchor_offset"
+   },
+   "Z": {
+    "scale": 0.011431198598254507,
+    "offset": 16.856483523493065,
+    "r2": 0.9860919342803215,
+    "rms": 0.048220517156338176,
+    "method": "least_squares"
+   }
+  },
+  "mm_per_blender_unit": {
+   "X": 91.49883253011068,
+   "Y": 87.47989035486582,
+   "Z": 87.47989035486582
+  }
+ },
+ "servo_rows": [
+  {
+   "id": 1,
+   "name": "左颊线驱大舵机，头顶",
+   "module": "tendon",
+   "mm": [
+    21.26,
+    54.55,
+    48.3
+   ],
+   "blender_fit": [
+    0.229282,
+    -0.028378,
+    17.40861
+   ],
+   "blender_eye_scale": [
+    0.23426451971428575,
+    0.0572218092857143,
+    17.38113047
+   ],
+   "nearest_bone": "Neck_1",
+   "nearest_dist_unit": 0.30279,
+   "nearest_dist_mm_eye": 28.4,
+   "nearest3": [
+    [
+     "Neck_1",
+     0.30279
+    ],
+    [
+     "Neck_3",
+     0.30279
+    ],
+    [
+     "Neck_2",
+     0.31481
+    ]
+   ]
+  },
+  {
+   "id": 2,
+   "name": "左鼻线驱大舵机，头顶",
+   "module": "tendon",
+   "mm": [
+    21.26,
+    54.55,
+    60.5
+   ],
+   "blender_fit": [
+    0.229282,
+    -0.028378,
+    17.548071
+   ],
+   "blender_eye_scale": [
+    0.23426451971428575,
+    0.0572218092857143,
+    17.511019164285713
+   ],
+   "nearest_bone": "Neck_1",
+   "nearest_dist_unit": 0.33132,
+   "nearest_dist_mm_eye": 31.1,
+   "nearest3": [
+    [
+     "Neck_1",
+     0.33132
+    ],
+    [
+     "Neck_3",
+     0.33132
+    ],
+    [
+     "Neck_2",
+     0.34233
+    ]
+   ]
+  },
+  {
+   "id": 3,
+   "name": "左眉头 四连杆",
+   "module": "eyebrow",
+   "mm": [
+    21.26,
+    54.55,
+    36.1
+   ],
+   "blender_fit": [
+    0.229282,
+    -0.028378,
+    17.26915
+   ],
+   "blender_eye_scale": [
+    0.23426451971428575,
+    0.0572218092857143,
+    17.251241775714284
+   ],
+   "nearest_bone": "Neck_1",
+   "nearest_dist_unit": 0.32763,
+   "nearest_dist_mm_eye": 30.8,
+   "nearest3": [
+    [
+     "Neck_1",
+     0.32763
+    ],
+    [
+     "Neck_3",
+     0.32763
+    ],
+    [
+     "Neck_2",
+     0.33876
+    ]
+   ]
+  },
+  {
+   "id": 4,
+   "name": "左眉峰 四连杆",
+   "module": "eyebrow",
+   "mm": [
+    46.82,
+    29.1,
+    47.723
+   ],
+   "blender_fit": [
+    0.50863,
+    -0.319302,
+    17.402015
+   ],
+   "blender_eye_scale": [
+    0.5063919808571429,
+    -0.21373452428571427,
+    17.374987373557143
+   ],
+   "nearest_bone": "Brow_Out_Rotation.l",
+   "nearest_dist_unit": 0.51891,
+   "nearest_dist_mm_eye": 48.7,
+   "nearest3": [
+    [
+     "Brow_Out_Rotation.l",
+     0.51891
+    ],
+    [
+     "Eyelid_Dwn.l",
+     0.60822
+    ],
+    [
+     "Eye_yaw.l",
+     0.60826
+    ]
+   ]
+  },
+  {
+   "id": 5,
+   "name": "左上眼睑",
+   "module": "eye",
+   "mm": [
+    19.2,
+    63.6,
+    2.6
+   ],
+   "blender_fit": [
+    0.206768,
+    0.075074,
+    16.886205
+   ],
+   "blender_eye_scale": [
+    0.2123324942857143,
+    0.15357366857142862,
+    16.894580197142858
+   ],
+   "nearest_bone": "Neck_1",
+   "nearest_dist_unit": 0.53381,
+   "nearest_dist_mm_eye": 50.1,
+   "nearest3": [
+    [
+     "Neck_1",
+     0.53381
+    ],
+    [
+     "Neck_3",
+     0.53381
+    ],
+    [
+     "Neck_2",
+     0.54008
+    ]
+   ]
+  },
+  {
+   "id": 6,
+   "name": "左下眼睑",
+   "module": "eye",
+   "mm": [
+    27.2,
+    63.6,
+    -9.8
+   ],
+   "blender_fit": [
+    0.294201,
+    0.075074,
+    16.744458
+   ],
+   "blender_eye_scale": [
+    0.2975054085714286,
+    0.15357366857142862,
+    16.76256218
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.5891,
+   "nearest_dist_mm_eye": 55.3,
+   "nearest3": [
+    [
+     "Skull",
+     0.5891
+    ],
+    [
+     "Jaw_Open",
+     0.60449
+    ],
+    [
+     "Jaw_Yaw",
+     0.60449
+    ]
+   ]
+  },
+  {
+   "id": 7,
+   "name": "眼球俯仰：两眼中线，eye_1.jpg",
+   "module": "eye",
+   "mm": [
+    23.3,
+    61.839,
+    -19.8
+   ],
+   "blender_fit": [
+    0.251578,
+    0.054944,
+    16.630146
+   ],
+   "blender_eye_scale": [
+    0.2559836128571429,
+    0.13482498081428573,
+    16.656096037142856
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.47834,
+   "nearest_dist_mm_eye": 44.9,
+   "nearest3": [
+    [
+     "Skull",
+     0.47834
+    ],
+    [
+     "Jaw_Open",
+     0.51437
+    ],
+    [
+     "Jaw_Yaw",
+     0.51437
+    ]
+   ]
+  },
+  {
+   "id": 8,
+   "name": "上唇中央",
+   "module": "mouth",
+   "mm": [
+    -39.11,
+    97.652,
+    -46.62
+   ],
+   "blender_fit": [
+    -0.430508,
+    0.464329,
+    16.323561
+   ],
+   "blender_eye_scale": [
+    -0.4084715847142857,
+    0.5161121782285715,
+    16.370553842
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.53894,
+   "nearest_dist_mm_eye": 50.6,
+   "nearest3": [
+    [
+     "Skull",
+     0.53894
+    ],
+    [
+     "Face_Neck",
+     0.63553
+    ],
+    [
+     "Jaw_Open",
+     0.86551
+    ]
+   ]
+  },
+  {
+   "id": 9,
+   "name": "左嘴角上 六连杆",
+   "module": "mouth",
+   "mm": [
+    45.285,
+    39.687,
+    -90.97
+   ],
+   "blender_fit": [
+    0.491854,
+    -0.19828,
+    15.816587
+   ],
+   "blender_eye_scale": [
+    0.4900494279285714,
+    -0.10101881884285718,
+    15.898376498428572
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.60503,
+   "nearest_dist_mm_eye": 56.8,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.60503
+    ],
+    [
+     "Lip_Corner_Rotation.l",
+     0.62892
+    ],
+    [
+     "Smile_Rotation.l",
+     0.62892
+    ]
+   ]
+  },
+  {
+   "id": 10,
+   "name": "上唇右",
+   "module": "mouth",
+   "mm": [
+    -11.779,
+    38.978,
+    -54.17
+   ],
+   "blender_fit": [
+    -0.131804,
+    -0.206385,
+    16.237255
+   ],
+   "blender_eye_scale": [
+    -0.11748896967142855,
+    -0.10856726837142855,
+    16.290171904142856
+   ],
+   "nearest_bone": "Jaw_Open",
+   "nearest_dist_unit": 0.21788,
+   "nearest_dist_mm_eye": 20.5,
+   "nearest3": [
+    [
+     "Jaw_Open",
+     0.21788
+    ],
+    [
+     "Jaw_Yaw",
+     0.21788
+    ],
+    [
+     "Skull",
+     0.31728
+    ]
+   ]
+  },
+  {
+   "id": 11,
+   "name": "舌伸缩 四连杆",
+   "module": "mouth",
+   "mm": [
+    0.0,
+    55.89,
+    -74.17
+   ],
+   "blender_fit": [
+    -0.003071,
+    -0.01306,
+    16.008632
+   ],
+   "blender_eye_scale": [
+    0.007917500000000022,
+    0.07148827242857148,
+    16.07723961842857
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.21057,
+   "nearest_dist_mm_eye": 19.8,
+   "nearest3": [
+    [
+     "Skull",
+     0.21057
+    ],
+    [
+     "Face_Neck",
+     0.21766
+    ],
+    [
+     "Jaw_Open",
+     0.45593
+    ]
+   ]
+  },
+  {
+   "id": 12,
+   "name": "舌上下 四连杆",
+   "module": "mouth",
+   "mm": [
+    45.208,
+    29.095,
+    -105.37
+   ],
+   "blender_fit": [
+    0.491012,
+    -0.319359,
+    15.651978
+   ],
+   "blender_eye_scale": [
+    0.48922963862857144,
+    -0.2137877573571429,
+    15.745065252714285
+   ],
+   "nearest_bone": "Lip_Corner_Rotation.l",
+   "nearest_dist_unit": 0.64202,
+   "nearest_dist_mm_eye": 60.3,
+   "nearest3": [
+    [
+     "Lip_Corner_Rotation.l",
+     0.64202
+    ],
+    [
+     "Smile_Rotation.l",
+     0.64202
+    ],
+    [
+     "Lip_Dwn_Rotation.l",
+     0.67947
+    ]
+   ]
+  },
+  {
+   "id": 13,
+   "name": "下巴 被动",
+   "module": "mouth",
+   "mm": [
+    -44.239,
+    29.096,
+    -105.37
+   ],
+   "blender_fit": [
+    -0.486563,
+    -0.319348,
+    15.651978
+   ],
+   "blender_eye_scale": [
+    -0.4630780693857142,
+    -0.21377711074285716,
+    15.745065252714285
+   ],
+   "nearest_bone": "Lip_Corner_Rotation.r",
+   "nearest_dist_unit": 0.63639,
+   "nearest_dist_mm_eye": 59.8,
+   "nearest3": [
+    [
+     "Lip_Corner_Rotation.r",
+     0.63639
+    ],
+    [
+     "Smile_Rotation.r",
+     0.63639
+    ],
+    [
+     "Lip_Dwn_Rotation.r",
+     0.66641
+    ]
+   ]
+  },
+  {
+   "id": 14,
+   "name": "左嘴角下",
+   "module": "mouth",
+   "mm": [
+    28.772,
+    58.012,
+    -71.57
+   ],
+   "blender_fit": [
+    0.311382,
+    0.011197,
+    16.038353
+   ],
+   "blender_eye_scale": [
+    0.3142418862285714,
+    0.09408038794285711,
+    16.10492081557143
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.35968,
+   "nearest_dist_mm_eye": 33.8,
+   "nearest3": [
+    [
+     "Skull",
+     0.35968
+    ],
+    [
+     "Face_Neck",
+     0.37448
+    ],
+    [
+     "Jaw_Open",
+     0.54662
+    ]
+   ]
+  },
+  {
+   "id": 15,
+   "name": "下唇中央",
+   "module": "mouth",
+   "mm": [
+    -59.871,
+    41.633,
+    -52.17
+   ],
+   "blender_fit": [
+    -0.657407,
+    -0.176035,
+    16.260118
+   ],
+   "blender_eye_scale": [
+    -0.6295059439,
+    -0.0803005074428571,
+    16.311465132714286
+   ],
+   "nearest_bone": "Lip_Corner_Rotation.r",
+   "nearest_dist_unit": 0.62119,
+   "nearest_dist_mm_eye": 58.3,
+   "nearest3": [
+    [
+     "Lip_Corner_Rotation.r",
+     0.62119
+    ],
+    [
+     "Smile_Rotation.r",
+     0.62119
+    ],
+    [
+     "Jaw_Open",
+     0.66467
+    ]
+   ]
+  },
+  {
+   "id": 16,
+   "name": "下唇左",
+   "module": "mouth",
+   "mm": [
+    37.4,
+    84.472,
+    -83.97
+   ],
+   "blender_fit": [
+    0.405678,
+    0.313666,
+    15.896606
+   ],
+   "blender_eye_scale": [
+    0.4061008742857143,
+    0.37578980194285705,
+    15.97290279842857
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.41522,
+   "nearest_dist_mm_eye": 39.0,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.41522
+    ],
+    [
+     "Skull",
+     0.53035
+    ],
+    [
+     "Jaw_Open",
+     0.8542
+    ]
+   ]
+  },
+  {
+   "id": 17,
+   "name": "下唇右",
+   "module": "mouth",
+   "mm": [
+    -23.965,
+    118.738,
+    -90.77
+   ],
+   "blender_fit": [
+    -0.264986,
+    0.705368,
+    15.818874
+   ],
+   "blender_eye_scale": [
+    -0.2472286113571428,
+    0.7406066870571427,
+    15.900505821285714
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.5495,
+   "nearest_dist_mm_eye": 51.6,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.5495
+    ],
+    [
+     "Skull",
+     0.70466
+    ],
+    [
+     "Face_Root",
+     1.08255
+    ]
+   ]
+  },
+  {
+   "id": 18,
+   "name": "下巴 主动",
+   "module": "mouth",
+   "mm": [
+    25.415,
+    118.738,
+    -90.77
+   ],
+   "blender_fit": [
+    0.274693,
+    0.705368,
+    15.818874
+   ],
+   "blender_eye_scale": [
+    0.2785012020714286,
+    0.7406066870571427,
+    15.900505821285714
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.55684,
+   "nearest_dist_mm_eye": 52.3,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.55684
+    ],
+    [
+     "Skull",
+     0.71624
+    ],
+    [
+     "Face_Root",
+     1.08629
+    ]
+   ]
+  },
+  {
+   "id": 19,
+   "name": "右嘴角下",
+   "module": "mouth",
+   "mm": [
+    -28.772,
+    58.012,
+    -71.57
+   ],
+   "blender_fit": [
+    -0.317523,
+    0.011197,
+    16.038353
+   ],
+   "blender_eye_scale": [
+    -0.29840688622857137,
+    0.09408038794285711,
+    16.10492081557143
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.34594,
+   "nearest_dist_mm_eye": 32.5,
+   "nearest3": [
+    [
+     "Skull",
+     0.34594
+    ],
+    [
+     "Face_Neck",
+     0.37448
+    ],
+    [
+     "Jaw_Open",
+     0.54662
+    ]
+   ]
+  },
+  {
+   "id": 20,
+   "name": "下颌左右，38mm 曲柄 ks3518",
+   "module": "mouth",
+   "mm": [
+    30.36,
+    84.472,
+    -71.57
+   ],
+   "blender_fit": [
+    0.328737,
+    0.313666,
+    16.038353
+   ],
+   "blender_eye_scale": [
+    0.3311487097142857,
+    0.37578980194285705,
+    16.10492081557143
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.3711,
+   "nearest_dist_mm_eye": 34.9,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.3711
+    ],
+    [
+     "Skull",
+     0.41104
+    ],
+    [
+     "Jaw_Open",
+     0.76025
+    ]
+   ]
+  },
+  {
+   "id": 21,
+   "name": "上唇左",
+   "module": "mouth",
+   "mm": [
+    11.779,
+    38.978,
+    -54.17
+   ],
+   "blender_fit": [
+    0.125663,
+    -0.206385,
+    16.237255
+   ],
+   "blender_eye_scale": [
+    0.1333239696714286,
+    -0.10856726837142855,
+    16.290171904142856
+   ],
+   "nearest_bone": "Jaw_Open",
+   "nearest_dist_unit": 0.21788,
+   "nearest_dist_mm_eye": 20.5,
+   "nearest3": [
+    [
+     "Jaw_Open",
+     0.21788
+    ],
+    [
+     "Jaw_Yaw",
+     0.21788
+    ],
+    [
+     "Skull",
+     0.32348
+    ]
+   ]
+  },
+  {
+   "id": 22,
+   "name": "右嘴角上 六连杆",
+   "module": "mouth",
+   "mm": [
+    -18.767,
+    93.252,
+    -59.12
+   ],
+   "blender_fit": [
+    -0.208177,
+    0.414032,
+    16.180671
+   ],
+   "blender_eye_scale": [
+    -0.19188751029999995,
+    0.46926707537142853,
+    16.237471163428573
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.3442,
+   "nearest_dist_mm_eye": 32.3,
+   "nearest3": [
+    [
+     "Skull",
+     0.3442
+    ],
+    [
+     "Face_Neck",
+     0.39798
+    ],
+    [
+     "Jaw_Open",
+     0.75808
+    ]
+   ]
+  },
+  {
+   "id": 23,
+   "name": "张合下颌，32mm 曲柄 + 五连杆",
+   "module": "mouth",
+   "mm": [
+    59.871,
+    41.633,
+    -52.17
+   ],
+   "blender_fit": [
+    0.651266,
+    -0.176035,
+    16.260118
+   ],
+   "blender_eye_scale": [
+    0.6453409439000001,
+    -0.0803005074428571,
+    16.311465132714286
+   ],
+   "nearest_bone": "Lip_Corner_Rotation.l",
+   "nearest_dist_unit": 0.62876,
+   "nearest_dist_mm_eye": 59.1,
+   "nearest3": [
+    [
+     "Lip_Corner_Rotation.l",
+     0.62876
+    ],
+    [
+     "Smile_Rotation.l",
+     0.62876
+    ],
+    [
+     "Jaw_Open",
+     0.66467
+    ]
+   ]
+  },
+  {
+   "id": 24,
+   "name": "眼球左右：eye_bassinet，eye_2.jpg",
+   "module": "eye",
+   "mm": [
+    0.0,
+    21.99,
+    -34.153
+   ],
+   "blender_fit": [
+    -0.003071,
+    -0.400578,
+    16.466074
+   ],
+   "blender_eye_scale": [
+    0.007917500000000022,
+    -0.2894319518571429,
+    16.5032851823
+   ],
+   "nearest_bone": "Jaw_Open",
+   "nearest_dist_unit": 0.10606,
+   "nearest_dist_mm_eye": 10.0,
+   "nearest3": [
+    [
+     "Jaw_Open",
+     0.10606
+    ],
+    [
+     "Jaw_Yaw",
+     0.10606
+    ],
+    [
+     "Eye_pitch.l",
+     0.53369
+    ]
+   ]
+  },
+  {
+   "id": 25,
+   "name": "右下眼睑",
+   "module": "eye",
+   "mm": [
+    -19.2,
+    63.6,
+    2.6
+   ],
+   "blender_fit": [
+    -0.212909,
+    0.075074,
+    16.886205
+   ],
+   "blender_eye_scale": [
+    -0.19649749428571425,
+    0.15357366857142862,
+    16.894580197142858
+   ],
+   "nearest_bone": "Neck_2",
+   "nearest_dist_unit": 0.52795,
+   "nearest_dist_mm_eye": 49.6,
+   "nearest3": [
+    [
+     "Neck_2",
+     0.52795
+    ],
+    [
+     "Neck_1",
+     0.53381
+    ],
+    [
+     "Neck_3",
+     0.53381
+    ]
+   ]
+  },
+  {
+   "id": 26,
+   "name": "右上眼睑",
+   "module": "eye",
+   "mm": [
+    -27.2,
+    63.6,
+    -9.8
+   ],
+   "blender_fit": [
+    -0.300342,
+    0.075074,
+    16.744458
+   ],
+   "blender_eye_scale": [
+    -0.28167040857142855,
+    0.15357366857142862,
+    16.76256218
+   ],
+   "nearest_bone": "Skull",
+   "nearest_dist_unit": 0.58126,
+   "nearest_dist_mm_eye": 54.6,
+   "nearest3": [
+    [
+     "Skull",
+     0.58126
+    ],
+    [
+     "Jaw_Open",
+     0.6045
+    ],
+    [
+     "Jaw_Yaw",
+     0.6045
+    ]
+   ]
+  },
+  {
+   "id": 27,
+   "name": "右眉峰 四连杆",
+   "module": "eyebrow",
+   "mm": [
+    -46.82,
+    29.1,
+    47.723
+   ],
+   "blender_fit": [
+    -0.514771,
+    -0.319302,
+    17.402015
+   ],
+   "blender_eye_scale": [
+    -0.49055698085714283,
+    -0.21373452428571427,
+    17.374987373557143
+   ],
+   "nearest_bone": "Brow_Out_Rotation.r",
+   "nearest_dist_unit": 0.51853,
+   "nearest_dist_mm_eye": 48.7,
+   "nearest3": [
+    [
+     "Brow_Out_Rotation.r",
+     0.51853
+    ],
+    [
+     "Eyelid_Dwn.r",
+     0.60822
+    ],
+    [
+     "Eye_yaw.r",
+     0.60826
+    ]
+   ]
+  },
+  {
+   "id": 28,
+   "name": "右眉头 四连杆",
+   "module": "eyebrow",
+   "mm": [
+    -21.26,
+    54.55,
+    36.1
+   ],
+   "blender_fit": [
+    -0.235423,
+    -0.028378,
+    17.26915
+   ],
+   "blender_eye_scale": [
+    -0.2184295197142857,
+    0.0572218092857143,
+    17.251241775714284
+   ],
+   "nearest_bone": "Neck_2",
+   "nearest_dist_unit": 0.3169,
+   "nearest_dist_mm_eye": 29.8,
+   "nearest3": [
+    [
+     "Neck_2",
+     0.3169
+    ],
+    [
+     "Neck_1",
+     0.32763
+    ],
+    [
+     "Neck_3",
+     0.32763
+    ]
+   ]
+  },
+  {
+   "id": 29,
+   "name": "右鼻线驱大舵机，头顶",
+   "module": "tendon",
+   "mm": [
+    -21.26,
+    54.55,
+    60.5
+   ],
+   "blender_fit": [
+    -0.235423,
+    -0.028378,
+    17.548071
+   ],
+   "blender_eye_scale": [
+    -0.2184295197142857,
+    0.0572218092857143,
+    17.511019164285713
+   ],
+   "nearest_bone": "Neck_2",
+   "nearest_dist_unit": 0.32071,
+   "nearest_dist_mm_eye": 30.1,
+   "nearest3": [
+    [
+     "Neck_2",
+     0.32071
+    ],
+    [
+     "Neck_1",
+     0.33132
+    ],
+    [
+     "Neck_3",
+     0.33132
+    ]
+   ]
+  },
+  {
+   "id": 30,
+   "name": "右颊线驱大舵机，头顶",
+   "module": "tendon",
+   "mm": [
+    -21.26,
+    54.55,
+    48.3
+   ],
+   "blender_fit": [
+    -0.235423,
+    -0.028378,
+    17.40861
+   ],
+   "blender_eye_scale": [
+    -0.2184295197142857,
+    0.0572218092857143,
+    17.38113047
+   ],
+   "nearest_bone": "Neck_2",
+   "nearest_dist_unit": 0.29115,
+   "nearest_dist_mm_eye": 27.3,
+   "nearest3": [
+    [
+     "Neck_2",
+     0.29115
+    ],
+    [
+     "Neck_1",
+     0.3028
+    ],
+    [
+     "Neck_3",
+     0.3028
+    ]
+   ]
+  },
+  {
+   "id": 31,
+   "name": "颈旋转，中央主轴",
+   "module": "neck",
+   "mm": [
+    0.0,
+    60.0,
+    -120.0
+   ],
+   "blender_fit": [
+    -0.003071,
+    0.033922,
+    15.48474
+   ],
+   "blender_eye_scale": [
+    0.007917500000000022,
+    0.11524585714285718,
+    15.589305285714286
+   ],
+   "nearest_bone": "Face_Neck",
+   "nearest_dist_unit": 0.40249,
+   "nearest_dist_mm_eye": 37.8,
+   "nearest3": [
+    [
+     "Face_Neck",
+     0.40249
+    ],
+    [
+     "Face_Root",
+     0.63998
+    ],
+    [
+     "Skull",
+     0.66931
+    ]
+   ]
+  },
+  {
+   "id": 32,
+   "name": "颈点头/摇头 左",
+   "module": "neck",
+   "mm": [
+    39.0,
+    96.84,
+    -215.37
+   ],
+   "blender_fit": [
+    0.423164,
+    0.455047,
+    14.394546
+   ],
+   "blender_eye_scale": [
+    0.42313545714285716,
+    0.5074671274285715,
+    14.573937681285715
+   ],
+   "nearest_bone": "Face_Root",
+   "nearest_dist_unit": 0.62276,
+   "nearest_dist_mm_eye": 58.5,
+   "nearest3": [
+    [
+     "Face_Root",
+     0.62276
+    ],
+    [
+     "Face_Neck",
+     1.47343
+    ],
+    [
+     "Skull",
+     1.76343
+    ]
+   ]
+  },
+  {
+   "id": 33,
+   "name": "颈点头/摇头 右",
+   "module": "neck",
+   "mm": [
+    -41.0,
+    96.84,
+    -215.37
+   ],
+   "blender_fit": [
+    -0.451164,
+    0.455047,
+    14.394546
+   ],
+   "blender_eye_scale": [
+    -0.4285936857142857,
+    0.5074671274285715,
+    14.573937681285715
+   ],
+   "nearest_bone": "Face_Root",
+   "nearest_dist_unit": 0.63716,
+   "nearest_dist_mm_eye": 59.8,
+   "nearest3": [
+    [
+     "Face_Root",
+     0.63716
+    ],
+    [
+     "Face_Neck",
+     1.47957
+    ],
+    [
+     "Skull",
+     1.76475
+    ]
+   ]
+  }
+ ],
+ "targets": [
+  {
+   "name": "browInnerE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.238954,
+    -0.876669,
+    17.075245
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "browInnerE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.238954,
+    -0.876669,
+    17.088772
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "browOuterE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.484001,
+    -0.774723,
+    17.121964
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "browOuterE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.484001,
+    -0.774723,
+    17.18734
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "cheekE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.479487,
+    -0.74355,
+    16.599352
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "cheekE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.479487,
+    -0.74355,
+    16.599352
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.380549,
+    -0.789124,
+    16.866899
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.364714,
+    -0.789124,
+    16.866899
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeLidDown.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.377841,
+    -0.725636,
+    16.805277
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeLidDown.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.364714,
+    -0.725636,
+    16.805277
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeLidUpE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.381882,
+    -0.724101,
+    16.924601
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "eyeLidUpE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.364714,
+    -0.732196,
+    16.8843
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "jawE",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.009284,
+    -0.886886,
+    15.9728
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipConnerE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.231281,
+    -0.852908,
+    16.138248
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipConnerE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.321362,
+    -0.796748,
+    16.148891
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipDownE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.141197,
+    -0.848282,
+    15.974909
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipDownE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.125361,
+    -0.848282,
+    15.974909
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipUpE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.232125,
+    -0.867222,
+    16.285931
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "lipUpE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.21629,
+    -0.867222,
+    16.285931
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "noseE.L",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    0.120664,
+    -0.973178,
+    16.534475
+   ],
+   "constraints": [],
+   "drivers": []
+  },
+  {
+   "name": "noseE.R",
+   "parent": "SampleHead",
+   "parent_type": "VERTEX",
+   "parent_bone": "",
+   "parent_inverse_identity": false,
+   "location": [
+    -0.120664,
+    -0.973178,
+    16.534477
+   ],
+   "constraints": [],
+   "drivers": []
+  }
+ ],
+ "bones": [
+  {
+   "name": "Face_Root",
+   "parent": null,
+   "head_local": [
+    0.007918,
+    0.258294,
+    14.965522
+   ],
+   "tail_local": [
+    0.007918,
+    0.258294,
+    15.965522
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "LIMIT_LOCATION",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Face_Neck",
+   "parent": "Face_Root",
+   "head_local": [
+    0.007918,
+    0.258294,
+    15.965522
+   ],
+   "tail_local": [
+    0.007918,
+    0.258294,
+    16.28504
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Skull",
+   "parent": null,
+   "head_local": [
+    0.0,
+    0.184055,
+    16.25502
+   ],
+   "tail_local": [
+    0.0,
+    0.184055,
+    16.748888
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "COPY_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Brow_Out.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.484001,
+    -0.774723,
+    17.121964
+   ],
+   "tail_local": [
+    -0.404627,
+    -0.803517,
+    16.965939
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Brow_In.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.238954,
+    -0.876669,
+    17.075199
+   ],
+   "tail_local": [
+    -0.238954,
+    -0.876669,
+    16.960421
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eye_yaw.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.364714,
+    -0.523551,
+    16.866899
+   ],
+   "tail_local": [
+    -0.364714,
+    -0.789125,
+    16.866899
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 8,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eyelid_Up.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.364714,
+    -0.523551,
+    16.866899
+   ],
+   "tail_local": [
+    -0.364714,
+    -0.732196,
+    16.8843
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 4,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eyelid_Dwn.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.364714,
+    -0.523551,
+    16.866947
+   ],
+   "tail_local": [
+    -0.364714,
+    -0.725636,
+    16.805277
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 6,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Up.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.21629,
+    -0.867222,
+    16.285931
+   ],
+   "tail_local": [
+    -0.134543,
+    -0.926107,
+    16.201681
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Up_C",
+   "parent": "Skull",
+   "head_local": [
+    0.009619,
+    -0.956259,
+    16.333111
+   ],
+   "tail_local": [
+    0.009619,
+    -0.991994,
+    16.233183
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 25,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Dwn.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.125361,
+    -0.848282,
+    15.974909
+   ],
+   "tail_local": [
+    -0.13225,
+    -0.911793,
+    16.095747
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Dwn_C",
+   "parent": "Skull",
+   "head_local": [
+    0.009284,
+    -0.886886,
+    15.972837
+   ],
+   "tail_local": [
+    0.002871,
+    -0.947842,
+    16.093803
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 1,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Corner.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.288135,
+    -0.796522,
+    16.157589
+   ],
+   "tail_local": [
+    -0.311184,
+    -0.613905,
+    16.216728
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Brow_Out.l",
+   "parent": "Skull",
+   "head_local": [
+    0.484001,
+    -0.774723,
+    17.121964
+   ],
+   "tail_local": [
+    0.404627,
+    -0.803517,
+    16.965939
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Brow_In.l",
+   "parent": "Skull",
+   "head_local": [
+    0.238954,
+    -0.876669,
+    17.075245
+   ],
+   "tail_local": [
+    0.238954,
+    -0.876669,
+    16.960421
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eye_yaw.l",
+   "parent": "Skull",
+   "head_local": [
+    0.380549,
+    -0.523551,
+    16.866899
+   ],
+   "tail_local": [
+    0.380549,
+    -0.789125,
+    16.866899
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 9,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eyelid_Up.l",
+   "parent": "Skull",
+   "head_local": [
+    0.381882,
+    -0.523873,
+    16.86215
+   ],
+   "tail_local": [
+    0.381882,
+    -0.724101,
+    16.924601
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 5,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eyelid_Dwn.l",
+   "parent": "Skull",
+   "head_local": [
+    0.380549,
+    -0.523551,
+    16.866947
+   ],
+   "tail_local": [
+    0.377841,
+    -0.725636,
+    16.805277
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 7,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Up.l",
+   "parent": "Skull",
+   "head_local": [
+    0.232125,
+    -0.867222,
+    16.285931
+   ],
+   "tail_local": [
+    0.150378,
+    -0.926107,
+    16.201681
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Dwn.l",
+   "parent": "Skull",
+   "head_local": [
+    0.141197,
+    -0.848282,
+    15.974909
+   ],
+   "tail_local": [
+    0.148085,
+    -0.911793,
+    16.095747
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Lip_Corner.l",
+   "parent": "Skull",
+   "head_local": [
+    0.288135,
+    -0.796522,
+    16.157589
+   ],
+   "tail_local": [
+    0.311184,
+    -0.613905,
+    16.216728
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "COPY_LOCATION",
+    "LIMIT_LOCATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": false,
+   "servo_id": null,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Jaw_Open",
+   "parent": "Skull",
+   "head_local": [
+    0.007918,
+    -0.241706,
+    16.408575
+   ],
+   "tail_local": [
+    0.009284,
+    -0.886886,
+    15.9728
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 20,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Eye_pitch.l",
+   "parent": "Skull",
+   "head_local": [
+    0.079149,
+    -0.670962,
+    16.8696
+   ],
+   "tail_local": [
+    0.079149,
+    -0.789563,
+    16.8696
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 11,
+   "vertex_groups": []
+  },
+  {
+   "name": "Eye_pitch.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.079149,
+    -0.670962,
+    16.8696
+   ],
+   "tail_local": [
+    -0.079149,
+    -0.789563,
+    16.8696
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 10,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Jaw_Yaw",
+   "parent": "Skull",
+   "head_local": [
+    0.007918,
+    -0.241706,
+    16.408575
+   ],
+   "tail_local": [
+    0.009284,
+    -0.886886,
+    15.9728
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [
+    "DAMPED_TRACK",
+    "LIMIT_ROTATION"
+   ],
+   "driver_count": 0,
+   "has_servo_id": true,
+   "servo_id": 21,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Neck_1",
+   "parent": "Skull",
+   "head_local": [
+    0.007918,
+    0.258294,
+    17.376457
+   ],
+   "tail_local": [
+    0.007918,
+    0.258294,
+    17.676552
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 22,
+   "vertex_groups": [
+    "eyes",
+    "mold"
+   ]
+  },
+  {
+   "name": "Neck_3",
+   "parent": "Skull",
+   "head_local": [
+    0.007918,
+    0.258294,
+    17.376457
+   ],
+   "tail_local": [
+    -0.120959,
+    0.11524,
+    17.369989
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 24,
+   "vertex_groups": []
+  },
+  {
+   "name": "Neck_2",
+   "parent": "Skull",
+   "head_local": [
+    -0.007918,
+    0.258294,
+    17.376457
+   ],
+   "tail_local": [
+    0.120959,
+    0.11524,
+    17.369989
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 23,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_Out_Rotation.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.485912,
+    -0.648941,
+    17.093124
+   ],
+   "tail_local": [
+    -0.495243,
+    -0.731164,
+    17.116016
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 0,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_In_Rotation_pitch.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.25,
+    -0.867605,
+    17.088631
+   ],
+   "tail_local": [
+    -0.25,
+    -0.883946,
+    17.078518
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 2,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_Out_Rotation.l",
+   "parent": "Skull",
+   "head_local": [
+    0.485912,
+    -0.648941,
+    17.093124
+   ],
+   "tail_local": [
+    0.495243,
+    -0.731164,
+    17.116016
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 1,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_In_Rotation_pitch.l",
+   "parent": "Skull",
+   "head_local": [
+    0.25,
+    -0.867605,
+    17.088631
+   ],
+   "tail_local": [
+    0.25,
+    -0.883946,
+    17.078518
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 3,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_In_Rotation_yaw.l",
+   "parent": "Skull",
+   "head_local": [
+    0.231402,
+    -0.872706,
+    17.089449
+   ],
+   "tail_local": [
+    0.231402,
+    -0.88906,
+    17.079
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 2,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Dwn_Rotation.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.140069,
+    -0.758274,
+    15.953139
+   ],
+   "tail_local": [
+    -0.140069,
+    -0.847632,
+    15.991003
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 28,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Up_Rotation_C",
+   "parent": "Skull",
+   "head_local": [
+    0.006479,
+    -0.934341,
+    16.327028
+   ],
+   "tail_local": [
+    0.006479,
+    -0.958132,
+    16.336105
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 12,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Dwn_Rotation_C",
+   "parent": "Skull",
+   "head_local": [
+    0.004481,
+    -0.833571,
+    15.970668
+   ],
+   "tail_local": [
+    0.004481,
+    -0.895512,
+    15.973793
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 14,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Up_Rotation.l",
+   "parent": "Skull",
+   "head_local": [
+    0.220695,
+    -0.789553,
+    16.263678
+   ],
+   "tail_local": [
+    0.220695,
+    -0.85006,
+    16.283539
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 27,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Dwn_Rotation.l",
+   "parent": "Skull",
+   "head_local": [
+    0.140069,
+    -0.758274,
+    15.953139
+   ],
+   "tail_local": [
+    0.140069,
+    -0.847632,
+    15.991003
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 30,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Up_Out_C",
+   "parent": "Skull",
+   "head_local": [
+    0.011542,
+    -0.928787,
+    16.22142
+   ],
+   "tail_local": [
+    0.011542,
+    -0.980778,
+    16.239038
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 13,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Corner_Rotation.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.338551,
+    -0.621106,
+    16.217899
+   ],
+   "tail_local": [
+    -0.338551,
+    -0.687227,
+    16.082613
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 16,
+   "vertex_groups": []
+  },
+  {
+   "name": "Smile_Rotation.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.338551,
+    -0.621106,
+    16.217899
+   ],
+   "tail_local": [
+    -0.338551,
+    -0.763197,
+    16.18601
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 17,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Corner_Rotation.l",
+   "parent": "Skull",
+   "head_local": [
+    0.338551,
+    -0.621106,
+    16.217899
+   ],
+   "tail_local": [
+    0.338551,
+    -0.736263,
+    16.1201
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 18,
+   "vertex_groups": []
+  },
+  {
+   "name": "Smile_Rotation.l",
+   "parent": "Skull",
+   "head_local": [
+    0.338551,
+    -0.621106,
+    16.217899
+   ],
+   "tail_local": [
+    0.338551,
+    -0.763197,
+    16.18601
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 19,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Up_Rotation.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.220695,
+    -0.789553,
+    16.263678
+   ],
+   "tail_local": [
+    -0.220695,
+    -0.85006,
+    16.283539
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 24,
+   "vertex_groups": []
+  },
+  {
+   "name": "Lip_Dwn_Out_C",
+   "parent": "Skull",
+   "head_local": [
+    0.005907,
+    -0.862027,
+    16.052961
+   ],
+   "tail_local": [
+    0.005907,
+    -0.927848,
+    16.067944
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 15,
+   "vertex_groups": []
+  },
+  {
+   "name": "Brow_In_Rotation_yaw.r",
+   "parent": "Skull",
+   "head_local": [
+    -0.231402,
+    -0.872706,
+    17.089449
+   ],
+   "tail_local": [
+    -0.231402,
+    -0.88906,
+    17.079
+   ],
+   "use_deform": true,
+   "use_connect": false,
+   "constraints": [],
+   "driver_count": 1,
+   "has_servo_id": true,
+   "servo_id": 3,
+   "vertex_groups": []
+  }
+ ]
+}

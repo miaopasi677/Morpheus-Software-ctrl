@@ -1,0 +1,489 @@
+{
+ "cheek_face_slave_part_mirror.SLDPRT": {
+  "stl": "cheek_face_slave_part_mirror.stl",
+  "bytes": 15284
+ },
+ "cheek_facial_slave_part_mirror.SLDPRT": {
+  "stl": "cheek_facial_slave_part_mirror.stl",
+  "bytes": 19084
+ },
+ "cheek_line.SLDPRT": {
+  "stl": "cheek_line.stl",
+  "bytes": 391384
+ },
+ "cheek_line_mirror.SLDPRT": {
+  "error": "cannot convert: No readable modern DisplayLists stream; triangulating the B-rep failed: tessellate: a face hit the triangle cap (200000) before reaching the tolerance\n"
+ },
+ "eye\\eye_Balls_for_head_pulls.SLDPRT": {
+  "stl": "eye__eye_Balls_for_head_pulls.stl",
+  "bytes": 235484
+ },
+ "eye\\eye_bassinet.SLDPRT": {
+  "stl": "eye__eye_bassinet.stl",
+  "bytes": 130084
+ },
+ "eye\\eye_camera_eyeball.SLDPRT": {
+  "stl": "eye__eye_camera_eyeball.stl",
+  "bytes": 227684
+ },
+ "eye\\eye_comb.SLDPRT": {
+  "stl": "eye__eye_comb.stl",
+  "bytes": 50884
+ },
+ "eye\\eye_crank_handle.SLDPRT": {
+  "stl": "eye__eye_crank_handle.stl",
+  "bytes": 58884
+ },
+ "eye\\eye_Eyeball_mounts.SLDPRT": {
+  "stl": "eye__eye_Eyeball_mounts.stl",
+  "bytes": 117384
+ },
+ "eye\\eye_Eyelid_mounting_stubs.SLDPRT": {
+  "stl": "eye__eye_Eyelid_mounting_stubs.stl",
+  "bytes": 5684
+ },
+ "eye\\eye_lower_eyelid_of_the_right_eye.SLDPRT": {
+  "stl": "eye__eye_lower_eyelid_of_the_right_eye.stl",
+  "bytes": 281484
+ },
+ "eye\\eye_lower_eyelid_of_the_right_eye_mirror.SLDPRT": {
+  "stl": "eye__eye_lower_eyelid_of_the_right_eye_mirror.stl",
+  "bytes": 279284
+ },
+ "eye\\eye_m_shaped_board.SLDPRT": {
+  "stl": "eye__eye_m_shaped_board.stl",
+  "bytes": 31684
+ },
+ "eye\\eye_mounted_version.SLDPRT": {
+  "stl": "eye__eye_mounted_version.stl",
+  "bytes": 303084
+ },
+ "eye\\eye_pupil.SLDPRT": {
+  "stl": "eye__eye_pupil.stl",
+  "bytes": 89984
+ },
+ "eye\\eye_Shanks_for_Ball_Tie_Rods.SLDPRT": {
+  "stl": "eye__eye_Shanks_for_Ball_Tie_Rods.stl",
+  "bytes": 136484
+ },
+ "eye\\eye_upper_eyelid_of_the_right_eye.SLDPRT": {
+  "stl": "eye__eye_upper_eyelid_of_the_right_eye.stl",
+  "bytes": 230884
+ },
+ "eye\\eye_upper_eyelid_of_the_right_eye_mirror.SLDPRT": {
+  "stl": "eye__eye_upper_eyelid_of_the_right_eye_mirror.stl",
+  "bytes": 228484
+ },
+ "eye\\eye_y_connector.SLDPRT": {
+  "stl": "eye__eye_y_connector.stl",
+  "bytes": 47384
+ },
+ "eyebrow\\eyebrow_brow center motor mounting bracket.SLDPRT": {
+  "stl": "eyebrow__eyebrow_brow_center_motor_mounting_bracket.stl",
+  "bytes": 35584
+ },
+ "eyebrow\\eyebrow_brow center pendulum.SLDPRT": {
+  "stl": "eyebrow__eyebrow_brow_center_pendulum.stl",
+  "bytes": 27684
+ },
+ "eyebrow\\eyebrow_connected model aircraft regulator.SLDPRT": {
+  "stl": "eyebrow__eyebrow_connected_model_aircraft_regulator.stl",
+  "bytes": 57484
+ },
+ "eyebrow\\eyebrow_crank v4.SLDPRT": {
+  "stl": "eyebrow__eyebrow_crank_v4.stl",
+  "bytes": 58884
+ },
+ "eyebrow\\eyebrow_eyebrow peak rocker 1.SLDPRT": {
+  "stl": "eyebrow__eyebrow_eyebrow_peak_rocker_1.stl",
+  "bytes": 60984
+ },
+ "eyebrow\\eyebrow_eyebrow peak rocker.SLDPRT": {
+  "stl": "eyebrow__eyebrow_eyebrow_peak_rocker.stl",
+  "bytes": 27884
+ },
+ "eyebrow\\eyebrow_GUOHUAA0090.SLDPRT": {
+  "stl": "eyebrow__eyebrow_GUOHUAA0090.stl",
+  "bytes": 1088484
+ },
+ "eyebrow\\eyebrow_Installation platform.SLDPRT": {
+  "stl": "eyebrow__eyebrow_Installation_platform.stl",
+  "bytes": 202184
+ },
+ "eyebrow\\eyebrow_mirror brow center motor mounting bracket.SLDPRT": {
+  "stl": "eyebrow__eyebrow_mirror_brow_center_motor_mounting_bracket.stl",
+  "bytes": 35584
+ },
+ "eyebrow\\eyebrow_mirror brow center pendulum.SLDPRT": {
+  "stl": "eyebrow__eyebrow_mirror_brow_center_pendulum.stl",
+  "bytes": 27684
+ },
+ "eyebrow\\eyebrow_mirror eyebrow peak rocker 1.SLDPRT": {
+  "stl": "eyebrow__eyebrow_mirror_eyebrow_peak_rocker_1.stl",
+  "bytes": 66884
+ },
+ "eyebrow\\eyebrow_short brow joystick.SLDPRT": {
+  "stl": "eyebrow__eyebrow_short_brow_joystick.stl",
+  "bytes": 19884
+ },
+ "ks3518.SLDPRT": {
+  "stl": "ks3518.stl",
+  "cached": true
+ },
+ "L.SLDPRT": {
+  "stl": "L.stl",
+  "bytes": 25884
+ },
+ "MG90S.SLDPRT": {
+  "stl": "MG90S.stl",
+  "cached": true
+ },
+ "mouth\\mouth_aluminum rocker arm.SLDPRT": {
+  "stl": "mouth__mouth_aluminum_rocker_arm.stl",
+  "bytes": 32084
+ },
+ "mouth\\mouth_ball of spherical hinge.SLDPRT": {
+  "stl": "mouth__mouth_ball_of_spherical_hinge.stl",
+  "bytes": 235584
+ },
+ "mouth\\mouth_baseplate for teeth.SLDPRT": {
+  "stl": "mouth__mouth_baseplate_for_teeth.stl",
+  "bytes": 102684
+ },
+ "mouth\\mouth_baseplate.SLDPRT": {
+  "stl": "mouth__mouth_baseplate.stl",
+  "bytes": 354384
+ },
+ "mouth\\mouth_bearing cap.SLDPRT": {
+  "stl": "mouth__mouth_bearing_cap.stl",
+  "bytes": 39684
+ },
+ "mouth\\mouth_connector for OT head.SLDPRT": {
+  "stl": "mouth__mouth_connector_for_OT_head.stl",
+  "bytes": 42084
+ },
+ "mouth\\mouth_connector for OT head_4mm medium.SLDPRT": {
+  "stl": "mouth__mouth_connector_for_OT_head_4mm_medium.stl",
+  "bytes": 46284
+ },
+ "mouth\\mouth_connector for OT head_4mmlong.SLDPRT": {
+  "stl": "mouth__mouth_connector_for_OT_head_4mmlong.stl",
+  "bytes": 44184
+ },
+ "mouth\\mouth_convex iron wire.SLDPRT": {
+  "stl": "mouth__mouth_convex_iron_wire.stl",
+  "bytes": 59684
+ },
+ "mouth\\mouth_crank.SLDPRT": {
+  "stl": "mouth__mouth_crank.stl",
+  "bytes": 58884
+ },
+ "mouth\\mouth_fourth-generation jaw.SLDPRT": {
+  "stl": "mouth__mouth_fourth-generation_jaw.stl",
+  "bytes": 377384
+ },
+ "mouth\\mouth_gear.SLDPRT": {
+  "stl": "mouth__mouth_gear.stl",
+  "bytes": 26284
+ },
+ "mouth\\mouth_GUOHUAA0090.SLDPRT": {
+  "stl": "mouth__mouth_GUOHUAA0090.stl",
+  "bytes": 1088484
+ },
+ "mouth\\mouth_iron wire 30mm.SLDPRT": {
+  "stl": "mouth__mouth_iron_wire_30mm.stl",
+  "bytes": 38384
+ },
+ "mouth\\mouth_iron wire_below middle.SLDPRT": {
+  "stl": "mouth__mouth_iron_wire_below_middle.stl",
+  "bytes": 36084
+ },
+ "mouth\\mouth_iron wire_freedom20mm.SLDPRT": {
+  "stl": "mouth__mouth_iron_wire_freedom20mm.stl",
+  "bytes": 54684
+ },
+ "mouth\\mouth_iron wire_freedom30mm.SLDPRT": {
+  "stl": "mouth__mouth_iron_wire_freedom30mm.stl",
+  "bytes": 51684
+ },
+ "mouth\\mouth_iron wire_upper middle.SLDPRT": {
+  "stl": "mouth__mouth_iron_wire_upper_middle.stl",
+  "bytes": 24084
+ },
+ "mouth\\mouth_jaw five-bar mechanism_long.SLDPRT": {
+  "stl": "mouth__mouth_jaw_five-bar_mechanism_long.stl",
+  "bytes": 17084
+ },
+ "mouth\\mouth_jaw five-bar mechanism_short.SLDPRT": {
+  "stl": "mouth__mouth_jaw_five-bar_mechanism_short.stl",
+  "bytes": 20684
+ },
+ "mouth\\mouth_ks3518.SLDPRT": {
+  "stl": "mouth__mouth_ks3518.stl",
+  "bytes": 33184
+ },
+ "mouth\\mouth_lip connecting rod.SLDPRT": {
+  "stl": "mouth__mouth_lip_connecting_rod.stl",
+  "bytes": 30884
+ },
+ "mouth\\mouth_lip six-bar mechanism_4mm crossbar.SLDPRT": {
+  "stl": "mouth__mouth_lip_six-bar_mechanism_4mm_crossbar.stl",
+  "bytes": 22084
+ },
+ "mouth\\mouth_lip six-bar mechanism_8mm crossbar.SLDPRT": {
+  "stl": "mouth__mouth_lip_six-bar_mechanism_8mm_crossbar.stl",
+  "bytes": 20884
+ },
+ "mouth\\mouth_lower teeth.SLDPRT": {
+  "stl": "mouth__mouth_lower_teeth.stl",
+  "bytes": 400484
+ },
+ "mouth\\mouth_metal ball of spherical hinge.SLDPRT": {
+  "stl": "mouth__mouth_metal_ball_of_spherical_hinge.stl",
+  "bytes": 163984
+ },
+ "mouth\\mouth_MG90S.SLDPRT": {
+  "stl": "mouth__mouth_MG90S.stl",
+  "bytes": 1086384
+ },
+ "mouth\\mouth_MGN7C_slider.SLDPRT": {
+  "stl": "mouth__mouth_MGN7C_slider.stl",
+  "bytes": 82284
+ },
+ "mouth\\mouth_MGR7_slider rail.SLDPRT": {
+  "stl": "mouth__mouth_MGR7_slider_rail.stl",
+  "bytes": 78684
+ },
+ "mouth\\mouth_mirror_motor mounting platform for smiling six-bar mechanism.SLDPRT": {
+  "stl": "mouth__mouth_mirror_motor_mounting_platform_for_smiling_six-bar_mechanism.stl",
+  "bytes": 37084
+ },
+ "mouth\\mouth_mirror_oblique crank extension rod.SLDPRT": {
+  "stl": "mouth__mouth_mirror_oblique_crank_extension_rod.stl",
+  "bytes": 35684
+ },
+ "mouth\\mouth_mirror_smiling five-bar mechanism_below.SLDPRT": {
+  "stl": "mouth__mouth_mirror_smiling_five-bar_mechanism_below.stl",
+  "bytes": 77084
+ },
+ "mouth\\mouth_motor mounting platform for smiling six-bar mechanism.SLDPRT": {
+  "stl": "mouth__mouth_motor_mounting_platform_for_smiling_six-bar_mechanism.stl",
+  "bytes": 37084
+ },
+ "mouth\\mouth_mounting platform for upper lip connecting rod.SLDPRT": {
+  "stl": "mouth__mouth_mounting_platform_for_upper_lip_connecting_rod.stl",
+  "bytes": 28684
+ },
+ "mouth\\mouth_oblique crank extension rod.SLDPRT": {
+  "stl": "mouth__mouth_oblique_crank_extension_rod.stl",
+  "bytes": 35684
+ },
+ "mouth\\mouth_OT head.SLDPRT": {
+  "stl": "mouth__mouth_OT_head.stl",
+  "bytes": 23284
+ },
+ "mouth\\mouth_perforated crank.SLDPRT": {
+  "stl": "mouth__mouth_perforated_crank.stl",
+  "bytes": 19884
+ },
+ "mouth\\mouth_rack.SLDPRT": {
+  "stl": "mouth__mouth_rack.stl",
+  "bytes": 11884
+ },
+ "mouth\\mouth_self-made ball hinge rod for the lower teeth.SLDPRT": {
+  "stl": "mouth__mouth_self-made_ball_hinge_rod_for_the_lower_teeth.stl",
+  "bytes": 286884
+ },
+ "mouth\\mouth_shaft flange.SLDPRT": {
+  "stl": "mouth__mouth_shaft_flange.stl",
+  "bytes": 19584
+ },
+ "mouth\\mouth_six-bar mechanism_above_short.SLDPRT": {
+  "stl": "mouth__mouth_six-bar_mechanism_above_short.stl",
+  "bytes": 46284
+ },
+ "mouth\\mouth_six-bar mechanism_below_short.SLDPRT": {
+  "stl": "mouth__mouth_six-bar_mechanism_below_short.stl",
+  "bytes": 32684
+ },
+ "mouth\\mouth_six-bar mechanism_with spherical hinge.SLDPRT": {
+  "stl": "mouth__mouth_six-bar_mechanism_with_spherical_hinge.stl",
+  "bytes": 43684
+ },
+ "mouth\\mouth_slide rail mounting plate.SLDPRT": {
+  "stl": "mouth__mouth_slide_rail_mounting_plate.stl",
+  "bytes": 43884
+ },
+ "mouth\\mouth_smiling five-bar mechanism_above.SLDPRT": {
+  "stl": "mouth__mouth_smiling_five-bar_mechanism_above.stl",
+  "bytes": 24284
+ },
+ "mouth\\mouth_smiling five-bar mechanism_below.SLDPRT": {
+  "stl": "mouth__mouth_smiling_five-bar_mechanism_below.stl",
+  "bytes": 78184
+ },
+ "mouth\\mouth_smiling six-bar mechanism_above.SLDPRT": {
+  "stl": "mouth__mouth_smiling_six-bar_mechanism_above.stl",
+  "bytes": 45484
+ },
+ "mouth\\mouth_smiling six-bar mechanism_below.SLDPRT": {
+  "stl": "mouth__mouth_smiling_six-bar_mechanism_below.stl",
+  "bytes": 31884
+ },
+ "mouth\\mouth_spherical hinge.SLDPRT": {
+  "stl": "mouth__mouth_spherical_hinge.stl",
+  "bytes": 177184
+ },
+ "mouth\\mouth_threaded pin.SLDPRT": {
+  "stl": "mouth__mouth_threaded_pin.stl",
+  "bytes": 21084
+ },
+ "mouth\\mouth_threaded rod of spherical hinge.SLDPRT": {
+  "stl": "mouth__mouth_threaded_rod_of_spherical_hinge.stl",
+  "bytes": 1675584
+ },
+ "mouth\\mouth_tongue connecting rod.SLDPRT": {
+  "stl": "mouth__mouth_tongue_connecting_rod.stl",
+  "bytes": 19884
+ },
+ "mouth\\mouth_tongue connecting rod_long.SLDPRT": {
+  "stl": "mouth__mouth_tongue_connecting_rod_long.stl",
+  "bytes": 20084
+ },
+ "mouth\\mouth_tongue pulling rod.SLDPRT": {
+  "stl": "mouth__mouth_tongue_pulling_rod.stl",
+  "bytes": 27284
+ },
+ "mouth\\mouth_tongue tray.SLDPRT": {
+  "stl": "mouth__mouth_tongue_tray.stl",
+  "bytes": 1884
+ },
+ "mouth\\mouth_upper lip connection point.SLDPRT": {
+  "stl": "mouth__mouth_upper_lip_connection_point.stl",
+  "bytes": 87984
+ },
+ "mouth\\mouth_upper teeth.SLDPRT": {
+  "stl": "mouth__mouth_upper_teeth.stl",
+  "bytes": 484984
+ },
+ "neck\\neck_Axis_positioning_tools.SLDPRT": {
+  "stl": "neck__neck_Axis_positioning_tools.stl",
+  "bytes": 44484
+ },
+ "neck\\neck_ball.SLDPRT": {
+  "stl": "neck__neck_ball.stl",
+  "bytes": 235584
+ },
+ "neck\\neck_ball_hinge.SLDPRT": {
+  "stl": "neck__neck_ball_hinge.stl",
+  "bytes": 177184
+ },
+ "neck\\neck_crosshairs.SLDPRT": {
+  "stl": "neck__neck_crosshairs.stl",
+  "bytes": 20684
+ },
+ "neck\\neck_extension_arm.SLDPRT": {
+  "stl": "neck__neck_extension_arm.stl",
+  "bytes": 12384
+ },
+ "neck\\neck_Installation_of_sheet_metal.SLDPRT": {
+  "stl": "neck__neck_Installation_of_sheet_metal.stl",
+  "bytes": 94484
+ },
+ "neck\\neck_Parallel_platforms.SLDPRT": {
+  "stl": "neck__neck_Parallel_platforms.stl",
+  "bytes": 54284
+ },
+ "neck\\neck_pole.SLDPRT": {
+  "stl": "neck__neck_pole.stl",
+  "bytes": 15684
+ },
+ "neck\\neck_principal_axis.SLDPRT": {
+  "stl": "neck__neck_principal_axis.stl",
+  "bytes": 20784
+ },
+ "neck\\neck_transition_part.SLDPRT": {
+  "stl": "neck__neck_transition_part.stl",
+  "bytes": 78884
+ },
+ "neck\\neck_universal_joint.SLDPRT": {
+  "stl": "neck__neck_universal_joint.stl",
+  "bytes": 33684
+ },
+ "neck\\neck_Upper_shaft.SLDPRT": {
+  "stl": "neck__neck_Upper_shaft.stl",
+  "bytes": 17684
+ },
+ "neck\\neck_y_axis_platform.SLDPRT": {
+  "stl": "neck__neck_y_axis_platform.stl",
+  "bytes": 30384
+ },
+ "nose_line.SLDPRT": {
+  "stl": "nose_line.stl",
+  "bytes": 451484
+ },
+ "nose_mirror_line.SLDPRT": {
+  "stl": "nose_mirror_line.stl",
+  "bytes": 410684
+ },
+ "nose_mirror_slave_part.SLDPRT": {
+  "stl": "nose_mirror_slave_part.stl",
+  "bytes": 19084
+ },
+ "nose_slave_part.SLDPRT": {
+  "stl": "nose_slave_part.stl",
+  "bytes": 15284
+ },
+ "OT.SLDPRT": {
+  "stl": "OT.stl",
+  "bytes": 28384
+ },
+ "OT_mirror.SLDPRT": {
+  "stl": "OT_mirror.stl",
+  "bytes": 28384
+ },
+ "Raspberry_Pi_(computer_science).SLDPRT": {
+  "stl": "Raspberry_Pi_(computer_science).stl",
+  "bytes": 73284
+ },
+ "shell_back_of_the_head.SLDPRT": {
+  "stl": "shell_back_of_the_head.stl",
+  "bytes": 490084
+ },
+ "shell_carapace.SLDPRT": {
+  "stl": "shell_carapace.stl",
+  "bytes": 841684
+ },
+ "shell_Face_Bone_Connectors.SLDPRT": {
+  "stl": "shell_Face_Bone_Connectors.stl",
+  "bytes": 21884
+ },
+ "shell_Face_Bone_Connectors_mirror.SLDPRT": {
+  "stl": "shell_Face_Bone_Connectors_mirror.stl",
+  "bytes": 27584
+ },
+ "shell_facial_bones.SLDPRT": {
+  "stl": "shell_facial_bones.stl",
+  "bytes": 464584
+ },
+ "shell_left_ears.SLDPRT": {
+  "stl": "shell_left_ears.stl",
+  "bytes": 176984
+ },
+ "shell_right_ears.SLDPRT": {
+  "stl": "shell_right_ears.stl",
+  "bytes": 178984
+ },
+ "shell_skin_face.SLDPRT": {
+  "stl": "shell_skin_face.stl",
+  "bytes": 2500084
+ },
+ "studs.SLDPRT": {
+  "stl": "studs.stl",
+  "cached": true
+ },
+ "studs_60.SLDPRT": {
+  "stl": "studs_60.stl",
+  "cached": true
+ }
+}
