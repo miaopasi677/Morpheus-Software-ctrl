@@ -1,0 +1,4159 @@
+{
+ "servos": {
+  "1": {
+   "id": 1,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "nose_mirror_line.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -47.99,
+      334.17,
+      53.62
+     ],
+     "axis": [
+      0.026,
+      0.002,
+      -1.0
+     ],
+     "n": 2485,
+     "radius": 3.81,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "nose_mirror_line.SLDPRT",
+     "world_mm": [
+      -65.19,
+      331.66,
+      55.79
+     ],
+     "axis": [
+      0.008,
+      -0.027,
+      1.0
+     ],
+     "n": 385,
+     "radius": 2.1,
+     "thresh": 2.0,
+     "p2d": [
+      2.14,
+      12.11
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "nose_mirror_line.SLDPRT",
+     "struct": "eye_mounted_version.SLDPRT",
+     "world_mm": [
+      -81.37,
+      262.92,
+      63.0
+     ],
+     "axis": [
+      0.036,
+      0.9,
+      0.434
+     ],
+     "n": 596,
+     "radius": 1.68,
+     "p2d": [
+      9.33,
+      77.3
+     ]
+    },
+    {
+     "part": "nose_mirror_line.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -84.8,
+      317.45,
+      38.49
+     ],
+     "axis": [
+      0.941,
+      -0.001,
+      0.337
+     ],
+     "n": 3155,
+     "radius": 1.91,
+     "p2d": [
+      -15.19,
+      35.1
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -47.99,
+     334.17,
+     53.62
+    ],
+    "normal": [
+     0.81,
+     -0.586,
+     -0.001
+    ],
+    "u": [
+     0.001,
+     -0.0,
+     1.0
+    ],
+    "v": [
+     -0.586,
+     -0.81,
+     0.001
+    ]
+   },
+   "servo_axis_mm": [
+    -47.99,
+    334.17,
+    53.62
+   ],
+   "crank_r_mm": 12.3,
+   "crank_pin_mm": [
+    -65.19,
+    331.66,
+    55.79
+   ],
+   "anchor": {
+    "world_mm": [
+     -112.24,
+     249.02,
+     60.83
+    ],
+    "p2d": [
+     7.11,
+     106.65
+    ],
+    "part": "nose_mirror_line.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.4941,
+    0.8678,
+    -0.0529
+   ],
+   "confidence": "partial"
+  },
+  "2": {
+   "id": 2,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_connected model aircraft regulator.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -37.0,
+      346.33,
+      53.63
+     ],
+     "axis": [
+      0.028,
+      0.004,
+      -1.0
+     ],
+     "n": 2479,
+     "radius": 3.83,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "eyebrow_connected model aircraft regulator.SLDPRT",
+     "world_mm": [
+      -52.69,
+      347.91,
+      55.1
+     ],
+     "axis": [
+      0.011,
+      -0.001,
+      1.0
+     ],
+     "n": 1723,
+     "radius": 1.94,
+     "thresh": 1.2,
+     "p2d": [
+      1.61,
+      -2.54
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -37.0,
+     346.33,
+     53.63
+    ],
+    "normal": [
+     0.998,
+     0.062,
+     0.009
+    ],
+    "u": [
+     -0.009,
+     0.0,
+     1.0
+    ],
+    "v": [
+     0.062,
+     -0.998,
+     0.001
+    ]
+   },
+   "servo_axis_mm": [
+    -37.0,
+    346.33,
+    53.63
+   ],
+   "crank_r_mm": 3.01,
+   "crank_pin_mm": [
+    -52.69,
+    347.91,
+    55.1
+   ],
+   "anchor": null,
+   "type": "open",
+   "confidence": "partial"
+  },
+  "3": {
+   "id": 3,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_eyebrow peak rocker.SLDPRT",
+    "eyebrow_eyebrow peak rocker 1.SLDPRT",
+    "nose_mirror_line.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -36.78,
+      321.72,
+      53.62
+     ],
+     "axis": [
+      0.001,
+      -0.03,
+      1.0
+     ],
+     "n": 2509,
+     "radius": 3.75,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "world_mm": [
+      -36.65,
+      310.98,
+      55.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 549,
+     "radius": 3.07,
+     "thresh": 1.2,
+     "p2d": [
+      -0.13,
+      10.73
+     ]
+    },
+    {
+     "a": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "b": "eyebrow_eyebrow peak rocker 1.SLDPRT",
+     "world_mm": [
+      -76.67,
+      311.07,
+      55.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 144,
+     "radius": 2.15,
+     "thresh": 1.2,
+     "p2d": [
+      39.89,
+      10.64
+     ]
+    },
+    {
+     "a": "eyebrow_eyebrow peak rocker 1.SLDPRT",
+     "b": "nose_mirror_line.SLDPRT",
+     "world_mm": [
+      -73.7,
+      321.23,
+      47.75
+     ],
+     "axis": [
+      0.974,
+      -0.215,
+      -0.077
+     ],
+     "n": 28,
+     "radius": 1.61,
+     "thresh": 2.0,
+     "p2d": [
+      36.92,
+      0.53
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eyebrow_eyebrow peak rocker 1.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -76.86,
+      322.35,
+      48.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 358,
+     "radius": 3.37,
+     "p2d": [
+      40.08,
+      -0.59
+     ]
+    },
+    {
+     "part": "nose_mirror_line.SLDPRT",
+     "struct": "eye_mounted_version.SLDPRT",
+     "world_mm": [
+      -81.37,
+      262.92,
+      63.0
+     ],
+     "axis": [
+      0.036,
+      0.9,
+      0.434
+     ],
+     "n": 596,
+     "radius": 1.68,
+     "p2d": [
+      44.59,
+      58.73
+     ]
+    },
+    {
+     "part": "nose_mirror_line.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -84.8,
+      317.45,
+      38.49
+     ],
+     "axis": [
+      0.941,
+      -0.001,
+      0.337
+     ],
+     "n": 3155,
+     "radius": 1.91,
+     "p2d": [
+      48.01,
+      4.38
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -36.78,
+     321.72,
+     53.62
+    ],
+    "normal": [
+     0.0,
+     -0.008,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     -0.0,
+     -1.0,
+     -0.008
+    ]
+   },
+   "servo_axis_mm": [
+    -36.78,
+    321.72,
+    53.62
+   ],
+   "crank_r_mm": 10.73,
+   "crank_pin_mm": [
+    -36.65,
+    310.98,
+    55.0
+   ],
+   "anchor": {
+    "world_mm": [
+     -112.24,
+     249.02,
+     60.83
+    ],
+    "p2d": [
+     75.46,
+     72.64
+    ],
+    "part": "nose_mirror_line.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.465,
+    0.8712,
+    -0.1578
+   ],
+   "confidence": "partial"
+  },
+  "4": {
+   "id": 4,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_short brow joystick.SLDPRT",
+    "eyebrow_brow center pendulum.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -68.0,
+      339.1,
+      16.46
+     ],
+     "axis": [
+      0.03,
+      -0.001,
+      1.0
+     ],
+     "n": 2504,
+     "radius": 3.84,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "eyebrow_short brow joystick.SLDPRT",
+     "world_mm": [
+      -83.59,
+      339.12,
+      15.08
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 298,
+     "radius": 1.84,
+     "thresh": 1.2,
+     "p2d": [
+      15.58,
+      -0.02
+     ]
+    },
+    {
+     "a": "eyebrow_short brow joystick.SLDPRT",
+     "b": "eyebrow_brow center pendulum.SLDPRT",
+     "world_mm": [
+      -92.86,
+      321.27,
+      15.08
+     ],
+     "axis": [
+      -0.0,
+      0.0,
+      1.0
+     ],
+     "n": 171,
+     "radius": 2.18,
+     "thresh": 1.2,
+     "p2d": [
+      24.85,
+      17.83
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eyebrow_brow center pendulum.SLDPRT",
+     "struct": "eyebrow_brow center motor mounting bracket.SLDPRT",
+     "world_mm": [
+      -76.53,
+      321.62,
+      15.08
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 289,
+     "radius": 3.35,
+     "p2d": [
+      8.52,
+      17.48
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -68.0,
+     339.1,
+     16.46
+    ],
+    "normal": [
+     0.008,
+     -0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.008
+    ],
+    "v": [
+     -0.0,
+     -1.0,
+     -0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -68.0,
+    339.1,
+    16.46
+   ],
+   "crank_r_mm": 15.58,
+   "crank_pin_mm": [
+    -83.59,
+    339.12,
+    15.08
+   ],
+   "anchor": {
+    "world_mm": [
+     -131.86,
+     319.71,
+     19.45
+    ],
+    "p2d": [
+     63.89,
+     19.38
+    ],
+    "part": "eyebrow_brow center pendulum.SLDPRT"
+   },
+   "type": "linkage",
+   "drive_dir_world": [
+    0.9559,
+    0.2902,
+    -0.0447
+   ],
+   "confidence": "extracted"
+  },
+  "5": {
+   "id": 5,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -28.04,
+      288.48,
+      52.15
+     ],
+     "axis": [
+      0.002,
+      0.003,
+      1.0
+     ],
+     "n": 3217,
+     "radius": 3.84,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eye_crank_handle.SLDPRT",
+     "b": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "world_mm": [
+      -24.71,
+      302.57,
+      53.2
+     ],
+     "axis": [
+      -0.012,
+      -0.104,
+      0.994
+     ],
+     "n": 876,
+     "radius": 3.53,
+     "thresh": 1.2,
+     "p2d": [
+      -3.34,
+      -14.12
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -29.2,
+      304.0,
+      54.61
+     ],
+     "axis": [
+      0.993,
+      0.001,
+      0.121
+     ],
+     "n": 589,
+     "radius": 2.03,
+     "p2d": [
+      1.15,
+      -15.62
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -28.04,
+     288.48,
+     52.15
+    ],
+    "normal": [
+     -0.005,
+     -0.051,
+     0.999
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     -0.005
+    ],
+    "v": [
+     0.0,
+     -0.999,
+     -0.051
+    ]
+   },
+   "servo_axis_mm": [
+    -28.04,
+    288.48,
+    52.15
+   ],
+   "crank_r_mm": 14.51,
+   "crank_pin_mm": [
+    -24.71,
+    302.57,
+    53.2
+   ],
+   "anchor": null,
+   "type": "pushrod",
+   "confidence": "partial"
+  },
+  "6": {
+   "id": 6,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -38.44,
+      276.06,
+      60.15
+     ],
+     "axis": [
+      -0.0,
+      -0.002,
+      1.0
+     ],
+     "n": 3214,
+     "radius": 3.84,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eye_crank_handle.SLDPRT",
+     "b": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "world_mm": [
+      -30.16,
+      288.35,
+      61.38
+     ],
+     "axis": [
+      -0.086,
+      0.029,
+      0.996
+     ],
+     "n": 744,
+     "radius": 4.26,
+     "thresh": 1.2,
+     "p2d": [
+      -8.33,
+      -11.92
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eye_crank_handle.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -32.89,
+      286.16,
+      61.4
+     ],
+     "axis": [
+      -0.042,
+      0.347,
+      0.937
+     ],
+     "n": 164,
+     "radius": 2.05,
+     "p2d": [
+      -5.6,
+      -9.74
+     ]
+    },
+    {
+     "part": "eye_crank_handle.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -32.89,
+      286.16,
+      61.4
+     ],
+     "axis": [
+      -0.042,
+      0.347,
+      0.937
+     ],
+     "n": 164,
+     "radius": 2.05,
+     "p2d": [
+      -5.6,
+      -9.74
+     ]
+    },
+    {
+     "part": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -33.56,
+      287.31,
+      62.29
+     ],
+     "axis": [
+      0.933,
+      0.308,
+      0.186
+     ],
+     "n": 589,
+     "radius": 2.03,
+     "p2d": [
+      -4.97,
+      -10.7
+     ]
+    },
+    {
+     "part": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -33.56,
+      287.31,
+      62.29
+     ],
+     "axis": [
+      0.933,
+      0.308,
+      0.186
+     ],
+     "n": 589,
+     "radius": 2.03,
+     "p2d": [
+      -4.97,
+      -10.7
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -38.44,
+     276.06,
+     60.15
+    ],
+    "normal": [
+     -0.043,
+     0.183,
+     0.982
+    ],
+    "u": [
+     -0.999,
+     0.0,
+     -0.044
+    ],
+    "v": [
+     -0.008,
+     -0.983,
+     0.183
+    ]
+   },
+   "servo_axis_mm": [
+    -38.44,
+    276.06,
+    60.15
+   ],
+   "crank_r_mm": 14.54,
+   "crank_pin_mm": [
+    -30.16,
+    288.35,
+    61.38
+   ],
+   "anchor": null,
+   "type": "pushrod",
+   "confidence": "partial"
+  },
+  "7": {
+   "id": 7,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -40.2,
+      266.08,
+      -7.65
+     ],
+     "axis": [
+      0.0,
+      -0.002,
+      1.0
+     ],
+     "n": 3212,
+     "radius": 3.83,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -40.2,
+     266.08,
+     -7.65
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -40.2,
+    266.08,
+    -7.65
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    -40.2,
+    266.08,
+    -7.65
+   ],
+   "anchor": null,
+   "type": "eye_rev",
+   "confidence": "partial"
+  },
+  "8": {
+   "id": 8,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_aluminum rocker arm.SLDPRT",
+    "mouth_threaded rod of spherical hinge.SLDPRT",
+    "mouth_spherical hinge.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_ks3518.SLDPRT",
+     "b": "mouth_aluminum rocker arm.SLDPRT",
+     "world_mm": [
+      -9.19,
+      239.25,
+      -52.91
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 96,
+     "radius": 3.47,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "mouth_aluminum rocker arm.SLDPRT",
+     "b": "mouth_threaded rod of spherical hinge.SLDPRT",
+     "world_mm": [
+      21.11,
+      216.67,
+      -57.1
+     ],
+     "axis": [
+      -0.142,
+      -0.512,
+      0.847
+     ],
+     "n": 26,
+     "radius": 1.19,
+     "thresh": 3.0,
+     "p2d": [
+      -30.3,
+      22.58
+     ]
+    },
+    {
+     "a": "mouth_threaded rod of spherical hinge.SLDPRT",
+     "b": "mouth_spherical hinge.SLDPRT",
+     "world_mm": [
+      -11.16,
+      185.26,
+      -55.67
+     ],
+     "axis": [
+      0.69,
+      0.718,
+      -0.092
+     ],
+     "n": 11804,
+     "radius": 2.15,
+     "thresh": 1.2,
+     "p2d": [
+      1.97,
+      53.99
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -9.19,
+     239.25,
+     -52.91
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -9.19,
+    239.25,
+    -52.91
+   ],
+   "crank_r_mm": 37.79,
+   "crank_pin_mm": [
+    21.11,
+    216.67,
+    -57.1
+   ],
+   "anchor": {
+    "world_mm": [
+     -19.83,
+     177.9,
+     -51.95
+    ],
+    "p2d": [
+     10.64,
+     61.35
+    ],
+    "part": "mouth_fourth-generation jaw.SLDPRT"
+   },
+   "type": "pushrod",
+   "drive_dir_world": [
+    -0.7231,
+    -0.6848,
+    0.091
+   ],
+   "confidence": "partial"
+  },
+  "9": {
+   "id": 9,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_connector for OT head.SLDPRT",
+    "mouth_iron wire_below middle.SLDPRT",
+    "mouth_iron wire_freedom30mm.SLDPRT",
+    "mouth_OT head.SLDPRT",
+    "mouth_six-bar mechanism_above_short.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -51.86,
+      195.08,
+      14.32
+     ],
+     "axis": [
+      -0.017,
+      -0.025,
+      1.0
+     ],
+     "n": 2424,
+     "radius": 3.78,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_connector for OT head.SLDPRT",
+     "world_mm": [
+      -45.03,
+      209.15,
+      12.94
+     ],
+     "axis": [
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 740,
+     "radius": 2.99,
+     "thresh": 1.2,
+     "p2d": [
+      -6.95,
+      -14.05
+     ]
+    },
+    {
+     "a": "mouth_connector for OT head.SLDPRT",
+     "b": "mouth_iron wire_below middle.SLDPRT",
+     "world_mm": [
+      -48.18,
+      207.73,
+      8.06
+     ],
+     "axis": [
+      0.9,
+      0.436,
+      0.002
+     ],
+     "n": 146,
+     "radius": 1.37,
+     "thresh": 3.0,
+     "p2d": [
+      -4.48,
+      -12.5
+     ]
+    },
+    {
+     "a": "mouth_iron wire_below middle.SLDPRT",
+     "b": "mouth_iron wire_freedom30mm.SLDPRT",
+     "world_mm": [
+      -65.13,
+      171.46,
+      1.27
+     ],
+     "axis": [
+      0.416,
+      -0.006,
+      -0.909
+     ],
+     "n": 44799,
+     "radius": 1.44,
+     "thresh": 1.2,
+     "p2d": [
+      11.41,
+      23.98
+     ]
+    },
+    {
+     "a": "mouth_iron wire_freedom30mm.SLDPRT",
+     "b": "mouth_OT head.SLDPRT",
+     "world_mm": [
+      -95.21,
+      167.7,
+      1.36
+     ],
+     "axis": [
+      0.992,
+      0.124,
+      0.0
+     ],
+     "n": 581,
+     "radius": 1.88,
+     "thresh": 1.2,
+     "p2d": [
+      41.24,
+      27.83
+     ]
+    },
+    {
+     "a": "mouth_OT head.SLDPRT",
+     "b": "mouth_six-bar mechanism_above_short.SLDPRT",
+     "world_mm": [
+      -99.96,
+      166.52,
+      3.13
+     ],
+     "axis": [
+      0.016,
+      -0.045,
+      0.999
+     ],
+     "n": 303,
+     "radius": 2.79,
+     "thresh": 1.2,
+     "p2d": [
+      46.18,
+      28.98
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "mouth_OT head.SLDPRT",
+     "struct": "mouth_mounting platform for upper lip connecting rod.SLDPRT",
+     "world_mm": [
+      -100.51,
+      170.75,
+      3.01
+     ],
+     "axis": [
+      -0.166,
+      0.961,
+      -0.222
+     ],
+     "n": 51,
+     "radius": 1.97,
+     "p2d": [
+      46.71,
+      24.76
+     ]
+    },
+    {
+     "part": "mouth_six-bar mechanism_above_short.SLDPRT",
+     "struct": "mouth_mounting platform for upper lip connecting rod.SLDPRT",
+     "world_mm": [
+      -102.33,
+      172.65,
+      -0.78
+     ],
+     "axis": [
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 301,
+     "radius": 3.12,
+     "p2d": [
+      48.01,
+      22.96
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -51.86,
+     195.08,
+     14.32
+    ],
+    "normal": [
+     0.133,
+     -0.024,
+     0.991
+    ],
+    "u": [
+     -0.991,
+     0.0,
+     0.133
+    ],
+    "v": [
+     -0.003,
+     -1.0,
+     -0.024
+    ]
+   },
+   "servo_axis_mm": [
+    -51.86,
+    195.08,
+    14.32
+   ],
+   "crank_r_mm": 15.67,
+   "crank_pin_mm": [
+    -45.03,
+    209.15,
+    12.94
+   ],
+   "anchor": {
+    "world_mm": [
+     -131.18,
+     170.36,
+     -4.33
+    ],
+    "p2d": [
+     76.13,
+     25.43
+    ],
+    "part": "mouth_six-bar mechanism_above_short.SLDPRT"
+   },
+   "type": "linkage",
+   "drive_dir_world": [
+    0.9315,
+    0.2903,
+    0.2191
+   ],
+   "confidence": "extracted"
+  },
+  "10": {
+   "id": 10,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_above.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -80.29,
+      231.61,
+      -34.09
+     ],
+     "axis": [
+      0.555,
+      0.013,
+      0.832
+     ],
+     "n": 2415,
+     "radius": 3.79,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_smiling five-bar mechanism_above.SLDPRT",
+     "world_mm": [
+      -69.67,
+      225.16,
+      -43.21
+     ],
+     "axis": [
+      -0.574,
+      0.0,
+      -0.819
+     ],
+     "n": 485,
+     "radius": 3.33,
+     "thresh": 1.2,
+     "p2d": [
+      1.59,
+      -1.25
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -80.29,
+     231.61,
+     -34.09
+    ],
+    "normal": [
+     -0.72,
+     0.493,
+     0.488
+    ],
+    "u": [
+     -0.561,
+     0.0,
+     -0.828
+    ],
+    "v": [
+     -0.408,
+     -0.87,
+     0.277
+    ]
+   },
+   "servo_axis_mm": [
+    -80.29,
+    231.61,
+    -34.09
+   ],
+   "crank_r_mm": 2.02,
+   "crank_pin_mm": [
+    -69.67,
+    225.16,
+    -43.21
+   ],
+   "anchor": {
+    "world_mm": [
+     -86.27,
+     202.51,
+     -28.32
+    ],
+    "p2d": [
+     -1.42,
+     29.35
+    ],
+    "part": "mouth_upper teeth.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.1976,
+    0.9616,
+    -0.1907
+   ],
+   "confidence": "partial"
+  },
+  "11": {
+   "id": 11,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_iron wire_upper middle.SLDPRT",
+    "mouth_smiling six-bar mechanism_above.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -35.9,
+      243.66,
+      0.84
+     ],
+     "axis": [
+      -0.016,
+      1.0,
+      -0.023
+     ],
+     "n": 2413,
+     "radius": 3.79,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_iron wire_upper middle.SLDPRT",
+     "world_mm": [
+      -45.5,
+      242.76,
+      -6.07
+     ],
+     "axis": [
+      0.278,
+      -0.959,
+      -0.058
+     ],
+     "n": 138,
+     "radius": 2.54,
+     "thresh": 3.0,
+     "p2d": [
+      -9.44,
+      -0.16
+     ]
+    },
+    {
+     "a": "mouth_iron wire_upper middle.SLDPRT",
+     "b": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "world_mm": [
+      -85.91,
+      243.9,
+      -5.45
+     ],
+     "axis": [
+      -0.414,
+      0.874,
+      -0.255
+     ],
+     "n": 20,
+     "radius": 1.23,
+     "thresh": 3.0,
+     "p2d": [
+      -20.75,
+      -7.0
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "struct": "mouth_baseplate.SLDPRT",
+     "world_mm": [
+      -88.1,
+      235.99,
+      -6.74
+     ],
+     "axis": [
+      -0.707,
+      -0.0,
+      0.707
+     ],
+     "n": 222,
+     "radius": 3.31,
+     "p2d": [
+      -22.63,
+      0.57
+     ]
+    },
+    {
+     "part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "struct": "mouth_mirror_motor mounting platform for smiling six-bar mechanism.SLDPRT",
+     "world_mm": [
+      -80.65,
+      237.36,
+      -14.56
+     ],
+     "axis": [
+      0.687,
+      0.011,
+      -0.727
+     ],
+     "n": 41,
+     "radius": 2.19,
+     "p2d": [
+      -27.91,
+      0.6
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -35.9,
+     243.66,
+     0.84
+    ],
+    "normal": [
+     0.945,
+     0.147,
+     -0.291
+    ],
+    "u": [
+     0.295,
+     -0.0,
+     0.956
+    ],
+    "v": [
+     0.141,
+     -0.989,
+     -0.043
+    ]
+   },
+   "servo_axis_mm": [
+    -35.9,
+    243.66,
+    0.84
+   ],
+   "crank_r_mm": 9.44,
+   "crank_pin_mm": [
+    -45.5,
+    242.76,
+    -6.07
+   ],
+   "anchor": {
+    "world_mm": [
+     -124.51,
+     248.52,
+     -26.43
+    ],
+    "p2d": [
+     -52.17,
+     -16.1
+    ],
+    "part": "mouth_smiling six-bar mechanism_above.SLDPRT"
+   },
+   "type": "linkage",
+   "drive_dir_world": [
+    0.9544,
+    -0.0523,
+    0.2938
+   ],
+   "confidence": "extracted"
+  },
+  "12": {
+   "id": 12,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_mirror_oblique crank extension rod.SLDPRT",
+    "mouth_iron wire_below middle.SLDPRT",
+    "mouth_connector for OT head.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -62.61,
+      180.3,
+      14.25
+     ],
+     "axis": [
+      0.008,
+      0.028,
+      1.0
+     ],
+     "n": 2414,
+     "radius": 3.77,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_mirror_oblique crank extension rod.SLDPRT",
+     "world_mm": [
+      -66.08,
+      168.77,
+      12.72
+     ],
+     "axis": [
+      -0.0,
+      0.0,
+      1.0
+     ],
+     "n": 1003,
+     "radius": 3.24,
+     "thresh": 1.2,
+     "p2d": [
+      3.48,
+      11.59
+     ]
+    },
+    {
+     "a": "mouth_mirror_oblique crank extension rod.SLDPRT",
+     "b": "mouth_iron wire_below middle.SLDPRT",
+     "world_mm": [
+      -65.48,
+      170.94,
+      10.48
+     ],
+     "axis": [
+      -0.029,
+      -0.183,
+      0.983
+     ],
+     "n": 161,
+     "radius": 1.18,
+     "thresh": 3.0,
+     "p2d": [
+      2.9,
+      9.54
+     ]
+    },
+    {
+     "a": "mouth_iron wire_below middle.SLDPRT",
+     "b": "mouth_connector for OT head.SLDPRT",
+     "world_mm": [
+      -48.18,
+      207.73,
+      8.06
+     ],
+     "axis": [
+      0.9,
+      0.436,
+      0.002
+     ],
+     "n": 146,
+     "radius": 1.37,
+     "thresh": 3.0,
+     "p2d": [
+      -14.39,
+      -27.07
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -62.61,
+     180.3,
+     14.25
+    ],
+    "normal": [
+     -0.007,
+     -0.052,
+     0.999
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     -0.007
+    ],
+    "v": [
+     0.0,
+     -0.999,
+     -0.052
+    ]
+   },
+   "servo_axis_mm": [
+    -62.61,
+    180.3,
+    14.25
+   ],
+   "crank_r_mm": 12.1,
+   "crank_pin_mm": [
+    -66.08,
+    168.77,
+    12.72
+   ],
+   "anchor": null,
+   "type": "cable",
+   "confidence": "partial"
+  },
+  "13": {
+   "id": 13,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_tongue connecting rod_long.SLDPRT",
+    "mouth_crank.SLDPRT",
+    "mouth_rack.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -62.61,
+      180.3,
+      -11.28
+     ],
+     "axis": [
+      -0.003,
+      -0.027,
+      1.0
+     ],
+     "n": 2406,
+     "radius": 3.76,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_tongue connecting rod_long.SLDPRT",
+     "world_mm": [
+      -58.27,
+      179.64,
+      -7.92
+     ],
+     "axis": [
+      -0.0,
+      0.0,
+      1.0
+     ],
+     "n": 16,
+     "radius": 1.46,
+     "thresh": 3.0,
+     "p2d": [
+      -4.35,
+      0.63
+     ]
+    },
+    {
+     "a": "mouth_tongue connecting rod_long.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -4.18,
+      186.31,
+      5.06
+     ],
+     "axis": [
+      -0.0,
+      0.0,
+      1.0
+     ],
+     "n": 320,
+     "radius": 1.84,
+     "thresh": 1.2,
+     "p2d": [
+      -58.45,
+      -6.15
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_rack.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    }
+   ],
+   "grounds": [
+    {
+     "part": "mouth_rack.SLDPRT",
+     "struct": "mouth_slide rail mounting plate.SLDPRT",
+     "world_mm": [
+      2.09,
+      197.91,
+      -7.43
+     ],
+     "axis": [
+      -0.0,
+      -1.0,
+      -0.0
+     ],
+     "n": 34,
+     "radius": 2.37,
+     "p2d": [
+      -64.71,
+      -17.64
+     ]
+    }
+   ],
+   "notes": [
+    "no_contact:mouth_crank.SLDPRT|mouth_rack.SLDPRT"
+   ],
+   "plane": {
+    "origin": [
+     -62.61,
+     180.3,
+     -11.28
+    ],
+    "normal": [
+     -0.001,
+     -0.009,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     -0.001
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     -0.009
+    ]
+   },
+   "servo_axis_mm": [
+    -62.61,
+    180.3,
+    -11.28
+   ],
+   "crank_r_mm": 4.4,
+   "crank_pin_mm": [
+    -58.27,
+    179.64,
+    -7.92
+   ],
+   "anchor": null,
+   "type": "rack",
+   "drive_dir_world": [
+    -0.1211,
+    -0.9926,
+    -0.0089
+   ],
+   "confidence": "partial"
+  },
+  "14": {
+   "id": 14,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_below.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -61.46,
+      214.1,
+      52.94
+     ],
+     "axis": [
+      -0.581,
+      -0.027,
+      0.813
+     ],
+     "n": 2426,
+     "radius": 3.76,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_smiling five-bar mechanism_below.SLDPRT",
+     "world_mm": [
+      -66.37,
+      199.75,
+      51.19
+     ],
+     "axis": [
+      0.574,
+      -0.0,
+      -0.819
+     ],
+     "n": 386,
+     "radius": 3.46,
+     "thresh": 1.2,
+     "p2d": [
+      1.35,
+      0.86
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -61.46,
+     214.1,
+     52.94
+    ],
+    "normal": [
+     -0.268,
+     -0.941,
+     -0.205
+    ],
+    "u": [
+     0.0,
+     -0.213,
+     0.977
+    ],
+    "v": [
+     -0.963,
+     0.262,
+     0.057
+    ]
+   },
+   "servo_axis_mm": [
+    -61.46,
+    214.1,
+    52.94
+   ],
+   "crank_r_mm": 1.6,
+   "crank_pin_mm": [
+    -66.37,
+    199.75,
+    51.19
+   ],
+   "anchor": {
+    "world_mm": [
+     -112.15,
+     197.41,
+     43.89
+    ],
+    "p2d": [
+     -5.29,
+     43.93
+    ],
+    "part": "mouth_smiling five-bar mechanism_below.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.9365,
+    0.3083,
+    0.1672
+   ],
+   "confidence": "partial"
+  },
+  "15": {
+   "id": 15,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -36.4,
+      233.84,
+      -32.49
+     ],
+     "axis": [
+      -0.689,
+      -0.017,
+      -0.724
+     ],
+     "n": 2429,
+     "radius": 3.78,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -36.4,
+     233.84,
+     -32.49
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -36.4,
+    233.84,
+    -32.49
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    -36.4,
+    233.84,
+    -32.49
+   ],
+   "anchor": null,
+   "type": "open",
+   "confidence": "partial"
+  },
+  "16": {
+   "id": 16,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_rack.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -7.15,
+      201.69,
+      6.44
+     ],
+     "axis": [
+      -0.006,
+      0.029,
+      1.0
+     ],
+     "n": 2429,
+     "radius": 3.76,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_rack.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    }
+   ],
+   "grounds": [
+    {
+     "part": "mouth_rack.SLDPRT",
+     "struct": "mouth_slide rail mounting plate.SLDPRT",
+     "world_mm": [
+      2.09,
+      197.91,
+      -7.43
+     ],
+     "axis": [
+      -0.0,
+      -1.0,
+      -0.0
+     ],
+     "n": 34,
+     "radius": 2.37,
+     "p2d": [
+      -9.24,
+      3.78
+     ]
+    }
+   ],
+   "notes": [
+    "no_contact:mouth_crank.SLDPRT|mouth_rack.SLDPRT",
+    "plane_default",
+    "rail_from_mirror:M13"
+   ],
+   "plane": {
+    "origin": [
+     -7.15,
+     201.69,
+     6.44
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -7.15,
+    201.69,
+    6.44
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    -7.15,
+    201.69,
+    6.44
+   ],
+   "anchor": null,
+   "type": "rack",
+   "drive_dir_world": [
+    0.1211,
+    0.9926,
+    -0.0089
+   ],
+   "confidence": "partial"
+  },
+  "17": {
+   "id": 17,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_jaw five-bar mechanism_short.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_GUOHUAA0090.SLDPRT",
+     "b": "mouth_jaw five-bar mechanism_short.SLDPRT",
+     "world_mm": [
+      27.39,
+      195.14,
+      -54.57
+     ],
+     "axis": [
+      0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 1706,
+     "radius": 3.43,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     27.39,
+     195.14,
+     -54.57
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    27.39,
+    195.14,
+    -54.57
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    27.39,
+    195.14,
+    -54.57
+   ],
+   "anchor": {
+    "world_mm": [
+     3.22,
+     173.35,
+     -51.95
+    ],
+    "p2d": [
+     24.17,
+     21.79
+    ],
+    "part": "mouth_fourth-generation jaw.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.7403,
+    0.6674,
+    -0.0803
+   ],
+   "confidence": "partial"
+  },
+  "18": {
+   "id": 18,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_jaw five-bar mechanism_short.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_GUOHUAA0090.SLDPRT",
+     "b": "mouth_jaw five-bar mechanism_short.SLDPRT",
+     "world_mm": [
+      27.36,
+      195.09,
+      57.79
+     ],
+     "axis": [
+      -0.001,
+      -0.001,
+      1.0
+     ],
+     "n": 2195,
+     "radius": 3.4,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     27.36,
+     195.09,
+     57.79
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    27.36,
+    195.09,
+    57.79
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    27.36,
+    195.09,
+    57.79
+   ],
+   "anchor": {
+    "world_mm": [
+     3.22,
+     173.35,
+     54.91
+    ],
+    "p2d": [
+     24.14,
+     21.74
+    ],
+    "part": "mouth_fourth-generation jaw.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.7402,
+    0.6666,
+    0.0883
+   ],
+   "confidence": "partial"
+  },
+  "19": {
+   "id": 19,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_mirror_smiling five-bar mechanism_below.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -61.48,
+      214.1,
+      -50.92
+     ],
+     "axis": [
+      0.585,
+      0.026,
+      0.81
+     ],
+     "n": 2430,
+     "radius": 3.79,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT",
+     "world_mm": [
+      -66.37,
+      199.75,
+      -49.19
+     ],
+     "axis": [
+      -0.574,
+      0.0,
+      -0.819
+     ],
+     "n": 386,
+     "radius": 3.29,
+     "thresh": 1.2,
+     "p2d": [
+      -1.54,
+      2.76
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -61.48,
+     214.1,
+     -50.92
+    ],
+    "normal": [
+     0.395,
+     0.87,
+     -0.295
+    ],
+    "u": [
+     0.598,
+     -0.0,
+     0.801
+    ],
+    "v": [
+     0.697,
+     -0.493,
+     -0.521
+    ]
+   },
+   "servo_axis_mm": [
+    -61.48,
+    214.1,
+    -50.92
+   ],
+   "crank_r_mm": 3.16,
+   "crank_pin_mm": [
+    -66.37,
+    199.75,
+    -49.19
+   ],
+   "anchor": {
+    "world_mm": [
+     -108.72,
+     193.38,
+     -43.05
+    ],
+    "p2d": [
+     -21.95,
+     -26.83
+    ],
+    "part": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.9053,
+    0.397,
+    -0.1509
+   ],
+   "confidence": "partial"
+  },
+  "20": {
+   "id": 20,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_tongue connecting rod.SLDPRT",
+    "mouth_tongue pulling rod.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -17.69,
+      214.13,
+      -0.6
+     ],
+     "axis": [
+      0.019,
+      0.023,
+      1.0
+     ],
+     "n": 2434,
+     "radius": 3.79,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_tongue connecting rod.SLDPRT",
+     "world_mm": [
+      -26.36,
+      201.85,
+      -1.98
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 420,
+     "radius": 3.42,
+     "thresh": 1.2,
+     "p2d": [
+      8.67,
+      12.27
+     ]
+    },
+    {
+     "a": "mouth_tongue connecting rod.SLDPRT",
+     "b": "mouth_tongue pulling rod.SLDPRT",
+     "world_mm": [
+      -39.04,
+      184.67,
+      -1.98
+     ],
+     "axis": [
+      0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 253,
+     "radius": 3.64,
+     "thresh": 1.2,
+     "p2d": [
+      21.35,
+      29.45
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -17.69,
+     214.13,
+     -0.6
+    ],
+    "normal": [
+     0.006,
+     0.008,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.006
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.008
+    ]
+   },
+   "servo_axis_mm": [
+    -17.69,
+    214.13,
+    -0.6
+   ],
+   "crank_r_mm": 15.02,
+   "crank_pin_mm": [
+    -26.36,
+    201.85,
+    -1.98
+   ],
+   "anchor": null,
+   "type": "open",
+   "confidence": "partial"
+  },
+  "21": {
+   "id": 21,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_smiling five-bar mechanism_above.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -80.29,
+      231.61,
+      36.09
+     ],
+     "axis": [
+      -0.555,
+      -0.012,
+      0.832
+     ],
+     "n": 2396,
+     "radius": 3.75,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_smiling five-bar mechanism_above.SLDPRT",
+     "world_mm": [
+      -69.67,
+      225.16,
+      45.21
+     ],
+     "axis": [
+      -0.574,
+      0.0,
+      0.819
+     ],
+     "n": 485,
+     "radius": 3.55,
+     "thresh": 1.2,
+     "p2d": [
+      -13.92,
+      6.44
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -80.29,
+     231.61,
+     36.09
+    ],
+    "normal": [
+     -0.564,
+     -0.006,
+     0.826
+    ],
+    "u": [
+     -0.826,
+     0.0,
+     -0.564
+    ],
+    "v": [
+     0.003,
+     -1.0,
+     -0.005
+    ]
+   },
+   "servo_axis_mm": [
+    -80.29,
+    231.61,
+    36.09
+   ],
+   "crank_r_mm": 15.34,
+   "crank_pin_mm": [
+    -69.67,
+    225.16,
+    45.21
+   ],
+   "anchor": {
+    "world_mm": [
+     -85.62,
+     204.11,
+     30.88
+    ],
+    "p2d": [
+     7.34,
+     27.51
+    ],
+    "part": "mouth_upper teeth.SLDPRT"
+   },
+   "type": "open",
+   "drive_dir_world": [
+    0.187,
+    0.9652,
+    0.1829
+   ],
+   "confidence": "partial"
+  },
+  "22": {
+   "id": 22,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -9.0,
+      194.79,
+      -17.82
+     ],
+     "axis": [
+      0.031,
+      1.0,
+      0.006
+     ],
+     "n": 2425,
+     "radius": 3.76,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      -0.0
+     ]
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -9.0,
+     194.79,
+     -17.82
+    ],
+    "normal": [
+     0.0,
+     0.0,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -9.0,
+    194.79,
+    -17.82
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    -9.0,
+    194.79,
+    -17.82
+   ],
+   "anchor": null,
+   "type": "open",
+   "confidence": "partial"
+  },
+  "23": {
+   "id": 23,
+   "owner": "mouth assembly",
+   "chain_files": [
+    "mouth_crank.SLDPRT",
+    "mouth_connector for OT head_4mm medium.SLDPRT",
+    "mouth_iron wire_freedom20mm.SLDPRT",
+    "mouth_iron wire 30mm.SLDPRT",
+    "mouth_OT head.SLDPRT",
+    "mouth_smiling six-bar mechanism_above.SLDPRT",
+    "mouth_lip connecting rod.SLDPRT",
+    "mouth_spherical hinge.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "mouth_MG90S.SLDPRT",
+     "b": "mouth_crank.SLDPRT",
+     "world_mm": [
+      -36.39,
+      233.83,
+      34.49
+     ],
+     "axis": [
+      -0.691,
+      -0.016,
+      0.723
+     ],
+     "n": 2430,
+     "radius": 3.77,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "mouth_crank.SLDPRT",
+     "b": "mouth_connector for OT head_4mm medium.SLDPRT",
+     "world_mm": [
+      -43.99,
+      243.78,
+      24.94
+     ],
+     "axis": [
+      -0.707,
+      -0.0,
+      0.707
+     ],
+     "n": 739,
+     "radius": 2.99,
+     "thresh": 1.2,
+     "p2d": [
+      12.13,
+      -9.95
+     ]
+    },
+    {
+     "a": "mouth_connector for OT head_4mm medium.SLDPRT",
+     "b": "mouth_iron wire_freedom20mm.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    },
+    {
+     "a": "mouth_iron wire_freedom20mm.SLDPRT",
+     "b": "mouth_iron wire 30mm.SLDPRT",
+     "world_mm": [
+      -59.63,
+      232.28,
+      3.83
+     ],
+     "axis": [
+      0.042,
+      0.689,
+      0.724
+     ],
+     "n": 78151,
+     "radius": 1.38,
+     "thresh": 1.2,
+     "p2d": [
+      38.13,
+      1.56
+     ]
+    },
+    {
+     "a": "mouth_iron wire 30mm.SLDPRT",
+     "b": "mouth_OT head.SLDPRT",
+     "world_mm": [
+      -78.44,
+      243.99,
+      -8.89
+     ],
+     "axis": [
+      0.675,
+      -0.3,
+      0.675
+     ],
+     "n": 490,
+     "radius": 1.89,
+     "thresh": 1.2,
+     "p2d": [
+      60.41,
+      -10.16
+     ]
+    },
+    {
+     "a": "mouth_OT head.SLDPRT",
+     "b": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "world_mm": [
+      -82.22,
+      246.0,
+      -11.82
+     ],
+     "axis": [
+      -0.707,
+      -0.0,
+      0.707
+     ],
+     "n": 196,
+     "radius": 2.72,
+     "thresh": 1.2,
+     "p2d": [
+      65.15,
+      -12.17
+     ]
+    },
+    {
+     "a": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "b": "mouth_lip connecting rod.SLDPRT",
+     "world_mm": [
+      -98.69,
+      236.76,
+      -17.33
+     ],
+     "axis": [
+      0.707,
+      0.0,
+      -0.707
+     ],
+     "n": 378,
+     "radius": 2.95,
+     "thresh": 1.2,
+     "p2d": [
+      80.67,
+      -2.95
+     ]
+    },
+    {
+     "a": "mouth_lip connecting rod.SLDPRT",
+     "b": "mouth_spherical hinge.SLDPRT",
+     "world_mm": [
+      -99.11,
+      232.03,
+      -22.63
+     ],
+     "axis": [
+      -0.761,
+      -0.149,
+      -0.631
+     ],
+     "n": 926,
+     "radius": 3.12,
+     "thresh": 1.2,
+     "p2d": [
+      84.73,
+      1.79
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "struct": "mouth_baseplate.SLDPRT",
+     "world_mm": [
+      -88.1,
+      235.99,
+      -6.74
+     ],
+     "axis": [
+      -0.707,
+      -0.0,
+      0.707
+     ],
+     "n": 222,
+     "radius": 3.31,
+     "p2d": [
+      65.69,
+      -2.18
+     ]
+    },
+    {
+     "part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+     "struct": "mouth_mirror_motor mounting platform for smiling six-bar mechanism.SLDPRT",
+     "world_mm": [
+      -80.65,
+      237.36,
+      -14.56
+     ],
+     "axis": [
+      0.687,
+      0.011,
+      -0.727
+     ],
+     "n": 41,
+     "radius": 2.19,
+     "p2d": [
+      65.99,
+      -3.52
+     ]
+    }
+   ],
+   "notes": [
+    "no_contact:mouth_connector for OT head_4mm medium.SLDPRT|mouth_iron wire_freedom20mm.SLDPRT"
+   ],
+   "plane": {
+    "origin": [
+     -36.39,
+     233.83,
+     34.49
+    ],
+    "normal": [
+     -0.709,
+     -0.003,
+     0.705
+    ],
+    "u": [
+     -0.705,
+     0.0,
+     -0.709
+    ],
+    "v": [
+     0.002,
+     -1.0,
+     -0.002
+    ]
+   },
+   "servo_axis_mm": [
+    -36.39,
+    233.83,
+    34.49
+   ],
+   "crank_r_mm": 15.69,
+   "crank_pin_mm": [
+    -43.99,
+    243.78,
+    24.94
+   ],
+   "anchor": {
+    "world_mm": [
+     -122.68,
+     237.69,
+     -36.54
+    ],
+    "p2d": [
+     111.21,
+     -3.89
+    ],
+    "part": "mouth_spherical hinge.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.8434,
+    -0.2025,
+    0.4977
+   ],
+   "confidence": "partial"
+  },
+  "24": {
+   "id": 24,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT",
+    "eye_comb.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -80.78,
+      283.51,
+      0.99
+     ],
+     "axis": [
+      -0.006,
+      1.0,
+      -0.0
+     ],
+     "n": 2403,
+     "radius": 3.78,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eye_crank_handle.SLDPRT",
+     "b": "eye_comb.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eye_crank_handle.SLDPRT",
+     "struct": "eye_m_shaped_board.SLDPRT",
+     "world_mm": [
+      -67.56,
+      285.29,
+      1.28
+     ],
+     "axis": [
+      -0.03,
+      1.0,
+      -0.0
+     ],
+     "n": 526,
+     "radius": 2.12,
+     "p2d": [
+      -0.29,
+      -13.23
+     ]
+    },
+    {
+     "part": "eye_comb.SLDPRT",
+     "struct": "eye_bassinet.SLDPRT",
+     "world_mm": [
+      -64.11,
+      278.85,
+      -8.0
+     ],
+     "axis": [
+      0.03,
+      -1.0,
+      -0.0
+     ],
+     "n": 216,
+     "radius": 1.84,
+     "p2d": [
+      8.99,
+      -16.64
+     ]
+    }
+   ],
+   "notes": [
+    "no_contact:eye_crank_handle.SLDPRT|eye_comb.SLDPRT"
+   ],
+   "plane": {
+    "origin": [
+     -80.78,
+     283.51,
+     0.99
+    ],
+    "normal": [
+     -0.006,
+     1.0,
+     -0.0
+    ],
+    "u": [
+     0.0,
+     -0.0,
+     -1.0
+    ],
+    "v": [
+     -1.0,
+     -0.006,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -80.78,
+    283.51,
+    0.99
+   ],
+   "crank_r_mm": 0.0,
+   "crank_pin_mm": [
+    -80.78,
+    283.51,
+    0.99
+   ],
+   "anchor": {
+    "world_mm": [
+     -112.01,
+     272.86,
+     -48.19
+    ],
+    "p2d": [
+     49.18,
+     31.29
+    ],
+    "part": "eye_comb.SLDPRT"
+   },
+   "type": "eye_rev",
+   "drive_dir_world": [
+    0.5273,
+    0.1799,
+    0.8304
+   ],
+   "confidence": "partial"
+  },
+  "25": {
+   "id": 25,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -28.04,
+      288.46,
+      -50.15
+     ],
+     "axis": [
+      -0.001,
+      0.001,
+      1.0
+     ],
+     "n": 3225,
+     "radius": 3.85,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eye_crank_handle.SLDPRT",
+     "b": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "world_mm": [
+      -24.71,
+      302.57,
+      -51.2
+     ],
+     "axis": [
+      0.014,
+      0.108,
+      0.994
+     ],
+     "n": 876,
+     "radius": 3.53,
+     "thresh": 1.2,
+     "p2d": [
+      -3.34,
+      -14.14
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -29.2,
+      304.0,
+      -52.61
+     ],
+     "axis": [
+      0.992,
+      0.002,
+      -0.123
+     ],
+     "n": 589,
+     "radius": 2.03,
+     "p2d": [
+      1.14,
+      -15.65
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -28.04,
+     288.46,
+     -50.15
+    ],
+    "normal": [
+     0.007,
+     0.054,
+     0.998
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.007
+    ],
+    "v": [
+     0.0,
+     -0.999,
+     0.054
+    ]
+   },
+   "servo_axis_mm": [
+    -28.04,
+    288.46,
+    -50.15
+   ],
+   "crank_r_mm": 14.53,
+   "crank_pin_mm": [
+    -24.71,
+    302.57,
+    -51.2
+   ],
+   "anchor": null,
+   "type": "pushrod",
+   "confidence": "partial"
+  },
+  "26": {
+   "id": 26,
+   "owner": "eye",
+   "chain_files": [
+    "eye_crank_handle.SLDPRT",
+    "eye_Shanks_for_Ball_Tie_Rods.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "MG90S.SLDPRT",
+     "b": "eye_crank_handle.SLDPRT",
+     "world_mm": [
+      -38.43,
+      276.08,
+      -58.15
+     ],
+     "axis": [
+      0.001,
+      -0.002,
+      1.0
+     ],
+     "n": 3209,
+     "radius": 3.84,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eye_crank_handle.SLDPRT",
+     "b": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "world_mm": [
+      -30.18,
+      288.29,
+      -59.38
+     ],
+     "axis": [
+      0.086,
+      -0.03,
+      0.996
+     ],
+     "n": 727,
+     "radius": 4.31,
+     "thresh": 1.2,
+     "p2d": [
+      -8.3,
+      -12.0
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eye_crank_handle.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -32.83,
+      286.18,
+      -59.39
+     ],
+     "axis": [
+      0.042,
+      -0.352,
+      0.935
+     ],
+     "n": 153,
+     "radius": 2.11,
+     "p2d": [
+      -5.65,
+      -9.89
+     ]
+    },
+    {
+     "part": "eye_Shanks_for_Ball_Tie_Rods.SLDPRT",
+     "struct": "eye_Eyelid_mounting_stubs.SLDPRT",
+     "world_mm": [
+      -33.56,
+      287.31,
+      -60.29
+     ],
+     "axis": [
+      0.933,
+      0.308,
+      -0.183
+     ],
+     "n": 589,
+     "radius": 2.03,
+     "p2d": [
+      -4.96,
+      -10.89
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -38.43,
+     276.08,
+     -58.15
+    ],
+    "normal": [
+     0.044,
+     -0.13,
+     0.991
+    ],
+    "u": [
+     -0.999,
+     0.0,
+     0.044
+    ],
+    "v": [
+     -0.006,
+     -0.992,
+     -0.13
+    ]
+   },
+   "servo_axis_mm": [
+    -38.43,
+    276.08,
+    -58.15
+   ],
+   "crank_r_mm": 14.59,
+   "crank_pin_mm": [
+    -30.18,
+    288.29,
+    -59.38
+   ],
+   "anchor": null,
+   "type": "pushrod",
+   "confidence": "partial"
+  },
+  "27": {
+   "id": 27,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_short brow joystick.SLDPRT",
+    "eyebrow_mirror brow center pendulum.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -67.91,
+      339.08,
+      -14.46
+     ],
+     "axis": [
+      0.026,
+      0.0,
+      -1.0
+     ],
+     "n": 2473,
+     "radius": 3.83,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "eyebrow_short brow joystick.SLDPRT",
+     "world_mm": [
+      -83.59,
+      339.12,
+      -13.08
+     ],
+     "axis": [
+      0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 298,
+     "radius": 1.84,
+     "thresh": 1.2,
+     "p2d": [
+      -15.69,
+      -0.04
+     ]
+    },
+    {
+     "a": "eyebrow_short brow joystick.SLDPRT",
+     "b": "eyebrow_mirror brow center pendulum.SLDPRT",
+     "world_mm": [
+      -92.86,
+      321.27,
+      -13.08
+     ],
+     "axis": [
+      0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 171,
+     "radius": 2.18,
+     "thresh": 1.2,
+     "p2d": [
+      -24.96,
+      17.81
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eyebrow_mirror brow center pendulum.SLDPRT",
+     "struct": "eyebrow_mirror brow center motor mounting bracket.SLDPRT",
+     "world_mm": [
+      -76.53,
+      321.62,
+      -13.08
+     ],
+     "axis": [
+      -0.0,
+      -0.0,
+      1.0
+     ],
+     "n": 289,
+     "radius": 3.35,
+     "p2d": [
+      -8.63,
+      17.46
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -67.91,
+     339.08,
+     -14.46
+    ],
+    "normal": [
+     -0.013,
+     -0.0,
+     -1.0
+    ],
+    "u": [
+     1.0,
+     0.0,
+     -0.013
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -67.91,
+    339.08,
+    -14.46
+   ],
+   "crank_r_mm": 15.69,
+   "crank_pin_mm": [
+    -83.59,
+    339.12,
+    -13.08
+   ],
+   "anchor": {
+    "world_mm": [
+     -132.28,
+     318.91,
+     -13.39
+    ],
+    "p2d": [
+     -64.37,
+     20.17
+    ],
+    "part": "eyebrow_mirror brow center pendulum.SLDPRT"
+   },
+   "type": "linkage",
+   "drive_dir_world": [
+    0.9541,
+    0.299,
+    -0.0158
+   ],
+   "confidence": "extracted"
+  },
+  "28": {
+   "id": 28,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "eyebrow_eyebrow peak rocker.SLDPRT",
+    "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+    "nose_line.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -36.81,
+      321.8,
+      -51.62
+     ],
+     "axis": [
+      0.0,
+      0.026,
+      1.0
+     ],
+     "n": 2466,
+     "radius": 3.69,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      -0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "world_mm": [
+      -36.68,
+      310.98,
+      -53.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 550,
+     "radius": 3.18,
+     "thresh": 1.2,
+     "p2d": [
+      -0.13,
+      10.81
+     ]
+    },
+    {
+     "a": "eyebrow_eyebrow peak rocker.SLDPRT",
+     "b": "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+     "world_mm": [
+      -76.67,
+      311.07,
+      -53.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 144,
+     "radius": 2.15,
+     "thresh": 1.2,
+     "p2d": [
+      39.86,
+      10.72
+     ]
+    },
+    {
+     "a": "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+     "b": "nose_line.SLDPRT",
+     "world_mm": [
+      -73.65,
+      321.45,
+      -45.92
+     ],
+     "axis": [
+      0.967,
+      -0.236,
+      0.098
+     ],
+     "n": 34,
+     "radius": 1.44,
+     "thresh": 2.0,
+     "p2d": [
+      36.84,
+      0.39
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "eyebrow_mirror eyebrow peak rocker 1.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -76.84,
+      322.38,
+      -46.0
+     ],
+     "axis": [
+      0.0,
+      0.0,
+      1.0
+     ],
+     "n": 353,
+     "radius": 3.38,
+     "p2d": [
+      40.03,
+      -0.54
+     ]
+    },
+    {
+     "part": "nose_line.SLDPRT",
+     "struct": "eye_mounted_version.SLDPRT",
+     "world_mm": [
+      -81.41,
+      263.02,
+      -61.07
+     ],
+     "axis": [
+      0.246,
+      -0.968,
+      0.051
+     ],
+     "n": 534,
+     "radius": 1.74,
+     "p2d": [
+      44.6,
+      58.72
+     ]
+    },
+    {
+     "part": "nose_line.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -84.84,
+      317.49,
+      -36.48
+     ],
+     "axis": [
+      0.945,
+      -0.159,
+      -0.285
+     ],
+     "n": 2278,
+     "radius": 1.79,
+     "p2d": [
+      48.03,
+      4.41
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -36.81,
+     321.8,
+     -51.62
+    ],
+    "normal": [
+     0.0,
+     0.006,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.0
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.006
+    ]
+   },
+   "servo_axis_mm": [
+    -36.81,
+    321.8,
+    -51.62
+   ],
+   "crank_r_mm": 10.81,
+   "crank_pin_mm": [
+    -36.68,
+    310.98,
+    -53.0
+   ],
+   "anchor": {
+    "world_mm": [
+     -110.07,
+     242.11,
+     -58.86
+    ],
+    "p2d": [
+     73.26,
+     79.64
+    ],
+    "part": "nose_line.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.4127,
+    0.899,
+    0.1466
+   ],
+   "confidence": "partial"
+  },
+  "29": {
+   "id": 29,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "cheek_line.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -37.02,
+      346.44,
+      -51.62
+     ],
+     "axis": [
+      0.029,
+      -0.008,
+      1.0
+     ],
+     "n": 2490,
+     "radius": 3.73,
+     "thresh": 1.2,
+     "p2d": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "cheek_line.SLDPRT",
+     "world_mm": [
+      -52.69,
+      348.57,
+      -53.8
+     ],
+     "axis": [
+      0.054,
+      -0.005,
+      0.999
+     ],
+     "n": 161,
+     "radius": 1.34,
+     "thresh": 2.0,
+     "p2d": [
+      15.57,
+      -2.11
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "cheek_line.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -77.79,
+      317.48,
+      -32.14
+     ],
+     "axis": [
+      0.978,
+      -0.126,
+      0.166
+     ],
+     "n": 3793,
+     "radius": 1.94,
+     "p2d": [
+      41.55,
+      28.84
+     ]
+    },
+    {
+     "part": "cheek_line.SLDPRT",
+     "struct": "shell_facial_bones.SLDPRT",
+     "world_mm": [
+      -125.99,
+      271.38,
+      -4.78
+     ],
+     "axis": [
+      -0.784,
+      0.051,
+      -0.619
+     ],
+     "n": 878,
+     "radius": 1.93,
+     "p2d": [
+      90.84,
+      74.77
+     ]
+    },
+    {
+     "part": "cheek_line.SLDPRT",
+     "struct": "shell_carapace.SLDPRT",
+     "world_mm": [
+      -121.29,
+      285.24,
+      -5.17
+     ],
+     "axis": [
+      0.388,
+      0.37,
+      0.844
+     ],
+     "n": 39,
+     "radius": 1.62,
+     "p2d": [
+      86.13,
+      60.91
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -37.02,
+     346.44,
+     -51.62
+    ],
+    "normal": [
+     0.042,
+     -0.007,
+     0.999
+    ],
+    "u": [
+     -0.999,
+     0.0,
+     0.042
+    ],
+    "v": [
+     -0.0,
+     -1.0,
+     -0.007
+    ]
+   },
+   "servo_axis_mm": [
+    -37.02,
+    346.44,
+    -51.62
+   ],
+   "crank_r_mm": 15.71,
+   "crank_pin_mm": [
+    -52.69,
+    348.57,
+    -53.8
+   ],
+   "anchor": {
+    "world_mm": [
+     -128.07,
+     278.09,
+     -6.36
+    ],
+    "p2d": [
+     92.86,
+     68.07
+    ],
+    "part": "cheek_line.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.6637,
+    0.6205,
+    -0.4177
+   ],
+   "confidence": "partial"
+  },
+  "30": {
+   "id": 30,
+   "owner": "EYEBROW",
+   "chain_files": [
+    "eyebrow_crank v4.SLDPRT",
+    "nose_line.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "eyebrow_GUOHUAA0090.SLDPRT",
+     "b": "eyebrow_crank v4.SLDPRT",
+     "world_mm": [
+      -47.99,
+      334.11,
+      -51.62
+     ],
+     "axis": [
+      0.027,
+      0.006,
+      1.0
+     ],
+     "n": 2504,
+     "radius": 3.79,
+     "thresh": 1.2,
+     "p2d": [
+      -0.0,
+      0.0
+     ]
+    },
+    {
+     "a": "eyebrow_crank v4.SLDPRT",
+     "b": "nose_line.SLDPRT",
+     "world_mm": [
+      -64.97,
+      331.67,
+      -53.78
+     ],
+     "axis": [
+      -0.014,
+      0.004,
+      1.0
+     ],
+     "n": 436,
+     "radius": 2.28,
+     "thresh": 2.0,
+     "p2d": [
+      16.96,
+      2.43
+     ]
+    }
+   ],
+   "grounds": [
+    {
+     "part": "nose_line.SLDPRT",
+     "struct": "eye_mounted_version.SLDPRT",
+     "world_mm": [
+      -81.41,
+      263.02,
+      -61.07
+     ],
+     "axis": [
+      0.246,
+      -0.968,
+      0.051
+     ],
+     "n": 534,
+     "radius": 1.74,
+     "p2d": [
+      33.35,
+      71.05
+     ]
+    },
+    {
+     "part": "nose_line.SLDPRT",
+     "struct": "eyebrow_Installation platform.SLDPRT",
+     "world_mm": [
+      -84.84,
+      317.49,
+      -36.48
+     ],
+     "axis": [
+      0.945,
+      -0.159,
+      -0.285
+     ],
+     "n": 2278,
+     "radius": 1.79,
+     "p2d": [
+      36.95,
+      16.7
+     ]
+    }
+   ],
+   "notes": [],
+   "plane": {
+    "origin": [
+     -47.99,
+     334.11,
+     -51.62
+    ],
+    "normal": [
+     0.007,
+     0.005,
+     1.0
+    ],
+    "u": [
+     -1.0,
+     0.0,
+     0.007
+    ],
+    "v": [
+     0.0,
+     -1.0,
+     0.005
+    ]
+   },
+   "servo_axis_mm": [
+    -47.99,
+    334.11,
+    -51.62
+   ],
+   "crank_r_mm": 17.13,
+   "crank_pin_mm": [
+    -64.97,
+    331.67,
+    -53.78
+   ],
+   "anchor": {
+    "world_mm": [
+     -110.07,
+     242.11,
+     -58.86
+    ],
+    "p2d": [
+     62.03,
+     91.97
+    ],
+    "part": "nose_line.SLDPRT"
+   },
+   "type": "cable",
+   "drive_dir_world": [
+    0.4492,
+    0.892,
+    0.0506
+   ],
+   "confidence": "partial"
+  },
+  "31": {
+   "id": 31,
+   "owner": null,
+   "chain_files": [],
+   "joints": [],
+   "grounds": [],
+   "notes": [],
+   "type": "open",
+   "confidence": "no_cad_servo",
+   "servo_axis_mm": null,
+   "anchor": null
+  },
+  "32": {
+   "id": 32,
+   "owner": "neck",
+   "chain_files": [
+    "neck_extension_arm.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "ks3518.SLDPRT",
+     "b": "neck_extension_arm.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "no_contact:ks3518.SLDPRT|neck_extension_arm.SLDPRT",
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -0.0,
+     70.5,
+     40.0
+    ],
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "u": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "v": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -0.0,
+    70.5,
+    40.0
+   ],
+   "crank_r_mm": null,
+   "crank_pin_mm": null,
+   "anchor": null,
+   "type": "neck_rev",
+   "confidence": "partial"
+  },
+  "33": {
+   "id": 33,
+   "owner": "neck",
+   "chain_files": [
+    "neck_extension_arm.SLDPRT"
+   ],
+   "joints": [
+    {
+     "a": "ks3518.SLDPRT",
+     "b": "neck_extension_arm.SLDPRT",
+     "world_mm": null,
+     "thresh": null,
+     "p2d": null
+    }
+   ],
+   "grounds": [],
+   "notes": [
+    "no_contact:ks3518.SLDPRT|neck_extension_arm.SLDPRT",
+    "plane_default"
+   ],
+   "plane": {
+    "origin": [
+     -0.0,
+     70.5,
+     -40.0
+    ],
+    "normal": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "u": [
+     0.0,
+     0.0,
+     -1.0
+    ],
+    "v": [
+     -1.0,
+     0.0,
+     0.0
+    ]
+   },
+   "servo_axis_mm": [
+    -0.0,
+    70.5,
+    -40.0
+   ],
+   "crank_r_mm": null,
+   "crank_pin_mm": null,
+   "anchor": null,
+   "type": "neck_rev",
+   "confidence": "partial"
+  }
+ }
+}

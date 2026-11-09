@@ -22,8 +22,12 @@ hardware_ref/
 cad_geometry/stl/
 cad_geometry/*.err
 
-# WorkBuddy 项目数据：含旧版 .blend 备份（约 500MB）与工作记忆，不进仓库
+# WorkBuddy 项目数据：含旧版 .blend 备份与工作记忆，不进仓库
 .workbuddy/
+.workbuddy-ai/
+
+# 迭代过程中的中间备份 blend（只保留 LY_GENERAL_V0.blend 一份正式文件）
+LY_GENERAL_V0_before*.blend
 
 # Blender 自动备份
 *.blend1

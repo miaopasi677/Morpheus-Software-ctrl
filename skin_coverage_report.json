@@ -1,0 +1,138 @@
+{
+ "eyes": [
+  {
+   "name": "eyes.L",
+   "verts": 657,
+   "center_world": [
+    0.32908,
+    -0.56575,
+    16.86178
+   ]
+  },
+  {
+   "name": "eyes.R",
+   "verts": 657,
+   "center_world": [
+    -0.32908,
+    -0.56575,
+    16.86178
+   ]
+  }
+ ],
+ "added": {
+  "Morpheus_Servo_01": {
+   "verts": 52,
+   "center_face_mm": [
+    59.8,
+    -15.4,
+    -36.9
+   ],
+   "radius_mm": 20,
+   "confidence": "partial"
+  },
+  "Morpheus_Servo_02": {
+   "verts": 27,
+   "center_face_mm": [
+    59.2,
+    2.4,
+    -34.9
+   ],
+   "radius_mm": 15,
+   "confidence": "anchor_proxy"
+  },
+  "Morpheus_Servo_11": {
+   "verts": 242,
+   "center_face_mm": [
+    -27.4,
+    -27.7,
+    -37.3
+   ],
+   "radius_mm": 22,
+   "confidence": "extracted"
+  },
+  "Morpheus_Servo_12": {
+   "verts": 195,
+   "center_face_mm": [
+    -0.0,
+    -24.6,
+    -76.6
+   ],
+   "radius_mm": 18,
+   "confidence": "anchor_proxy"
+  },
+  "Morpheus_Servo_13": {
+   "verts": 160,
+   "center_face_mm": [
+    0.1,
+    -31.9,
+    -87.0
+   ],
+   "radius_mm": 20,
+   "confidence": "anchor_proxy"
+  },
+  "Morpheus_Servo_14": {
+   "verts": 66,
+   "center_face_mm": [
+    42.9,
+    -15.3,
+    -88.5
+   ],
+   "radius_mm": 22,
+   "confidence": "partial"
+  },
+  "Morpheus_Servo_18": {
+   "verts": 38,
+   "center_face_mm": [
+    53.9,
+    100.1,
+    -112.5
+   ],
+   "radius_mm": 25,
+   "confidence": "low_gain"
+  },
+  "Morpheus_Servo_19": {
+   "verts": 51,
+   "center_face_mm": [
+    -44.0,
+    -11.9,
+    -92.5
+   ],
+   "radius_mm": 22,
+   "confidence": "partial"
+  },
+  "Morpheus_Servo_29": {
+   "verts": 224,
+   "center_face_mm": [
+    -7.4,
+    -31.2,
+    -7.8
+   ],
+   "radius_mm": 20,
+   "confidence": "partial"
+  },
+  "Morpheus_Servo_30": {
+   "verts": 66,
+   "center_face_mm": [
+    -59.9,
+    -13.2,
+    -43.8
+   ],
+   "radius_mm": 20,
+   "confidence": "partial"
+  },
+  "Morpheus_Servo_32": {
+   "verts": 190,
+   "region": "neck Z<=-100mm",
+   "side": 1.0
+  },
+  "Morpheus_Servo_33": {
+   "verts": 195,
+   "region": "neck Z<=-100mm",
+   "side": -1.0
+  }
+ },
+ "m31_trimmed": 9529,
+ "normalized_verts": 1278,
+ "mold_verts": 10407,
+ "groups_total": 31
+}

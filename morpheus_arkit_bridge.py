@@ -25,9 +25,8 @@ ARMATURE_NAME = "Feace_Rig.001"
 PREFIX = "Morpheus_Servo_"
 SHAPE_OBJECT = "SampleHead"
 
-# 归一化激活值 -> 骨骼绕局部 X 轴的最大转角（rad）。纯可视化幅度，
-# 真实硬件行程由 Table V 的 PWM 区间决定，不要把这个角度当舵机角度。
-MAX_ANGLE = 0.35
+# 骨骼运动由 mechanism_kinematics 按 CAD 真实几何正向驱动（无 IK/无求解器）。
+# 输入 = 标准映射归一化值 -> frame_to_pwm -> 舵机转角。不再用占位 MAX_ANGLE。
 
 
 def _root():
@@ -74,6 +73,29 @@ def activation(values):
 
 _pwm_sock = [None]
 _pwm_cfg = [None]
+_specs = {}
+
+
+def _spec(sid):
+    if sid not in _specs:
+        _root()
+        import mechanism_kinematics as mk
+        _specs[sid] = mk.build_spec(sid)
+    return _specs[sid]
+
+
+def _mk():
+    _root()
+    import mechanism_kinematics as mk
+    return mk
+
+
+def mk_servo_dtheta(sid, pwm_value):
+    return _mk().servo_dtheta(sid, pwm_value)
+
+
+def mk_pose(spec, dtheta, rest_matrix):
+    return _mk().pose_matrix(spec, dtheta, rest_matrix)
 
 
 def _pwm_out_cfg():
@@ -124,8 +146,21 @@ def apply_frame():
         pb = arm.pose.bones.get(PREFIX + "%02d" % sid)
         if pb is None:
             continue
-        pb.rotation_mode = "XYZ"
-        pb.rotation_euler[0] = act.get(sid, 0.0) * MAX_ANGLE
+        spec = _spec(sid)
+        dtheta = mk_servo_dtheta(sid, pwm[sid - 1])
+        pb.matrix = mk_pose(spec, dtheta, arm.data.bones[pb.name].matrix_local)
+
+    # 眼球：M07 俯仰 / M24 水平注视，各自绕球心转（eyes.L/R 原点=球心）。
+    # 与骨同源：同一套归一化值 -> PWM -> 舵机转角 -> 正向输出角（绕 spec 真实轴）。
+    mk = _mk()
+    s7, s24 = _spec(7), _spec(24)
+    ang7 = mk.output_angle(s7, mk_servo_dtheta(7, pwm[6]))
+    ang24 = mk.output_angle(s24, mk_servo_dtheta(24, pwm[23]))
+    rot = s7["axis"] * ang7 + s24["axis"] * ang24
+    for en in ("eyes.L", "eyes.R"):
+        ob = bpy.data.objects.get(en)
+        if ob is not None:
+            ob.rotation_euler = tuple(rot)
 
     scene = bpy.context.scene
     scene["morpheus_pwm"] = [int(v) for v in pwm]

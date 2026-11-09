@@ -1,0 +1,1896 @@
+{
+ "file": "C:\\file\\project\\Morpheus-Software\\LY_GENERAL_V0.blend",
+ "calibration": {
+  "eye_mid": [
+   0.00792,
+   -0.52355,
+   16.8669
+  ],
+  "sx": 0.0106466144323349,
+  "sy": 0.011431198598254507,
+  "sz": 0.011431198598254507,
+  "mm_per_unit": 93.92657227849763
+ },
+ "scene": {
+  "armature_display": "TEXTURED",
+  "bone_count": 33,
+  "pose_constraints": 0,
+  "drivers": 0,
+  "mold_modifiers": [
+   [
+    "骨架",
+    "ARMATURE",
+    "Feace_Rig.001"
+   ]
+  ],
+  "eyes_modifiers": [],
+  "custom_shapes": [],
+  "texts": [
+   "blender_receiver.py",
+   "capture_face",
+   "copy",
+   "get_arkit",
+   "get_position",
+   "import_blender",
+   "insert_arkit",
+   "install_pandas",
+   "load_config",
+   "morpheus_arkit_bridge.py",
+   "pip_install",
+   "test",
+   "文本",
+   "文本.001",
+   "文本.002",
+   "文本.003"
+  ]
+ },
+ "static": [
+  {
+   "id": 1,
+   "head": [
+    0.64491,
+    -0.69959,
+    16.44566
+   ],
+   "head_face_mm": [
+    59.83,
+    -15.4,
+    -36.85
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0963018,
+   "dist_head_to_servo_axis_mm": 124.45,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 17.98,
+   "cad_driver_part": "nose_mirror_line.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 1,
+    "servo_name": "Left Cheek",
+    "servo_name_cn": "左颊 线驱",
+    "module": "tendon",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_01",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 2,
+   "head": [
+    0.63812,
+    -0.49667,
+    16.46799
+   ],
+   "head_face_mm": [
+    59.19,
+    2.35,
+    -34.9
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 122.76,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 15.04,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 2,
+    "servo_name": "Left Nose",
+    "servo_name_cn": "左鼻 线驱",
+    "module": "tendon",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_02",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 3,
+   "head": [
+    0.64491,
+    -0.69959,
+    16.44566
+   ],
+   "head_face_mm": [
+    59.83,
+    -15.4,
+    -36.85
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.7703211,
+   "dist_head_to_servo_axis_mm": 115.17,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 18.83,
+   "cad_driver_part": "nose_mirror_line.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 3,
+    "servo_name": "Left Eyebrow Center",
+    "servo_name_cn": "左眉头",
+    "module": "brow",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_03",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 4,
+   "head": [
+    0.15782,
+    -0.29138,
+    17.27557
+   ],
+   "head_face_mm": [
+    14.08,
+    20.31,
+    35.75
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 17.54,
+   "head_matches_driver_report": 0.5887447,
+   "dist_head_to_servo_axis_mm": 36.42,
+   "dist_head_to_cad_driver_mm": 59.6,
+   "tail_to_servo_angle_deg": 105.47,
+   "cad_driver_part": "eyebrow_brow center pendulum.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 4,
+    "servo_name": "Left Eyebrow Peak",
+    "servo_name_cn": "左眉峰",
+    "module": "brow",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_04",
+    "mech_mode": "fourbar",
+    "mech_type": "linkage",
+    "mech_confidence": "extracted"
+   }
+  },
+  {
+   "id": 5,
+   "head": [
+    0.39157,
+    -0.72631,
+    16.9433
+   ],
+   "head_face_mm": [
+    36.03,
+    -17.74,
+    6.68
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 89.05,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 22.33,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 5,
+    "servo_name": "Left Upper Eyelid",
+    "servo_name_cn": "左上眼睑",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_05",
+    "mech_mode": "translate",
+    "mech_type": "pushrod",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 6,
+   "head": [
+    0.37155,
+    -0.69759,
+    16.77274
+   ],
+   "head_face_mm": [
+    34.15,
+    -15.23,
+    -8.24
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 84.94,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 22.81,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 6,
+    "servo_name": "Left Lower Eyelid",
+    "servo_name_cn": "左下眼睑",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_06",
+    "mech_mode": "translate",
+    "mech_type": "pushrod",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 7,
+   "head": [
+    0.00694,
+    -0.55876,
+    16.89729
+   ],
+   "head_face_mm": [
+    -0.09,
+    -3.08,
+    2.66
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 41.19,
+   "head_matches_driver_report": 0.4384966,
+   "dist_head_to_servo_axis_mm": 77.38,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 101.01,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 7,
+    "servo_name": "Eyes Up/Down Gaze",
+    "servo_name_cn": "眼球俯仰(联动)",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_07",
+    "mech_mode": "revolute",
+    "mech_type": "eye_rev",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 8,
+   "head": [
+    -0.55582,
+    0.35677,
+    15.63267
+   ],
+   "head_face_mm": [
+    -52.95,
+    77.01,
+    -107.97
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 1.5919712,
+   "dist_head_to_servo_axis_mm": 70.86,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 32.16,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 8,
+    "servo_name": "Upper Lip Center",
+    "servo_name_cn": "上唇中央",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_08",
+    "mech_mode": "translate",
+    "mech_type": "pushrod",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 9,
+   "head": [
+    -0.01103,
+    -0.58631,
+    15.57266
+   ],
+   "head_face_mm": [
+    -1.78,
+    -5.49,
+    -113.22
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 8.07,
+   "head_matches_driver_report": 0.690467,
+   "dist_head_to_servo_axis_mm": 71.68,
+   "dist_head_to_cad_driver_mm": 31.28,
+   "tail_to_servo_angle_deg": 74.95,
+   "cad_driver_part": "mouth_six-bar mechanism_above_short.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 9,
+    "servo_name": "Left Upper Corner Mouth",
+    "servo_name_cn": "左嘴角上",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_09",
+    "mech_mode": "fourbar",
+    "mech_type": "linkage",
+    "mech_confidence": "extracted"
+   }
+  },
+  {
+   "id": 10,
+   "head": [
+    -0.30424,
+    -0.40272,
+    15.914
+   ],
+   "head_face_mm": [
+    -29.32,
+    10.57,
+    -83.36
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.5948301,
+   "dist_head_to_servo_axis_mm": 47.12,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 45.33,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 10,
+    "servo_name": "Upper Lip Right",
+    "servo_name_cn": "上唇右",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_10",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 11,
+   "head": [
+    -0.07448,
+    -0.42364,
+    16.29671
+   ],
+   "head_face_mm": [
+    -7.74,
+    8.74,
+    -49.88
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 8.91,
+   "head_matches_driver_report": 0.4980213,
+   "dist_head_to_servo_axis_mm": 57.47,
+   "dist_head_to_cad_driver_mm": 45.79,
+   "tail_to_servo_angle_deg": 100.41,
+   "cad_driver_part": "mouth_smiling six-bar mechanism_above.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 11,
+    "servo_name": "Tongue Extension/Retraction",
+    "servo_name_cn": "舌伸缩",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_11",
+    "mech_mode": "fourbar",
+    "mech_type": "linkage",
+    "mech_confidence": "extracted"
+   }
+  },
+  {
+   "id": 12,
+   "head": [
+    0.00791,
+    -0.80468,
+    15.99086
+   ],
+   "head_face_mm": [
+    -0.0,
+    -24.59,
+    -76.64
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 79.49,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 24.07,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 12,
+    "servo_name": "Tongue Up/Down",
+    "servo_name_cn": "舌上下",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_12",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 13,
+   "head": [
+    0.00936,
+    -0.88814,
+    15.87275
+   ],
+   "head_face_mm": [
+    0.14,
+    -31.89,
+    -86.97
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 81.54,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 98.5,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 13,
+    "servo_name": "Chin (passive)",
+    "servo_name_cn": "下巴 被动",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_13",
+    "mech_mode": "translate",
+    "mech_type": "rack",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 14,
+   "head": [
+    0.46455,
+    -0.69856,
+    15.8557
+   ],
+   "head_face_mm": [
+    42.89,
+    -15.31,
+    -88.46
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.1436494,
+   "dist_head_to_servo_axis_mm": 82.01,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 19.6,
+   "cad_driver_part": "mouth_smiling five-bar mechanism_below.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 14,
+    "servo_name": "Left Lower Corner Mouth",
+    "servo_name_cn": "左嘴角下",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_14",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 15,
+   "head": [
+    0.00879,
+    -0.87655,
+    15.97213
+   ],
+   "head_face_mm": [
+    0.08,
+    -30.88,
+    -78.27
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 102.18,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 18.02,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 15,
+    "servo_name": "Lower Lip Center",
+    "servo_name_cn": "下唇中央",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_15",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 16,
+   "head": [
+    0.13861,
+    -0.8429,
+    15.97533
+   ],
+   "head_face_mm": [
+    12.28,
+    -27.94,
+    -77.99
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 123.44,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 86.27,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 16,
+    "servo_name": "Lower Lip Left",
+    "servo_name_cn": "下唇左",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_16",
+    "mech_mode": "translate",
+    "mech_type": "rack",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 17,
+   "head": [
+    -0.55582,
+    0.62026,
+    15.58066
+   ],
+   "head_face_mm": [
+    -52.95,
+    100.06,
+    -112.52
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 1.5718304,
+   "dist_head_to_servo_axis_mm": 42.28,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 48.02,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 17,
+    "servo_name": "Lower Lip Right",
+    "servo_name_cn": "下唇右",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_17",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 18,
+   "head": [
+    0.58188,
+    0.62026,
+    15.58066
+   ],
+   "head_face_mm": [
+    53.91,
+    100.06,
+    -112.52
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 1.6245662,
+   "dist_head_to_servo_axis_mm": 41.95,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 47.98,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 18,
+    "servo_name": "Chin (active)",
+    "servo_name_cn": "下巴 主动",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_18",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 19,
+   "head": [
+    -0.46106,
+    -0.65935,
+    15.80963
+   ],
+   "head_face_mm": [
+    -44.05,
+    -11.88,
+    -92.49
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.1588815,
+   "dist_head_to_servo_axis_mm": 79.81,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 20.36,
+   "cad_driver_part": "mouth_mirror_smiling five-bar mechanism_below.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 19,
+    "servo_name": "Right Lower Corner Mouth",
+    "servo_name_cn": "右嘴角下",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_19",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 20,
+   "head": [
+    0.00896,
+    -0.88243,
+    15.93202
+   ],
+   "head_face_mm": [
+    0.1,
+    -31.39,
+    -81.78
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 128.5,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 14.44,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 20,
+    "servo_name": "Jaw Left/Right",
+    "servo_name_cn": "下颌左右",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_20",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 21,
+   "head": [
+    0.32604,
+    -0.39529,
+    15.93229
+   ],
+   "head_face_mm": [
+    29.88,
+    11.22,
+    -81.76
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.5926158,
+   "dist_head_to_servo_axis_mm": 45.76,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 47.09,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 21,
+    "servo_name": "Upper Lip Left",
+    "servo_name_cn": "上唇左",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_21",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 22,
+   "head": [
+    -0.25457,
+    -0.81553,
+    16.16735
+   ],
+   "head_face_mm": [
+    -24.65,
+    -25.54,
+    -61.2
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 127.7,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 15.75,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 22,
+    "servo_name": "Right Upper Corner Mouth",
+    "servo_name_cn": "右嘴角上",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_22",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 23,
+   "head": [
+    -0.39175,
+    -0.81893,
+    16.31614
+   ],
+   "head_face_mm": [
+    -37.54,
+    -25.84,
+    -48.18
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.5799145,
+   "dist_head_to_servo_axis_mm": 121.47,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 26.27,
+   "cad_driver_part": "mouth_spherical hinge.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 23,
+    "servo_name": "Mouth Opening/Closing",
+    "servo_name_cn": "张合下颌",
+    "module": "mouth",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_23",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 24,
+   "head": [
+    0.00694,
+    -0.55876,
+    16.89729
+   ],
+   "head_face_mm": [
+    -0.09,
+    -3.08,
+    2.66
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 53.5,
+   "head_matches_driver_report": 0.4503657,
+   "dist_head_to_servo_axis_mm": 47.82,
+   "dist_head_to_cad_driver_mm": 53.5,
+   "tail_to_servo_angle_deg": 83.02,
+   "cad_driver_part": "eye_comb.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 24,
+    "servo_name": "Eyes Left/Right Gaze",
+    "servo_name_cn": "眼球左右(联动)",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_24",
+    "mech_mode": "revolute",
+    "mech_type": "eye_rev",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 25,
+   "head": [
+    -0.37155,
+    -0.69759,
+    16.77274
+   ],
+   "head_face_mm": [
+    -35.64,
+    -15.23,
+    -8.24
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 87.0,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 22.05,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 25,
+    "servo_name": "Right Lower Eyelid",
+    "servo_name_cn": "右下眼睑",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_25",
+    "mech_mode": "translate",
+    "mech_type": "pushrod",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 26,
+   "head": [
+    -0.39157,
+    -0.72631,
+    16.9433
+   ],
+   "head_face_mm": [
+    -37.52,
+    -17.74,
+    6.68
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": 89.7,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 22.42,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 26,
+    "servo_name": "Right Upper Eyelid",
+    "servo_name_cn": "右上眼睑",
+    "module": "eye",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_26",
+    "mech_mode": "translate",
+    "mech_type": "pushrod",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 27,
+   "head": [
+    -0.14198,
+    -0.29138,
+    17.27557
+   ],
+   "head_face_mm": [
+    -14.08,
+    20.31,
+    35.75
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 17.54,
+   "head_matches_driver_report": 0.5899063,
+   "dist_head_to_servo_axis_mm": 36.42,
+   "dist_head_to_cad_driver_mm": 59.93,
+   "tail_to_servo_angle_deg": 105.47,
+   "cad_driver_part": "eyebrow_mirror brow center pendulum.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 27,
+    "servo_name": "Right Eyebrow Peak",
+    "servo_name_cn": "右眉峰",
+    "module": "brow",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_27",
+    "mech_mode": "fourbar",
+    "mech_type": "linkage",
+    "mech_confidence": "extracted"
+   }
+  },
+  {
+   "id": 28,
+   "head": [
+    -0.62939,
+    -0.67478,
+    16.36667
+   ],
+   "head_face_mm": [
+    -59.86,
+    -13.23,
+    -43.76
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.8345234,
+   "dist_head_to_servo_axis_mm": 118.9,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 18.82,
+   "cad_driver_part": "nose_line.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 28,
+    "servo_name": "Right Eyebrow Center",
+    "servo_name_cn": "右眉头",
+    "module": "brow",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_28",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 29,
+   "head": [
+    -0.07044,
+    -0.88055,
+    16.77797
+   ],
+   "head_face_mm": [
+    -7.36,
+    -31.23,
+    -7.78
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.7521349,
+   "dist_head_to_servo_axis_mm": 118.53,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 17.02,
+   "cad_driver_part": "cheek_line.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 29,
+    "servo_name": "Right Nose",
+    "servo_name_cn": "右鼻 线驱",
+    "module": "tendon",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_29",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 30,
+   "head": [
+    -0.62939,
+    -0.67478,
+    16.36667
+   ],
+   "head_face_mm": [
+    -59.86,
+    -13.23,
+    -43.76
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.1236454,
+   "dist_head_to_servo_axis_mm": 128.67,
+   "dist_head_to_cad_driver_mm": 0.0,
+   "tail_to_servo_angle_deg": 17.53,
+   "cad_driver_part": "nose_line.SLDPRT",
+   "cad_confidence": "chain_end_on_skin",
+   "props": {
+    "morpheus_id": 30,
+    "servo_name": "Right Cheek",
+    "servo_name_cn": "右颊 线驱",
+    "module": "tendon",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_30",
+    "mech_mode": "translate",
+    "mech_type": "cable",
+    "mech_confidence": "partial"
+   }
+  },
+  {
+   "id": 31,
+   "head": [
+    0.00792,
+    0.25829,
+    15.96552
+   ],
+   "head_face_mm": [
+    0.0,
+    68.4,
+    -78.85
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 11.27,
+   "head_matches_driver_report": 0.0,
+   "dist_head_to_servo_axis_mm": null,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": null,
+   "cad_driver_part": null,
+   "cad_confidence": null,
+   "props": {
+    "morpheus_id": 31,
+    "servo_name": "Neck Rotation",
+    "servo_name_cn": "颈 旋转",
+    "module": "neck",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_31",
+    "mech_mode": "translate",
+    "mech_type": "open",
+    "mech_confidence": "low_gain"
+   }
+  },
+  {
+   "id": 32,
+   "head": [
+    -0.00273,
+    0.53772,
+    14.53785
+   ],
+   "head_face_mm": [
+    -1.0,
+    92.84,
+    -203.74
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 144.95,
+   "head_matches_driver_report": 1.5432155,
+   "dist_head_to_servo_axis_mm": 42.12,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 107.66,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 32,
+    "servo_name": "Neck Nodding/Shaking (left)",
+    "servo_name_cn": "颈 点头/摇头 左",
+    "module": "neck",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_32",
+    "mech_mode": "revolute",
+    "mech_type": "neck_rev",
+    "mech_confidence": "anchor_proxy"
+   }
+  },
+  {
+   "id": 33,
+   "head": [
+    -0.00273,
+    0.53772,
+    14.53785
+   ],
+   "head_face_mm": [
+    -1.0,
+    92.84,
+    -203.74
+   ],
+   "parent": null,
+   "use_deform": true,
+   "len_mm": 151.42,
+   "head_matches_driver_report": 1.6121082,
+   "dist_head_to_servo_axis_mm": 42.12,
+   "dist_head_to_cad_driver_mm": null,
+   "tail_to_servo_angle_deg": 108.41,
+   "cad_driver_part": null,
+   "cad_confidence": "no_chain",
+   "props": {
+    "morpheus_id": 33,
+    "servo_name": "Neck Nodding/Shaking (right)",
+    "servo_name_cn": "颈 点头/摇头 右",
+    "module": "neck",
+    "source_bone": "",
+    "mapping": "ARKIT_TO_SERVO normalized -> mechanism_kinematics (forward, no IK)",
+    "pwm_source": "servo_map.frame_to_pwm",
+    "skin_group": "Morpheus_Servo_33",
+    "mech_mode": "revolute",
+    "mech_type": "neck_rev",
+    "mech_confidence": "anchor_proxy"
+   }
+  }
+ ],
+ "motion": [
+  {
+   "id": 1,
+   "activation": 0.5,
+   "head_disp_mm": 2.0744,
+   "tail_disp_mm": 2.074,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.999,
+    0.046,
+    0.027
+   ],
+   "pull_dir_face": [
+    -0.33,
+    0.599,
+    0.729
+   ]
+  },
+  {
+   "id": 2,
+   "activation": 0.9,
+   "head_disp_mm": 1.8275,
+   "tail_disp_mm": 1.828,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.998,
+    0.051,
+    0.029
+   ],
+   "pull_dir_face": [
+    -0.329,
+    0.453,
+    0.828
+   ]
+  },
+  {
+   "id": 3,
+   "activation": 0.8,
+   "head_disp_mm": 3.6193,
+   "tail_disp_mm": 3.619,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.987,
+    0.137,
+    0.082
+   ],
+   "pull_dir_face": [
+    -0.357,
+    0.647,
+    0.674
+   ]
+  },
+  {
+   "id": 4,
+   "activation": 1.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 7.878,
+   "rot_deg": 25.958,
+   "rot_axis_face": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pull_dir_face": [
+    0.911,
+    0.245,
+    0.333
+   ]
+  },
+  {
+   "id": 5,
+   "activation": 1.0,
+   "head_disp_mm": 9.1394,
+   "tail_disp_mm": 9.139,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.988,
+    -0.153,
+    -0.008
+   ],
+   "pull_dir_face": [
+    -0.202,
+    0.978,
+    -0.049
+   ]
+  },
+  {
+   "id": 6,
+   "activation": 0.3,
+   "head_disp_mm": 2.0101,
+   "tail_disp_mm": 2.01,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.964,
+    -0.266,
+    -0.017
+   ],
+   "pull_dir_face": [
+    -0.088,
+    0.996,
+    -0.02
+   ]
+  },
+  {
+   "id": 7,
+   "activation": 0.8,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 15.951,
+   "rot_deg": 22.331,
+   "rot_axis_face": [
+    -0.538,
+    -0.834,
+    0.121
+   ],
+   "pull_dir_face": [
+    0.322,
+    0.895,
+    -0.309
+   ]
+  },
+  {
+   "id": 8,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.996,
+    0.079,
+    0.031
+   ],
+   "pull_dir_face": [
+    0.209,
+    0.312,
+    0.927
+   ]
+  },
+  {
+   "id": 9,
+   "activation": 1.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 6.816,
+   "rot_deg": 49.979,
+   "rot_axis_face": [
+    0.84,
+    -0.461,
+    0.286
+   ],
+   "pull_dir_face": [
+    0.683,
+    0.655,
+    0.323
+   ]
+  },
+  {
+   "id": 10,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.977,
+    0.166,
+    0.134
+   ],
+   "pull_dir_face": [
+    0.395,
+    0.641,
+    0.658
+   ]
+  },
+  {
+   "id": 11,
+   "activation": 0.9,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.711,
+   "rot_deg": 4.577,
+   "rot_axis_face": [
+    0.986,
+    -0.135,
+    -0.102
+   ],
+   "pull_dir_face": [
+    0.144,
+    0.88,
+    -0.453
+   ]
+  },
+  {
+   "id": 12,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.984,
+    -0.173,
+    0.04
+   ],
+   "pull_dir_face": [
+    0.596,
+    0.708,
+    -0.379
+   ]
+  },
+  {
+   "id": 13,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    -0.008,
+    -0.007
+   ],
+   "pull_dir_face": [
+    -0.572,
+    0.786,
+    -0.237
+   ]
+  },
+  {
+   "id": 14,
+   "activation": 0.6,
+   "head_disp_mm": 0.4048,
+   "tail_disp_mm": 0.405,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.989,
+    -0.146,
+    -0.023
+   ],
+   "pull_dir_face": [
+    -0.184,
+    0.958,
+    0.221
+   ]
+  },
+  {
+   "id": 15,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.955,
+    0.293,
+    0.04
+   ],
+   "pull_dir_face": [
+    -0.614,
+    0.743,
+    0.267
+   ]
+  },
+  {
+   "id": 16,
+   "activation": 0.9,
+   "head_disp_mm": 4.2501,
+   "tail_disp_mm": 4.25,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    0.008,
+    0.007
+   ],
+   "pull_dir_face": [
+    0.218,
+    0.975,
+    -0.052
+   ]
+  },
+  {
+   "id": 17,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.997,
+    0.07,
+    0.027
+   ],
+   "pull_dir_face": [
+    0.711,
+    0.458,
+    0.534
+   ]
+  },
+  {
+   "id": 18,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.997,
+    -0.077,
+    -0.029
+   ],
+   "pull_dir_face": [
+    -0.705,
+    0.462,
+    0.538
+   ]
+  },
+  {
+   "id": 19,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.991,
+    0.131,
+    0.027
+   ],
+   "pull_dir_face": [
+    0.205,
+    0.938,
+    0.281
+   ]
+  },
+  {
+   "id": 20,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    0.013,
+    0.001
+   ],
+   "pull_dir_face": [
+    0.252,
+    0.964,
+    0.085
+   ]
+  },
+  {
+   "id": 21,
+   "activation": 0.9,
+   "head_disp_mm": 2.3284,
+   "tail_disp_mm": 2.329,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.979,
+    -0.16,
+    -0.13
+   ],
+   "pull_dir_face": [
+    -0.42,
+    0.644,
+    0.64
+   ]
+  },
+  {
+   "id": 22,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.999,
+    -0.043,
+    0.006
+   ],
+   "pull_dir_face": [
+    0.049,
+    0.999,
+    0.017
+   ]
+  },
+  {
+   "id": 23,
+   "activation": -1.0,
+   "head_disp_mm": 1.3231,
+   "tail_disp_mm": 1.323,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.894,
+    -0.446,
+    0.049
+   ],
+   "pull_dir_face": [
+    0.822,
+    0.569,
+    -0.034
+   ]
+  },
+  {
+   "id": 24,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    -0.12,
+    0.917,
+    -0.381
+   ],
+   "pull_dir_face": [
+    0.002,
+    0.563,
+    -0.827
+   ]
+  },
+  {
+   "id": 25,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.987,
+    0.156,
+    0.022
+   ],
+   "pull_dir_face": [
+    0.202,
+    0.97,
+    0.133
+   ]
+  },
+  {
+   "id": 26,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.974,
+    0.228,
+    -0.006
+   ],
+   "pull_dir_face": [
+    0.123,
+    0.973,
+    -0.197
+   ]
+  },
+  {
+   "id": 27,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pull_dir_face": [
+    -0.911,
+    0.245,
+    0.333
+   ]
+  },
+  {
+   "id": 28,
+   "activation": 0.8,
+   "head_disp_mm": 3.6464,
+   "tail_disp_mm": 3.646,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.988,
+    -0.128,
+    -0.081
+   ],
+   "pull_dir_face": [
+    0.346,
+    0.607,
+    0.715
+   ]
+  },
+  {
+   "id": 29,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.918,
+    0.371,
+    0.139
+   ],
+   "pull_dir_face": [
+    -0.126,
+    0.776,
+    0.618
+   ]
+  },
+  {
+   "id": 30,
+   "activation": 0.5,
+   "head_disp_mm": 4.3336,
+   "tail_disp_mm": 4.334,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    0.999,
+    -0.044,
+    -0.027
+   ],
+   "pull_dir_face": [
+    0.32,
+    0.562,
+    0.763
+   ]
+  },
+  {
+   "id": 31,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "pull_dir_face": null
+  },
+  {
+   "id": 32,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    -0.006,
+    -0.008
+   ],
+   "pull_dir_face": [
+    0.956,
+    0.096,
+    -0.278
+   ]
+  },
+  {
+   "id": 33,
+   "activation": 0.0,
+   "head_disp_mm": 0.0,
+   "tail_disp_mm": 0.0,
+   "rot_deg": 0.0,
+   "rot_axis_face": [
+    1.0,
+    -0.006,
+    -0.007
+   ],
+   "pull_dir_face": [
+    -0.956,
+    0.096,
+    -0.278
+   ]
+  }
+ ],
+ "skin_trajectory": [
+  {
+   "id": 1,
+   "verts": 21,
+   "mean_disp_mm": 1.902,
+   "disp_dir_face": [
+    -0.054,
+    0.497,
+    0.866
+   ],
+   "angle_to_pull_dir_deg": 18.73,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 2,
+   "verts": 13,
+   "mean_disp_mm": 1.741,
+   "disp_dir_face": [
+    -0.058,
+    0.511,
+    0.857
+   ],
+   "angle_to_pull_dir_deg": 16.06,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 5,
+   "verts": 54,
+   "mean_disp_mm": 8.355,
+   "disp_dir_face": [
+    0.178,
+    0.974,
+    0.141
+   ],
+   "angle_to_pull_dir_deg": 24.55,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 9,
+   "verts": 58,
+   "mean_disp_mm": 34.121,
+   "disp_dir_face": [
+    -0.148,
+    0.983,
+    -0.111
+   ],
+   "angle_to_pull_dir_deg": 59.5,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 16,
+   "verts": 79,
+   "mean_disp_mm": 1.266,
+   "disp_dir_face": [
+    0.204,
+    0.405,
+    -0.891
+   ],
+   "angle_to_pull_dir_deg": 60.94,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 21,
+   "verts": 112,
+   "mean_disp_mm": 5.758,
+   "disp_dir_face": [
+    -0.11,
+    0.986,
+    0.129
+   ],
+   "angle_to_pull_dir_deg": 40.27,
+   "angle_to_jaw_down_deg": null
+  },
+  {
+   "id": 23,
+   "verts": 300,
+   "mean_disp_mm": 1.261,
+   "disp_dir_face": [
+    0.173,
+    0.941,
+    -0.29
+   ],
+   "angle_to_pull_dir_deg": 46.58,
+   "angle_to_jaw_down_deg": 56.75
+  }
+ ],
+ "eyes_rotation_deg": {
+  "eyes.L": [
+   -43.2,
+   0.0,
+   0.0
+  ],
+  "eyes.R": [
+   -43.2,
+   0.0,
+   0.0
+  ]
+ },
+ "pwm_after_inject": [
+  1700,
+  440,
+  1280,
+  500,
+  750,
+  1320,
+  1480,
+  1000,
+  1500,
+  1000,
+  1180,
+  500,
+  1600,
+  1150,
+  1300,
+  1185,
+  800,
+  1600,
+  1000,
+  1000,
+  910,
+  1000,
+  1100,
+  1150,
+  1000,
+  1000,
+  1200,
+  1000,
+  1200,
+  150,
+  1750,
+  1200,
+  900
+ ]
+}

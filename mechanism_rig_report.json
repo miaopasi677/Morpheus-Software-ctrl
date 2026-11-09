@@ -1,0 +1,534 @@
+{
+ "armature": "Feace_Rig.001",
+ "bones": [
+  {
+   "id": 1,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    0.6449,
+    -0.6996,
+    16.4457
+   ],
+   "tail": [
+    0.639,
+    -0.6403,
+    16.5498
+   ]
+  },
+  {
+   "id": 2,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.6381,
+    -0.4967,
+    16.468
+   ],
+   "tail": [
+    0.6315,
+    -0.4348,
+    16.5706
+   ]
+  },
+  {
+   "id": 3,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    0.6449,
+    -0.6996,
+    16.4457
+   ],
+   "tail": [
+    0.6272,
+    -0.6437,
+    16.5504
+   ]
+  },
+  {
+   "id": 4,
+   "mode": "fourbar",
+   "type": "linkage",
+   "confidence": "extracted",
+   "head": [
+    0.1578,
+    -0.2914,
+    17.2756
+   ],
+   "tail": [
+    0.1578,
+    -0.4781,
+    17.2716
+   ]
+  },
+  {
+   "id": 5,
+   "mode": "translate",
+   "type": "pushrod",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.3916,
+    -0.7263,
+    16.9433
+   ],
+   "tail": [
+    0.4113,
+    -0.6087,
+    16.9564
+   ]
+  },
+  {
+   "id": 6,
+   "mode": "translate",
+   "type": "pushrod",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.3715,
+    -0.6976,
+    16.7727
+   ],
+   "tail": [
+    0.4056,
+    -0.5835,
+    16.7877
+   ]
+  },
+  {
+   "id": 7,
+   "mode": "revolute",
+   "type": "eye_rev",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.0069,
+    -0.5588,
+    16.8973
+   ],
+   "tail": [
+    0.3799,
+    -0.7874,
+    16.8668
+   ]
+  },
+  {
+   "id": 8,
+   "mode": "translate",
+   "type": "pushrod",
+   "confidence": "partial",
+   "head": [
+    -0.5558,
+    0.3568,
+    15.6327
+   ],
+   "tail": [
+    -0.566,
+    0.4436,
+    15.7149
+   ]
+  },
+  {
+   "id": 9,
+   "mode": "fourbar",
+   "type": "linkage",
+   "confidence": "extracted",
+   "head": [
+    -0.011,
+    -0.5863,
+    15.5727
+   ],
+   "tail": [
+    0.0306,
+    -0.5592,
+    15.5026
+   ]
+  },
+  {
+   "id": 10,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "partial",
+   "head": [
+    -0.3042,
+    -0.4027,
+    15.914
+   ],
+   "tail": [
+    -0.3256,
+    -0.379,
+    16.0297
+   ]
+  },
+  {
+   "id": 11,
+   "mode": "fourbar",
+   "type": "linkage",
+   "confidence": "extracted",
+   "head": [
+    -0.0745,
+    -0.4236,
+    16.2967
+   ],
+   "tail": [
+    -0.0608,
+    -0.3986,
+    16.3871
+   ]
+  },
+  {
+   "id": 12,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.0079,
+    -0.8047,
+    15.9909
+   ],
+   "tail": [
+    0.0301,
+    -0.6989,
+    15.9388
+   ]
+  },
+  {
+   "id": 13,
+   "mode": "translate",
+   "type": "rack",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.0094,
+    -0.8881,
+    15.8728
+   ],
+   "tail": [
+    0.0104,
+    -0.8736,
+    15.9919
+   ]
+  },
+  {
+   "id": 14,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "partial",
+   "head": [
+    0.4646,
+    -0.6986,
+    15.8557
+   ],
+   "tail": [
+    0.4833,
+    -0.586,
+    15.8928
+   ]
+  },
+  {
+   "id": 15,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "low_gain",
+   "head": [
+    0.0088,
+    -0.8766,
+    15.9721
+   ],
+   "tail": [
+    -0.0287,
+    -0.767,
+    16.0036
+   ]
+  },
+  {
+   "id": 16,
+   "mode": "translate",
+   "type": "rack",
+   "confidence": "low_gain",
+   "head": [
+    0.1386,
+    -0.8429,
+    15.9753
+   ],
+   "tail": [
+    0.1376,
+    -0.8284,
+    16.0944
+   ]
+  },
+  {
+   "id": 17,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "low_gain",
+   "head": [
+    -0.5558,
+    0.6203,
+    15.5807
+   ],
+   "tail": [
+    -0.5648,
+    0.7091,
+    15.6608
+   ]
+  },
+  {
+   "id": 18,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "low_gain",
+   "head": [
+    0.5819,
+    0.6203,
+    15.5807
+   ],
+   "tail": [
+    0.5918,
+    0.7091,
+    15.6607
+   ]
+  },
+  {
+   "id": 19,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "partial",
+   "head": [
+    -0.4611,
+    -0.6594,
+    15.8096
+   ],
+   "tail": [
+    -0.478,
+    -0.5505,
+    15.8573
+   ]
+  },
+  {
+   "id": 20,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "anchor_proxy",
+   "head": [
+    0.009,
+    -0.8824,
+    15.932
+   ],
+   "tail": [
+    0.0073,
+    -0.7629,
+    15.9429
+   ]
+  },
+  {
+   "id": 21,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "partial",
+   "head": [
+    0.326,
+    -0.3953,
+    15.9323
+   ],
+   "tail": [
+    0.3465,
+    -0.3728,
+    16.0484
+   ]
+  },
+  {
+   "id": 22,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "low_gain",
+   "head": [
+    -0.2546,
+    -0.8155,
+    16.1674
+   ],
+   "tail": [
+    -0.249,
+    -0.6996,
+    16.1368
+   ]
+  },
+  {
+   "id": 23,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    -0.3918,
+    -0.8189,
+    16.3161
+   ],
+   "tail": [
+    -0.3352,
+    -0.716,
+    16.2914
+   ]
+  },
+  {
+   "id": 24,
+   "mode": "revolute",
+   "type": "eye_rev",
+   "confidence": "partial",
+   "head": [
+    0.0069,
+    -0.5588,
+    16.8973
+   ],
+   "tail": [
+    -0.5158,
+    -0.697,
+    16.7182
+   ]
+  },
+  {
+   "id": 25,
+   "mode": "translate",
+   "type": "pushrod",
+   "confidence": "anchor_proxy",
+   "head": [
+    -0.3715,
+    -0.6976,
+    16.7727
+   ],
+   "tail": [
+    -0.3916,
+    -0.5838,
+    16.8052
+   ]
+  },
+  {
+   "id": 26,
+   "mode": "translate",
+   "type": "pushrod",
+   "confidence": "anchor_proxy",
+   "head": [
+    -0.3916,
+    -0.7263,
+    16.9433
+   ],
+   "tail": [
+    -0.4209,
+    -0.6101,
+    16.9374
+   ]
+  },
+  {
+   "id": 27,
+   "mode": "fourbar",
+   "type": "linkage",
+   "confidence": "extracted",
+   "head": [
+    -0.142,
+    -0.2914,
+    17.2756
+   ],
+   "tail": [
+    -0.142,
+    -0.4781,
+    17.2716
+   ]
+  },
+  {
+   "id": 28,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    -0.6294,
+    -0.6748,
+    16.3667
+   ],
+   "tail": [
+    -0.613,
+    -0.6252,
+    16.4747
+   ]
+  },
+  {
+   "id": 29,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    -0.0704,
+    -0.8805,
+    16.778
+   ],
+   "tail": [
+    -0.1177,
+    -0.8,
+    16.8533
+   ]
+  },
+  {
+   "id": 30,
+   "mode": "translate",
+   "type": "cable",
+   "confidence": "partial",
+   "head": [
+    -0.6294,
+    -0.6748,
+    16.3667
+   ],
+   "tail": [
+    -0.6237,
+    -0.6209,
+    16.4737
+   ]
+  },
+  {
+   "id": 31,
+   "mode": "translate",
+   "type": "open",
+   "confidence": "low_gain",
+   "head": [
+    0.0079,
+    0.2583,
+    15.9655
+   ],
+   "tail": [
+    0.0079,
+    0.3783,
+    15.9655
+   ]
+  },
+  {
+   "id": 32,
+   "mode": "revolute",
+   "type": "neck_rev",
+   "confidence": "anchor_proxy",
+   "head": [
+    -0.0027,
+    0.5377,
+    14.5379
+   ],
+   "tail": [
+    0.0079,
+    0.2583,
+    16.0555
+   ]
+  },
+  {
+   "id": 33,
+   "mode": "revolute",
+   "type": "neck_rev",
+   "confidence": "anchor_proxy",
+   "head": [
+    -0.0027,
+    0.5377,
+    14.5379
+   ],
+   "tail": [
+    0.0079,
+    0.2583,
+    16.1255
+   ]
+  }
+ ],
+ "note": "rest=head at real pivot/anchor; skin bind unchanged; forward drive in bridge"
+}
